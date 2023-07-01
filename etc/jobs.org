@@ -1037,7 +1037,8 @@ CLOSED: [2023-06-27 Tue 14:38]
 :ID:       41A1D5C3-8B29-4C89-BC0E-AF57896781B2
 :END:
 
-** [cite:@Roser2022FutureVastLongtermism]
+** DONE [cite:@Roser2022FutureVastLongtermism]
+CLOSED: [2023-07-01 Sat 10:48]
 :PROPERTIES:
 :ID:       EA91C746-1B3A-4D8E-9ABF-E846ABEA1FA7
 :END:

@@ -515,7 +515,10 @@
 :ID:       8333C973-C2EE-4A30-A814-5EB7F99F42FC
 :END:
 - Ask Chappell for Mozi reference.
-  
+- Footnote 3 mixes up two separate quotes:
+    - "For instance, Bentham commented on the issue of animal protection: "the question is not, Can they reason? nor, Can they talk? but, Can they suffer?" — /An Introduction to the Principles of Morals and Legislation/
+    - "Why should the law refuse its protection to any sensitive being? The time will come when humanity will extend its mantle over everything which breathes. We have begun by attending to the condition of slaves; we shall finish by softening that of all the animals which assist our labors or supply our wants." — /Principles of Penal Law/
+      
 ** [cite:@MacAskill2022AreWeLiving]
 :PROPERTIES:
 :ID:       7DE1F155-6EBC-4D5E-8844-4A8ED93C818A

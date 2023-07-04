@@ -514,7 +514,8 @@
 :PROPERTIES:
 :ID:       8333C973-C2EE-4A30-A814-5EB7F99F42FC
 :END:
-
+- Ask Chappell for Mozi reference.
+  
 ** [cite:@MacAskill2022AreWeLiving]
 :PROPERTIES:
 :ID:       7DE1F155-6EBC-4D5E-8844-4A8ED93C818A

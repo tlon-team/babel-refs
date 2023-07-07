@@ -926,7 +926,7 @@ CLOSED: [2023-06-27 Tue 14:15]
 :ID:       B6A3B78A-0C26-4EFE-9809-6CAC8AA635AE
 :END:
 
-** DONE [cite:@Cotton-Barratt2015AllocatingRiskMitigation]            :bae:
+** DONE [cite:@Cotton-Barratt2015AllocatingRiskMitigation]              :bae:
 CLOSED: [2023-06-27 Tue 14:15]
 :PROPERTIES:
 :ID:       36EFA809-C835-476C-9FC5-9ED7A9B76F8C

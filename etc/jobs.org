@@ -14,7 +14,9 @@
 :PROPERTIES:
 :ID:       A9150B72-9871-4B68-BF05-9CAD5327C21E
 :END:
-
+- "Scheffler's challenge remains": it is never explained what this challenge consists of.
+- There's a subsection called "Evolutionary debunking arguments", but this section discusses both /evolutionary/ and /psychological/ debunking arguments (by de Lazari-Radek & Singer, and Greene, respectively). So perhaps a better name for the subsection is "Debunking arguments"?
+- Chapter 2 of /Utilitarianism/ is called "Justification" (not "Justifications").
 ** [cite:@Aird2020CrucialQuestionsLongtermists]                         :bae:
 :PROPERTIES:
 :ID:       F8B0C270-7817-4470-88C6-D7ED64FDC5E0

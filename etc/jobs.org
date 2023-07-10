@@ -15,7 +15,7 @@
 :ID:       A9150B72-9871-4B68-BF05-9CAD5327C21E
 :END:
 - "Scheffler's challenge remains": it is never explained what this challenge consists of.
-- There's a subsection called "Evolutionary debunking arguments", but this section discusses both /evolutionary/ and /psychological/ debunking arguments (by de Lazari-Radek & Singer, and Greene, respectively). So perhaps a better name for the subsection is "Debunking arguments"?
+- There's a subsection called "Evolutionary debunking arguments", but this section discusses both /evolutionary/ and /psychological/ debunking arguments (by de Lazari-Radek & Singer, and Greene, respectively). So perhaps a better name for the subsection is "Debunking arguments"? (In footnote 29, you also say that "There are other types of debunking arguments not grounded in evolution.", implying that your discussion is confined to evolutionary debunking arguments, so you may want to revise this sentence, too. Incidentally, I recall that Peter Singer discusses the "religious debunking argument" that you mention in this footnote, although I don't remember where.)
 - Chapter 2 of /Utilitarianism/ is called "Justification" (not "Justifications").
 ** [cite:@Aird2020CrucialQuestionsLongtermists]                         :bae:
 :PROPERTIES:

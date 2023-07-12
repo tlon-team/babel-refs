@@ -1,5 +1,7 @@
 #+filetags: :project:
 
+** [cite:@MacAskill2022PopulationEthicsTotal]
+
 ** [cite:@Chappell2022TheoriesWellbeing]                     :utilitarianism:
 :PROPERTIES:
 :ID:       F87A879F-2F74-40ED-888B-ACA5B4229807

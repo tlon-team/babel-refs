@@ -19,6 +19,7 @@
 - Chapter 2 of /Utilitarianism/ is called "Justification" (not "Justifications").
 - "Such debunking arguments raise worries about whether they “prove too
 much”: after all, the foundational moral judgment that _pain is bad_ would itself seem emotionally-laden and susceptible to evolutionary explanation—physically vulnerable creatures would have powerful evolutionary reasons to want to avoid pain _whether or not_ it was objectively bad, after all!" The phrase 'after all' is used twice in the sentence; maybe remove it from the second sentence?
+
 ** [cite:@Aird2020CrucialQuestionsLongtermists]                         :bae:
 :PROPERTIES:
 :ID:       F8B0C270-7817-4470-88C6-D7ED64FDC5E0
@@ -770,12 +771,6 @@ much”: after all, the foundational moral judgment that _pain is bad_ would its
 :ID:       66745AD3-B3C8-4766-9B9C-D99C241F0369
 :END:
 
-** DONE [cite:@Tomasik2011RisksAstronomicalFuture]                      :bae:
-CLOSED: [2023-07-07 Fri 11:48]
-:PROPERTIES:
-:ID:       B6BD183E-3828-474D-A9B9-EA4DA3245BEF
-:END:
-
 ** [cite:@Tomasik2014WhyCharitiesUsually]                               :bae:
 :PROPERTIES:
 :ID:       5FD58D50-20DE-4785-B528-B00E1EE80A40
@@ -869,6 +864,12 @@ CLOSED: [2023-07-07 Fri 11:48]
 ** [cite:@Zhang2021MotivatedReasoningCritique]                          :bae:
 :PROPERTIES:
 :ID:       EE24F09D-47FB-4A48-99B0-412624755B91
+:END:
+
+** DONE [cite:@Tomasik2011RisksAstronomicalFuture]                      :bae:
+CLOSED: [2023-07-07 Fri 11:48]
+:PROPERTIES:
+:ID:       B6BD183E-3828-474D-A9B9-EA4DA3245BEF
 :END:
 
 ** DONE [cite:@Fenwick2023LongtermismCallTo]                           :bae:

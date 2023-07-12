@@ -871,6 +871,12 @@ CLOSED: [2023-07-07 Fri 11:48]
 :ID:       EE24F09D-47FB-4A48-99B0-412624755B91
 :END:
 
+** DONE [cite:@Fenwick2023LongtermismCallTo]                           :bae:
+CLOSED: [2023-07-11 Tue 21:44]
+:PROPERTIES:
+:ID:       AFAC7D4B-4EBD-4198-AE21-D7CAB0CAC4B6
+:END:
+
 ** DONE [cite:@Alexander2012DeadChildrenCurrency]                     :bae:
 CLOSED: [2023-06-27 Tue 14:14]
 :PROPERTIES:

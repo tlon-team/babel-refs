@@ -535,7 +535,8 @@ much”: after all, the foundational moral judgment that _pain is bad_ would its
 :ID:       5FD9ABB5-BCEE-487A-80A1-787909EB3751
 :END:
 
-** [cite:@MacAskill2020IntroductionUtilitarianism]           :utilitarianism:
+** DONE [cite:@MacAskill2020IntroductionUtilitarianism]      :utilitarianism:
+CLOSED: [2023-07-12 Wed 16:10]
 :PROPERTIES:
 :ID:       8333C973-C2EE-4A30-A814-5EB7F99F42FC
 :END:

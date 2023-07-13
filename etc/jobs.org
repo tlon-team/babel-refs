@@ -1,6 +1,9 @@
 #+filetags: :project:
 
 ** [cite:@MacAskill2020UtilitarianismPracticalEthics]
+:PROPERTIES:
+:ID:       7F0C3A36-CCFA-497F-9FB0-27AD155E8B65
+:END:
 
 ** [cite:@MacAskill2022PopulationEthicsTotal]                :utilitarianism:
 :PROPERTIES:
@@ -12,7 +15,8 @@
 :ID:       F87A879F-2F74-40ED-888B-ACA5B4229807
 :END:
 
-** [cite:@MacAskill2022ElementsTypesUtilitarianism]          :utilitarianism:
+** DONE [cite:@MacAskill2022ElementsTypesUtilitarianism]    :utilitarianism:
+CLOSED: [2023-07-13 Thu 17:29]
 :PROPERTIES:
 :ID:       8145F0F6-51DC-4328-AD19-8C326408DCBE
 :END:

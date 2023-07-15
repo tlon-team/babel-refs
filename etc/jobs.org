@@ -27,7 +27,8 @@
 :ID:       F87A879F-2F74-40ED-888B-ACA5B4229807
 :END:
 
-** [cite:@Chappell2023ArgumentsForUtilitarianism]            :utilitarianism:
+** DONE [cite:@Chappell2023ArgumentsForUtilitarianism]            :utilitarianism:
+CLOSED: [2023-07-15 Sat 11:26]
 :PROPERTIES:
 :ID:       A9150B72-9871-4B68-BF05-9CAD5327C21E
 :END:

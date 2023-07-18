@@ -1,4 +1,10 @@
+#+title: Jobs
 #+filetags: :project:
+
+* Jobs
+:PROPERTIES:
+:ID:       820BEDE2-F982-466F-A391-100235D4C596
+:END:
 
 ** WAITING [cite:@Rogers-Smith2022HowToPursue]                        :bae:
 :PROPERTIES:
@@ -12,7 +18,7 @@
    si vale la pena el esfuerzo. Una vez que terminemos de traducir todo
    lo demás, podemos reconsiderar la decisión.
 
-** [cite:@MacAskill2020UtilitarianismPracticalEthics]
+** [cite:@MacAskill2020UtilitarianismPracticalEthics]        :utilitarianism:
 :PROPERTIES:
 :ID:       7F0C3A36-CCFA-497F-9FB0-27AD155E8B65
 :END:

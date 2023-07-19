@@ -11,12 +11,8 @@
 :ID:       AA0162C7-CC4F-4236-BB13-9D78D45A3298
 :END:
 
-:PROPERTIES: :ID: 1CC76A75-88C8-4029-86C3-B43C65F661C0 :END:
-- Pablo tradujo la primera sección (unas 500 palabras); el resto fue
-  traducido por Aurora y revisado por Leo.
- - Quedamos en no continuar revisando este texto, dado que no es claro
-   si vale la pena el esfuerzo. Una vez que terminemos de traducir todo
-   lo demás, podemos reconsiderar la decisión.
+- Pablo tradujo la primera sección (unas 500 palabras); el resto fue traducido por Aurora y revisado por Leo.
+ - Quedamos en no continuar revisando este texto, dado que no es claro si vale la pena el esfuerzo. Una vez que terminemos de traducir todo lo demás, podemos reconsiderar la decisión.
 
 ** [cite:@MacAskill2020UtilitarianismPracticalEthics]        :utilitarianism:
 :PROPERTIES:

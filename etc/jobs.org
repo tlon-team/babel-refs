@@ -1,6 +1,8 @@
 #+title: Jobs
 #+filetags: :project:
 
+* [cite:@Chappell2023NearUtilitarianAlternatives]
+
 * Jobs
 :PROPERTIES:
 :ID:       820BEDE2-F982-466F-A391-100235D4C596

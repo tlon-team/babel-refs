@@ -11,6 +11,7 @@
 :PROPERTIES:
 :ID:       362C64CD-02A7-4566-8D15-4946ACFB5AF5
 :END:
+
 ** TODO [cite:@MacAskill2020UtilitarianismPracticalEthics] :utilitarianism:
 :PROPERTIES:
 :ID:       7F0C3A36-CCFA-497F-9FB0-27AD155E8B65
@@ -845,7 +846,11 @@
 :PROPERTIES:
 :ID:       F87A879F-2F74-40ED-888B-ACA5B4229807
 :END:
+“The differences between these theories are of primarily theoretical interest; they overlap sufficiently in practice that [the practical implications of utilitarianism](/acting-on-utilitarianism) are unlikely to depend upon which of these, if any, turns out to be the correct view.”
 
+“If any” seems inappropriate, since the claim is that there is considerable overlap among the three theories. If none of these theories are the correct theory of wellbeing, how would one know that it would still overlap sufficiently in practice with them? At least this is is not explicitly stated.
+
+- “Roger Crisp advises hedonists to regard these intuitions as being _useful_ rather than _accurate_:” The transition to the paragraph that begins with this sentence seems a bit abrupt. How does it relate to the previous paragraph?
 ** MAYBE [cite:@Santos2022AndersSandbergNeurocientifico]              :bae:
 :PROPERTIES:
 :ID:       5284AE13-4E96-4E29-8B7A-96271727E9D0

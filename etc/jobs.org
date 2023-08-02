@@ -3,6 +3,9 @@
 
 
 * [cite:@Chappell2023ObjectionsToUtilitarianism]
+:PROPERTIES:
+:ID:       7AC787FB-1C2D-4D95-8F6C-73BA211341CE
+:END:
 
 * Jobs
 :PROPERTIES:
@@ -844,7 +847,8 @@
 :ID:       EE24F09D-47FB-4A48-99B0-412624755B91
 :END:
 
-** DOING [cite:@Chappell2022TheoriesWellbeing]             :utilitarianism:
+** DONE [cite:@Chappell2022TheoriesWellbeing]                :utilitarianism:
+CLOSED: [2023-08-02 Wed 17:43]
 :PROPERTIES:
 :ID:       F87A879F-2F74-40ED-888B-ACA5B4229807
 :END:

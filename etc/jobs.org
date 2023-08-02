@@ -870,7 +870,7 @@ CLOSED: [2023-08-02 Wed 17:43]
 - Pablo tradujo la primera sección (unas 500 palabras); el resto fue traducido por Aurora y revisado por Leo.
  - Quedamos en no continuar revisando este texto, dado que no es claro si vale la pena el esfuerzo. Una vez que terminemos de traducir todo lo demás, podemos reconsiderar la decisión.
 
-** DONE [cite:@MacAskill2022PopulationEthicsTotal]         :utilitarianism:
+** DONE [cite:@MacAskill2022PopulationEthicsTotal]           :utilitarianism:
 CLOSED: [2023-07-27 Thu 17:05]
 :PROPERTIES:
 :ID:       0317F778-0D7F-43BD-93C5-FAA44A284C34

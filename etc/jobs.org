@@ -2,6 +2,8 @@
 #+filetags: :project:
 
 
+* [cite:@Chappell2023AbusabilityObjection]
+
 * [cite:@Chappell2023CluelessnessObjection]
 
 * [cite:@Macaskill2023EqualityObjection]

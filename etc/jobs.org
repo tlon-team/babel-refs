@@ -3,22 +3,49 @@
 
 
 * [cite:@Chappell2023AbusabilityObjection]
+:PROPERTIES:
+:ID:       DC12C0F8-0777-4CE9-9A70-E364FE69269F
+:END:
 
 * [cite:@Chappell2023CluelessnessObjection]
+:PROPERTIES:
+:ID:       D99D6740-F5EB-4F27-BC12-3DE666822748
+:END:
 
 * [cite:@Macaskill2023EqualityObjection]
+:PROPERTIES:
+:ID:       01938B25-0D58-40E8-8717-B43D5668A394
+:END:
 
 * [cite:@Chappell2023SpecialObligationsObjection]
+:PROPERTIES:
+:ID:       FDEE259D-9E9F-495A-8891-953B0C9D94B9
+:END:
 
 * [cite:@Chappell2023AlienationObjection]
+:PROPERTIES:
+:ID:       EE7B0FBE-836D-436A-B4A6-34263887BB9B
+:END:
 
 * [cite:@MacAskill2020DemandingnessObjection]
+:PROPERTIES:
+:ID:       1837E904-2809-44B8-B9F1-3F0582540A60
+:END:
 
 * [cite:@Chappell2023SeparatenessOfPersons]
+:PROPERTIES:
+:ID:       70FF48FA-F04C-4DB6-902C-38287E11B428
+:END:
 
 * [cite:@Chappell2023MereMeansObjection]
+:PROPERTIES:
+:ID:       AFE5150A-E124-4C41-A402-231F7951E86E
+:END:
 
 * [cite:@Macaskill2023RightsObjection]
+:PROPERTIES:
+:ID:       27D2234D-349C-421F-9A6D-3485AE5752DE
+:END:
 
 * [cite:@Chappell2023ObjectionsToUtilitarianism]
 :PROPERTIES:

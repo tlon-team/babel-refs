@@ -2,6 +2,8 @@
 #+filetags: :project:
 
 
+* [cite:@Chappell2023SpecialObligationsObjection]
+
 * [cite:@Chappell2023AlienationObjection]
 
 * [cite:@MacAskill2020DemandingnessObjection]

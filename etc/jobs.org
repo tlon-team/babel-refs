@@ -2,6 +2,8 @@
 #+filetags: :project:
 
 
+* [cite:@Macaskill2023RightsObjection]
+
 * [cite:@Chappell2023ObjectionsToUtilitarianism]
 :PROPERTIES:
 :ID:       7AC787FB-1C2D-4D95-8F6C-73BA211341CE

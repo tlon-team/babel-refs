@@ -62,7 +62,8 @@
 :ID:       362C64CD-02A7-4566-8D15-4946ACFB5AF5
 :END:
 
-** TODO [cite:@MacAskill2020UtilitarianismPracticalEthics] :utilitarianism:
+** DONE [cite:@MacAskill2020UtilitarianismPracticalEthics]   :utilitarianism:
+CLOSED: [2023-08-05 Sat 21:02]
 :PROPERTIES:
 :ID:       7F0C3A36-CCFA-497F-9FB0-27AD155E8B65
 :END:

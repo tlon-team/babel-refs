@@ -73,7 +73,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       F8B0C270-7817-4470-88C6-D7ED64FDC5E0
 :END:
 
-** TODO [cite:@Aird2021IndependentImpressions]                        :bae:
+** TODO [cite:@Aird2021IndependentImpressions]                        :bae:handbook:
 :PROPERTIES:
 :ID:       3E7FC745-5AEC-4E47-9496-BEB4142D4513
 :END:
@@ -93,7 +93,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       864813A5-BA5C-468F-B21A-AF5871539567
 :END:
 
-** TODO [cite:@Arbital2021BayesRuleGuide]                             :bae:
+** TODO [cite:@Arbital2021BayesRuleGuide]                             :bae:handbook:
 :PROPERTIES:
 :ID:       DBDB87F7-68E9-4EFC-828B-052C3C86551D
 :END:
@@ -113,7 +113,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       8EAF6F5F-15F9-40BF-A681-6AEEEE2696E6
 :END:
 
-** TODO [cite:@Baumann2020LongtermismAnimalAdvocacy]                  :bae:
+** TODO [cite:@Baumann2020LongtermismAnimalAdvocacy]                  :bae:handbook:
 :PROPERTIES:
 :ID:       0FB1F1FE-4FE9-42BC-A5BF-E5BCB358D135
 :END:
@@ -148,7 +148,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       CC6E0246-F505-4855-8765-C56193E4696A
 :END:
 
-** TODO [cite:@Bradshaw2021BiosecurityNeedsEngineers]                 :bae:
+** TODO [cite:@Bradshaw2021BiosecurityNeedsEngineers]                 :bae:handbook:
 :PROPERTIES:
 :ID:       562D63DD-8198-4109-BF19-C613CBF6C61E
 :END:
@@ -178,7 +178,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       A52E4B75-E926-429E-834A-05173D699D66
 :END:
 
-** TODO [cite:@Chaosmage2023WhatCognitiveBiases]                      :bae:
+** TODO [cite:@Bottger2023WhatCognitiveBiases]                      :bae:handbook:
 :PROPERTIES:
 :ID:       5547096B-8CDC-4A68-B2DA-FF9A07C3FBC9
 :END:
@@ -233,12 +233,12 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       79658B5D-CD27-4741-A54C-ECF51209B67A
 :END:
 
-** TODO [cite:@Clare2020AnimalWelfareCause]                           :bae:
+** TODO [cite:@Clare2020AnimalWelfareCause]                           :bae:handbook:
 :PROPERTIES:
 :ID:       AD53B0A0-63EA-4477-BA88-07CA601B89F8
 :END:
 
-** TODO [cite:@Cotra2021WhyAiAlignment]                               :bae:
+** TODO [cite:@Cotra2021WhyAiAlignment]                               :bae:handbook:
 :PROPERTIES:
 :ID:       CECE1B16-CC24-45DA-B14E-4B233E603B46
 :END:
@@ -253,29 +253,24 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       1D00CDEA-AF35-46B1-BC28-3B383D1F59C9
 :END:
 
-** TODO [cite:@Dalton2022AboutThisHandbook]                           :bae:
+** TODO [cite:@Dalton2022AboutThisHandbook]                           :bae:handbook:
 :PROPERTIES:
 :ID:       713B31F7-D422-4E0A-89E1-FA206B046E27
 :END:
 
-** TODO [cite:@Dalton2022SmarterThanUs]                               :bae:
+** TODO [cite:@Dalton2022SmarterThanUs]                               :bae:handbook:
 :PROPERTIES:
 :ID:       8B38FA49-8692-41B1-98AD-10633F96DAD3
 :END:
 
-** TODO [cite:@Daniel2017SrisksWhyThey]                               :bae:
+** TODO [cite:@Daniel2017SrisksWhyThey]                               :bae:handbook:
 :PROPERTIES:
 :ID:       30EB690F-2D20-4955-A1B8-9E5EAFE82A2C
 :END:
 
-** TODO [cite:@Deere2016FourIdeasYou]                                 :bae:
+** TODO [cite:@Deere2016FourIdeasYou]                                 :bae:handbook:
 :PROPERTIES:
 :ID:       6219B2DD-E7B2-4775-A2C6-17E5855C348E
-:END:
-
-** TODO [cite:@Duda2020ClimateChangeExtreme]                          :bae:
-:PROPERTIES:
-:ID:       467F4459-0057-4AD5-8EBE-38CEFB96A938
 :END:
 
 ** TODO [cite:@EffectiveAltruism2016IntroductionToEffective]          :bae:
@@ -283,17 +278,12 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       742A9D32-2E4F-47D7-AEEF-52B5D0428CDB
 :END:
 
-** TODO [cite:@EffectiveAltruism2016IntroductionToEffective]          :bae:
-:PROPERTIES:
-:ID:       FF76F700-7B3C-40A2-AA73-B663517E57AF
-:END:
-
-** TODO [cite:@Elmore2016WeAreTriage]                                 :bae:
+** TODO [cite:@Elmore2016WeAreTriage]                                 :bae:handbook:
 :PROPERTIES:
 :ID:       31AE7F83-8AAB-4161-98C9-B6FA933EC5E2
 :END:
 
-** TODO [cite:@Forum2021FermiEstimate]                                :bae:
+** TODO [cite:@Forum2021FermiEstimate]                                :bae:handbook:
 :PROPERTIES:
 :ID:       0585DD41-72AF-40EF-99E6-8362CD2F820A
 :END:
@@ -308,12 +298,12 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       89CFFD2D-61F1-4763-8DB5-BF76C3910E20
 :END:
 
-** TODO [cite:@Givewell2023Giving101Basics]                           :bae:
+** TODO [cite:@Givewell2023Giving101Basics]                           :bae:handbook:
 :PROPERTIES:
 :ID:       4575E77B-272E-4665-BDE3-49C43363F433
 :END:
 
-** TODO [cite:@GivingWhatWeCan2020ComparingCharitiesHow]              :bae:
+** TODO [cite:@GivingWhatWeCan2020ComparingCharitiesHow]              :bae:handbook:
 :PROPERTIES:
 :ID:       0AC32321-333F-41BF-9E22-2EB96B6B2484
 :END:
@@ -333,114 +323,74 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       E0C8B71F-A468-4D3A-AAB6-0F4F69D1A2F7
 :END:
 
-** TODO [cite:@Grilo2022NumberOfSeabirds]                             :bae:
+** TODO [cite:@Grilo2022NumberOfSeabirds]                             :bae:handbook:
 :PROPERTIES:
 :ID:       01EBF211-A95A-4093-9D55-4904869BBC82
 :END:
 
-** TODO [cite:@Handbook2022ExerciseForDifferences]                    :bae:
+** TODO [cite:@Handbook2022ExerciseForDifferences]                    :bae:handbook:
 :PROPERTIES:
 :ID:       67433114-3F61-4C0B-94AB-F5447ECB91B2
 :END:
 
-** TODO [cite:@Handbook2022ExerciseForPutting]                        :bae:
+** TODO [cite:@Handbook2022ExerciseForPutting]                        :bae:handbook:
 :PROPERTIES:
 :ID:       1A18021B-8B92-4307-A92E-4508EAD848F1
 :END:
 
-** TODO [cite:@Handbook2022ExerciseForRadical]                        :bae:
+** TODO [cite:@Handbook2022ExerciseForRadical]                        :bae:handbook:
 :PROPERTIES:
 :ID:       7B54CE26-BC52-4BE2-B213-24AEEE8FB6A7
 :END:
 
-** TODO [cite:@Handbook2022ExerciseForWhat1]                          :bae:
+** TODO [cite:@Handbook2022ExerciseForWhat1]                          :bae:handbook:
 :PROPERTIES:
 :ID:       B8102461-4F90-4F04-88F2-013F428FC266
 :END:
 
-** TODO [cite:@Handbook2022ExerciseForWhat2]                          :bae:
+** TODO [cite:@Handbook2022ExerciseForWhat2]                          :bae:handbook:
 :PROPERTIES:
 :ID:       64BAE006-5313-4DE7-9DFF-CFCE9551B702
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore1]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore1]                            :bae:handbook:
 :PROPERTIES:
 :ID:       A2D0C197-BDE1-4CD8-82E8-844633A31386
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore1]                            :bae:
-:PROPERTIES:
-:ID:       F4DC3196-D597-4F18-B5AD-81E3C1950F79
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore2]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore2]                            :bae:handbook:
 :PROPERTIES:
 :ID:       EE986E02-5E81-428C-9B98-4944F40B1146
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore2]                            :bae:
-:PROPERTIES:
-:ID:       D77FF644-180B-48F9-BE58-D5C0230B66A4
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore3]                            :bae:
-:PROPERTIES:
-:ID:       F921AC5D-3A32-4F38-9625-037CC8693796
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore3]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore3]                            :bae:handbook:
 :PROPERTIES:
 :ID:       DC1BDE8D-928A-4230-A300-0731BDFAA3F9
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore4]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore4]                            :bae:handbook:
 :PROPERTIES:
 :ID:       FA7FFEF8-20ED-4630-80F0-EBBDBEE6B015
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore5]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore5]                            :bae:handbook:
 :PROPERTIES:
 :ID:       3E9F9A68-92E1-4291-AF50-BA1845EED5D9
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore5]                            :bae:
-:PROPERTIES:
-:ID:       77C6AF10-F486-408F-AFBD-F07816E04798
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore5]                            :bae:
-:PROPERTIES:
-:ID:       3AC03094-9BF2-4B39-B439-6E893C79A5A3
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore6]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore6]                            :bae:handbook:
 :PROPERTIES:
 :ID:       BD147072-5BE0-41F5-B57A-BE5BE0189AB0
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore6]                            :bae:
-:PROPERTIES:
-:ID:       F9115202-32C7-4969-BE8D-437752EB4179
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore7]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore7]                            :bae:handbook:
 :PROPERTIES:
 :ID:       2594F315-0930-4B80-80A0-18723B589B08
 :END:
 
-** TODO [cite:@Handbook2022MoreToExplore7]                            :bae:
-:PROPERTIES:
-:ID:       923D355C-FB35-42AF-81E3-2A62C0DDE970
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore8]                            :bae:
+** TODO [cite:@Handbook2022MoreToExplore8]                            :bae:handbook:
 :PROPERTIES:
 :ID:       4895A3EC-54D3-4D1B-99D4-FFD524D62308
-:END:
-
-** TODO [cite:@Handbook2022MoreToExplore8]                            :bae:
-:PROPERTIES:
-:ID:       9360186B-425E-4C5A-BEAA-F6863A1EBF0B
 :END:
 
 ** TODO [cite:@Hillebrandt2020GrowthAndCase]                          :bae:
@@ -448,7 +398,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       B7AFD8A4-525F-4C07-8EB9-5E7873A18383
 :END:
 
-** TODO [cite:@Hilton2022PreventingAIrelatedCatastrophe]              :bae:
+** TODO [cite:@Hilton2022PreventingAIrelatedCatastrophe]              :bae:handbook:
 :PROPERTIES:
 :ID:       5DD68C7D-F7D8-44B1-AF80-73BEB3783996
 :END:
@@ -473,11 +423,6 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       F1A80B71-4428-41A9-8A30-5B146627C6BA
 :END:
 
-** TODO [cite:@Hutchinson2021WhyFindLongtermism]                        :bae:
-:PROPERTIES:
-:ID:       C9CDD20B-EAD1-40DD-96D2-707C4CCC1124
-:END:
-
 ** TODO [cite:@John2021LongtermistInstitutionalReform]                :bae:
 :PROPERTIES:
 :ID:       04E56EB3-8CA7-49E4-9139-0D3CE931DAF1
@@ -493,32 +438,32 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       45EFEC04-FB58-440E-A71D-86971E9058BF
 :END:
 
-** TODO [cite:@Karnofsky2016HitsbasedGiving]                          :bae:
+** TODO [cite:@Karnofsky2016HitsbasedGiving]                          :bae:handbook:
 :PROPERTIES:
 :ID:       80CFCDD6-977D-4A7D-B3B8-72922635DA32
 :END:
 
-** TODO [cite:@Karnofsky2021AllPossibleViews]                         :bae:
+** TODO [cite:@Karnofsky2021AllPossibleViews]                         :bae:handbook:
 :PROPERTIES:
 :ID:       EE54EACC-1FAF-4746-AD19-53A7956B5552
 :END:
 
-** TODO [cite:@Karnofsky2021CallToVigilance]                          :bae:
+** TODO [cite:@Karnofsky2021CallToVigilance]                          :bae:handbook:
 :PROPERTIES:
 :ID:       73ED2BA7-763D-4B63-B56E-88EA9948E712
 :END:
 
-** TODO [cite:@Karnofsky2021MyCurrentImpressions]                     :bae:
+** TODO [cite:@Karnofsky2021MyCurrentImpressions]                     :bae:handbook:
 :PROPERTIES:
 :ID:       26764CAB-D778-4C68-97DB-355CB3CB26FC
 :END:
 
-** TODO [cite:@Karnofsky2021ThisCantGo]                               :bae:
+** TODO [cite:@Karnofsky2021ThisCantGo]                               :bae:handbook:
 :PROPERTIES:
 :ID:       14972207-91D0-42F9-B96F-275D1AE20081
 :END:
 
-** TODO [cite:@Karnofsky2023AiTimelinesWhere]                         :bae:
+** TODO [cite:@Karnofsky2023AiTimelinesWhere]                         :bae:handbook:
 :PROPERTIES:
 :ID:       BF681E95-9E72-48A5-801C-1F9C68F7D137
 :END:
@@ -598,7 +543,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       BC722C6F-AD3E-480A-9D84-E5A81D60C62F
 :END:
 
-** TODO [cite:@Melchin2021WhyAmProbably]                              :bae:
+** TODO [cite:@Melchin2021WhyAmProbably]                              :bae:handbook:
 :PROPERTIES:
 :ID:       218D853C-9D2C-4552-A06A-00250E0B9AC8
 :END:
@@ -608,7 +553,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       0AE21ECC-0600-43D9-A80F-622B76D7DDFC
 :END:
 
-** TODO [cite:@Muehlhauser2021SuperforecastingNutshell]               :bae:
+** TODO [cite:@Muehlhauser2021SuperforecastingNutshell]               :bae:handbook:
 :PROPERTIES:
 :ID:       202D8389-CA4A-4A9B-BE62-599C1B1763C9
 :END:
@@ -628,7 +573,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       9FF8CAC4-B243-4A1E-A905-90027CA44CAD
 :END:
 
-** TODO [cite:@OpenPhilanthropy2021SouthAsianAir]                     :bae:
+** TODO [cite:@OpenPhilanthropy2021SouthAsianAir]                     :bae:handbook:
 :PROPERTIES:
 :ID:       C4C8C8BE-D703-4D60-B2EE-DD49D8C40575
 :END:
@@ -638,17 +583,17 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       7F5477C4-0100-4EBC-8A62-B895B2ED752D
 :END:
 
-** TODO [cite:@Ord2016MoralProgressAnd]                               :bae:
+** TODO [cite:@Ord2016MoralProgressAnd]                               :bae:handbook:
 :PROPERTIES:
 :ID:       76F438EC-00F3-4E35-B05B-47EC3FDD41EA
 :END:
 
-** TODO [cite:@Ord2020ExistentialRisk]                                :bae:
+** TODO [cite:@Ord2020ExistentialRisk]                                :bae:handbook:
 :PROPERTIES:
 :ID:       70B341B7-B2E7-4DD0-9D39-B20EEECAADCB
 :END:
 
-** TODO [cite:@Ord2020FutureRisksPandemics]                           :bae:
+** TODO [cite:@Ord2020FutureRisksPandemics]                           :bae:handbook:
 :PROPERTIES:
 :ID:       FA2ECFE4-CEE8-48AE-A058-DBA5551C85D4
 :END:
@@ -658,27 +603,27 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       3825A61D-CFB6-4525-A343-F6D83D52A551
 :END:
 
-** TODO [cite:@Piper2018WantToHelp]                                   :bae:
+** TODO [cite:@Piper2018WantToHelp]                                   :bae:handbook:
 :PROPERTIES:
 :ID:       C020488A-6A24-4DB1-8E79-83ADD0BBDFDE
 :END:
 
-** TODO [cite:@Piper2019FringeIdeas]                                  :bae:
+** TODO [cite:@Piper2019FringeIdeas]                                  :bae:handbook:
 :PROPERTIES:
 :ID:       362BD76D-7565-4B56-95BB-EB65C6FD56D6
 :END:
 
-** TODO [cite:@Piper2022WhyExpertsAre]                                :bae:
+** TODO [cite:@Piper2022WhyExpertsAre]                                :bae:handbook:
 :PROPERTIES:
 :ID:       87FFC143-8DAF-44C0-9CD1-A613A7968540
 :END:
 
-** TODO [cite:@ProbablyGood2023ImpactoMarginal]                       :bae:
+** TODO [cite:@ProbablyGood2023ImpactoMarginal]                       :bae:handbook:
 :PROPERTIES:
 :ID:       32B6D9DE-3BBB-4A73-AFDA-4949FE013317
 :END:
 
-** TODO [cite:@Rafferty2020IntroducingLEEPLead]                       :bae:
+** TODO [cite:@Rafferty2020IntroducingLEEPLead]                       :bae:handbook:
 :PROPERTIES:
 :ID:       B7CED1CD-FF3F-4133-B1A1-1B57FAD923F3
 :END:
@@ -693,12 +638,12 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       DA190578-EC98-4A06-BA8E-E317A98C9080
 :END:
 
-** TODO [cite:@Roser2018WorldMuchBetter]                              :bae:
+** TODO [cite:@Roser2018WorldMuchBetter]                              :bae:handbook:
 :PROPERTIES:
 :ID:       CE29C72D-1AD8-4310-B4D1-11BF4F92563F
 :END:
 
-** TODO [cite:@Roser2023GlobalEconomicInequality]                     :bae:
+** TODO [cite:@Roser2021GlobalEconomicInequality]                     :bae:
 :PROPERTIES:
 :ID:       00D2B703-F066-4C2C-83DD-4CA3321EBBB5
 :END:
@@ -718,7 +663,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       E29A47BC-0651-455D-AF67-5D502F7BDFA7
 :END:
 
-** TODO [cite:@Sempere2020BigListCause]                               :bae:
+** TODO [cite:@Sempere2020BigListCause]                               :bae:handbook:
 :PROPERTIES:
 :ID:       4B8F3C39-5E5E-40AE-BB9D-09A543A6437D
 :END:
@@ -753,17 +698,17 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       017E3B11-11E9-47A2-9755-14F7E31E83DB
 :END:
 
-** TODO [cite:@Snyder-Beattie2022ConcreteBiosecurityProjects]         :bae:
+** TODO [cite:@Snyder-Beattie2022ConcreteBiosecurityProjects]         :bae:handbook:
 :PROPERTIES:
 :ID:       2AD22F7F-DF02-4E80-A680-42690349A265
 :END:
 
-** TODO [cite:@Soares2014Caring]                                      :bae:
+** TODO [cite:@Soares2014Caring]                                      :bae:handbook:
 :PROPERTIES:
 :ID:       5080056C-B30D-4DB5-BA99-C162ED92EEC1
 :END:
 
-** TODO [cite:@Sotala2014EffectiveAltruismAs]                         :bae:
+** TODO [cite:@Sotala2014EffectiveAltruismAs]                         :bae:handbook:
 :PROPERTIES:
 :ID:       0A91A3E1-83B4-4664-952C-037E745232EA
 :END:
@@ -773,7 +718,7 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       0B42E10D-E631-48DD-BD6A-5C2857353D7A
 :END:
 
-** TODO [cite:@Todd2017CaseReducingExistential]                       :bae:
+** TODO [cite:@Todd2017CaseReducingExistential]                       :bae:handbook:
 :PROPERTIES:
 :ID:       6C691C6F-B54B-474B-8870-C745DFA586A8
 :END:
@@ -783,12 +728,12 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       1FFC0EEA-88C4-4FA4-A5FB-D7CA2A94BCF4
 :END:
 
-** TODO [cite:@Todd2021AISafetyTechnical]                             :bae:
+** TODO [cite:@Todd2021AISafetyTechnical]                             :bae:handbook:
 :PROPERTIES:
 :ID:       0977673C-F4C0-4E9B-B815-2C32F082C0DA
 :END:
 
-** TODO [cite:@Todd2023SummaryWhatMakes]                              :bae:
+** TODO [cite:@Todd2023SummaryWhatMakes]                              :bae:handbook:
 :PROPERTIES:
 :ID:       87FED9A6-F9E0-49C8-99E6-928368295304
 :END:
@@ -813,12 +758,13 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       D71E255A-10C9-46A4-8884-561B34A8451E
 :END:
 
-** TODO [cite:@Wiblin2016FrameworkForComparing]                       :bae:
+** TODO [cite:@Wiblin2016FrameworkForComparing]                       :bae:handbook:
 :PROPERTIES:
 :ID:       4605EB74-91DB-4609-895A-0C333510F744
 :END:
+Author gives permission, but notes that the article is old and outdated, and asks us to make sure to put the publication date (2016) on it.
 
-** TODO [cite:@Wiblin2016HealthPoorCountries]                         :bae:
+** TODO [cite:@Wiblin2016HealthPoorCountries]                         :bae:handbook:
 :PROPERTIES:
 :ID:       9C929486-480B-40A6-BF0B-3258DD65B1EF
 :END:
@@ -848,22 +794,22 @@ CLOSED: [2023-08-05 Sat 21:02]
 :ID:       BB92A464-4CCA-42FE-930D-46A9936C7F4F
 :END:
 
-** TODO [cite:@Wise2019YouHaveMore]                                   :bae:
+** TODO [cite:@Wise2019YouHaveMore]                                   :bae:handbook:
 :PROPERTIES:
 :ID:       2CAC807B-341C-4E49-8A72-933D83C1ECA5
 :END:
 
-** TODO [cite:@Yudkowsky2007MakingBeliefsPay]                         :bae:
+** TODO [cite:@Yudkowsky2007MakingBeliefsPay]                         :bae:handbook:
 :PROPERTIES:
 :ID:       0A3CE07B-9B68-4D3C-AF57-8BDA639E0394
 :END:
 
-** TODO [cite:@Yudkowsky2023PurchaseFuzziesAnd]                       :bae:
+** TODO [cite:@Yudkowsky2009PurchaseFuzziesAnd]                       :bae:handbook:
 :PROPERTIES:
 :ID:       0E263589-B2B8-45CB-B908-4C1D48632EFE
 :END:
 
-** TODO [cite:@Yudkowsky2023WhatIsEvidence]                           :bae:
+** TODO [cite:@Yudkowsky2023WhatIsEvidence]                  :bae:handbook:
 :PROPERTIES:
 :ID:       59026F5E-6094-4AB6-B871-53CF54C31FDF
 :END:
@@ -881,11 +827,6 @@ CLOSED: [2023-08-05 Sat 21:02]
 ** TODO [cite:@Zhang2019PossibilityOfOngoing]                         :bae:
 :PROPERTIES:
 :ID:       B5E0152A-54E2-4C34-9FE6-FBD61B599F35
-:END:
-
-** TODO [cite:@Zhang2019PossibilityOfOngoing]                         :bae:
-:PROPERTIES:
-:ID:       825609FF-CE47-4C31-9C65-C8DBA04010DD
 :END:
 
 ** TODO [cite:@Zhang2021MotivatedReasoningCritique]                   :bae:
@@ -951,7 +892,7 @@ CLOSED: [2023-06-27 Tue 14:14]
 :ID:       B8F8D5A6-E934-47A8-99BF-32ADD97FA3F8
 :END:
 
-** DONE [cite:@AnimalEthics2020ScopeInsensitivityFailing]             :bae:
+** DONE [cite:@AnimalEthics2020ScopeInsensitivityFailing]             :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:14]
 :PROPERTIES:
 :ID:       95952B2A-6EF9-4FDC-9194-FFCC64956B05
@@ -969,7 +910,7 @@ CLOSED: [2023-06-27 Tue 14:15]
 :ID:       5B31E642-3199-48B2-BFBF-434EF423BAFF
 :END:
 
-** DONE [cite:@Bostrom2014CrucialConsiderationsWise]                  :bae:
+** DONE [cite:@Bostrom2014CrucialConsiderationsWise]                  :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:14]
 :PROPERTIES:
 :ID:       BB59E1FA-CB02-462D-B637-7C32753204F2
@@ -987,7 +928,7 @@ CLOSED: [2023-06-27 Tue 14:15]
 :ID:       FD530D56-9C58-4670-BAD5-F436F940F105
 :END:
 
-** DONE [cite:@Clarke2022LongtermistAiGovernance]                     :bae:
+** DONE [cite:@Clarke2022LongtermistAiGovernance]                     :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:15]
 :PROPERTIES:
 :ID:       B6A3B78A-0C26-4EFE-9809-6CAC8AA635AE
@@ -999,7 +940,7 @@ CLOSED: [2023-06-27 Tue 14:15]
 :ID:       36EFA809-C835-476C-9FC5-9ED7A9B76F8C
 :END:
 
-** DONE [cite:@Dhyani2014500MillionBut]                               :bae:
+** DONE [cite:@Dhyani2014500MillionBut]                               :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:15]
 :PROPERTIES:
 :ID:       CEAFBBA5-F7B0-47E4-95D7-5186A2669537
@@ -1035,7 +976,7 @@ CLOSED: [2023-07-11 Tue 21:44]
 :ID:       AFAC7D4B-4EBD-4198-AE21-D7CAB0CAC4B6
 :END:
 
-** DONE [cite:@Galef2023WhyYouThink]                                  :bae:
+** DONE [cite:@Galef2023WhyYouThink]                                  :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:16]
 :PROPERTIES:
 :ID:       50BBB9CA-676D-4036-934F-43BF6D0E1F59
@@ -1059,7 +1000,7 @@ CLOSED: [2023-06-27 Tue 14:16]
 :ID:       48D3ACE5-C6A2-434D-9A44-AAE7B0DFD3E0
 :END:
 
-** DONE [cite:@Huang2020HowStudentsWill]                              :bae:
+** DONE [cite:@Huang2020HowStudentsWill]                              :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:16]
 :PROPERTIES:
 :ID:       ED0FC9F9-331C-4AFD-832D-76A1E1B50C0D
@@ -1135,7 +1076,7 @@ CLOSED: [2023-06-27 Tue 14:38]
 :ID:       06D5188B-B921-430B-BD58-339578BF21FC
 :END:
 
-** DONE [cite:@Ord2019MoralImperativeCosteffectiveness]               :bae:
+** DONE [cite:@Ord2019MoralImperativeCosteffectiveness]               :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:37]
 :PROPERTIES:
 :ID:       F1F1C598-3714-48CF-9848-4CFBCB5CC641
@@ -1147,7 +1088,7 @@ CLOSED: [2023-06-27 Tue 14:38]
 :ID:       D7CE2014-17B9-4489-B0B7-DDDA587BB6C7
 :END:
 
-** DONE [cite:@Piper2018CaseTakingAI]                                 :bae:
+** DONE [cite:@Piper2018CaseTakingAI]                                 :bae:handbook:
 CLOSED: [2023-06-27 Tue 14:38]
 :PROPERTIES:
 :ID:       41A1D5C3-8B29-4C89-BC0E-AF57896781B2

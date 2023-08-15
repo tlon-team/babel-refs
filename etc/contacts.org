@@ -1,0 +1,1085 @@
+* Contacts
+:PROPERTIES:
+:ID:       F874E332-47AF-436F-997E-1A6791DEE0BE
+:END:
+
+** Aird, Michael
+:PROPERTIES:
+:ID:       F821ABD5-B028-4F60-A152-329EEF0563F6
+:EMAIL: michaeljamesaird@gmail.com
+:URL: https://forum.effectivealtruism.org/users/michaela
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Alexander, Scott
+:PROPERTIES:
+:ID:       E1ADAF3D-5757-4E72-A3A5-34C276FFD5E4
+:EMAIL: scott@slatestarcodex.com
+:URL: https://astralcodexten.substack.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+ '[Y]ou have complete permission to translate any articles of mine you want, however you prefer, except possibly the very politically controversial articles about Trump or something, which I would like you to ask for specific permission for first. Please credit me as Scott Alexander'.
+ 
+** Alexanian, Tessa
+:PROPERTIES:
+:ID:       4E9C2BFF-C8B6-476B-85C0-9209CBCF0212
+:EMAIL: tess.alexanian@gmail.com
+:URL: https://forum.effectivealtruism.org/users/tessa
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+:END:
+
+We are required to send her the translation before publishing it and to ask every time we consider translating new articles by her.
+
+** Alley, Ethan
+:PROPERTIES:
+:ID:       64D49D86-F659-4CA6-893A-9F050308D8E5
+:EMAIL: ethan@altruistic.tech
+:URL: 
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Althaus, David
+:PROPERTIES:
+:ID:       39241DA7-3613-4528-9D15-AC75F25ACEED
+:EMAIL: davidalthaus749@gmail.com
+:URL: https://forum.effectivealtruism.org/users/david_althaus
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Altruismo Eficaz
+:PROPERTIES:
+:ID:       B069253C-7875-4716-B189-744EE2AC2066
+:EMAIL: 
+:URL: https://www.effectivealtruism.org/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Animal Ethics
+:PROPERTIES:
+:ID:       BCD7B687-E238-4732-B7CA-C57BF9FA34F4
+:EMAIL: info@animal-ethics.org
+:URL: https://www.animalethics.org/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Arbital
+:PROPERTIES:
+:ID:       C85B721D-B310-4F9A-93A2-44706C67B828
+:EMAIL: alexei@arbital.com
+:URL: https://arbital.com/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Askell, Amanda
+:PROPERTIES:
+:ID:       9E14D3DA-AB4C-422A-9982-E3B51E3F3BA7
+:EMAIL: amanda@askell.io
+:URL: http://www.amandaaskell.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+:END:
+
+** Baumann, Tobias
+:PROPERTIES:
+:ID:       D5564B86-33EC-462E-B1B8-EE41FFFB5846
+:EMAIL: tobias.baumann4@gmail.com
+:URL: https://tobiasbaumann.me/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+David gives permission to translate anything written by him, so does Tobias, who called attention to his recent book.
+
+** Beckstead, Nick
+:PROPERTIES:
+:ID:       C4EB03FD-938F-4826-8E7A-B1AF981E154F
+:EMAIL: nbeckstead@gmail.com
+:URL: https://www.nickbeckstead.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Total permission.
+
+** Bostrom, Nick
+:PROPERTIES:
+:ID:       F6133591-FB5B-4691-BEE0-7415E8A82E45
+:EMAIL: nick@nickbostrom.com
+:URL: http://www.nickbostrom.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Bradshaw, Will
+:PROPERTIES:
+:ID:       8B2EBA08-6FC9-4D40-9586-2B86F2ED1E90
+:EMAIL: wjbradshaw1@gmail.com
+:URL: https://forum.effectivealtruism.org/users/willbradshaw
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Böttger, Daniel
+:PROPERTIES:
+:ID:       FD4A5111-D5C9-41B3-B03F-86D283E0198D
+:EMAIL: daniel.boettger@gmail.com
+:URL: https://sevensecularsermons.org/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Carlsmith, Joseph
+:PROPERTIES:
+:ID:       53A7DDBE-93F8-4173-BBF7-39B96AC57CA7
+:EMAIL: joseph.k.carlsmith@gmail.com
+:URL: https://joecarlsmith.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Gives permission to translate anything.
+
+** Chappell, Richard Yetter
+:PROPERTIES:
+:ID:       316ABCF1-AF60-41CE-B90C-D4B125A213A4
+:EMAIL: r.chappell@gmail.com
+:URL: http://yetterchappell.net/Richard/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Christiano, Paul
+:PROPERTIES:
+:ID:       490C6E23-1FE9-4626-BF06-A5F79C5FF1B9
+:EMAIL: paulfchristiano@gmail.com
+:URL: https://paulfchristiano.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+ Paul gives permission to translate anything he has posted publicly.
+ 
+** Clare, Stephen
+:PROPERTIES:
+:ID:       9EB6DE98-B3BF-480B-9940-6BDE0CC9E8FA
+:EMAIL: thesteveclare@gmail.com
+:URL: https://forum.effectivealtruism.org/users/stephen-clare-1/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Clarke, Sam
+:PROPERTIES:
+:ID:       5585A31E-5F5B-4CC4-B03F-82FA9A13CEA1
+:EMAIL: samckclarke@gmail.com
+:URL: https://forum.effectivealtruism.org/users/samclarke
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Cotra, Ajeya
+:PROPERTIES:
+:ID:       95CB4FA5-0CC0-43A4-8DA7-F79668B20287
+:EMAIL: acotra2017@gmail.com
+:URL: https://www.planned-obsolescence.org/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+:END:
+
+** Cotton-Barratt, Owen
+:PROPERTIES:
+:ID:       015935A8-F69B-4DED-934E-E7FE4E8E08BE
+:EMAIL: owen.cb@centreforeffectivealtruism.org
+:URL: https://forum.effectivealtruism.org/users/owen_cotton-barratt
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Notify Owen each time we translate something, and note that it is a Spanish translation.
+
+** Coulter, Lucia
+:PROPERTIES:
+:ID:       53F6FBEA-9EF8-4396-9BF1-7352DBCFFE52
+:EMAIL: lucia@leadelimination.org
+:URL: female
+:GENDER: living person
+:ENTITY: 
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Dalton, Max
+:PROPERTIES:
+:ID:       9EE54002-8E79-4F97-B10C-9F01A978C280
+:EMAIL: maxrossdalton@gmail.com
+:URL: https://forum.effectivealtruism.org/users/maxdalton
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Daniel, Max
+:PROPERTIES:
+:ID:       8A9CB637-1435-4170-BE75-FC1CF934D741
+:END:
+:PROPERTIES:
+:ID:       E9D2DD1A-5632-4E51-A9FC-A3257CB07A43
+:EMAIL: max.daniel@openphilanthropy.org
+:URL: https://forum.effectivealtruism.org/users/max_daniel
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+
+Subtitles: https://docs.google.com/document/d/1X3ivWAbSBoCosbAHurNZRhEjCKiEx8_3VfkBNEDbBVo/edit:END:
+
+** Deere, Sam
+:PROPERTIES:
+:ID:       86327CFD-5208-4CC2-BB39-70A3032864CC
+:EMAIL: sam@samdeere.com
+:URL: https://forum.effectivealtruism.org/users/samdeere
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Dhyani, Jai
+:PROPERTIES:
+:ID:       810556E3-DCD4-4704-B9D6-7061439AE534
+:EMAIL: jay@jay.one
+:URL: https://www.jaidhyani.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Douglas, Tom
+:PROPERTIES:
+:ID:       90918E9C-DCA8-4CB5-ABAC-0CC23C2BF189
+:EMAIL: thomas.douglas@philosophy.ox.ac.uk
+:URL: 
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** EA Handbook
+:PROPERTIES:
+:ID:       19FD2731-C650-4199-B373-991FEC7A9CFA
+:EMAIL: 
+:URL: https://forum.effectivealtruism.org/handbook
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Elmore, Holly
+:PROPERTIES:
+:ID:       5BC16299-4410-4606-B49F-83BC0FA29958
+:EMAIL: m.holly.elmore@gmail.com
+:URL: https://hollyelmore.substack.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Wants to look over the translations before they are released. She speaks spanish and thinks she may improve some of the translation choices. She also asks for his substack versions to be preferred over the original publications.
+
+** Estier, Malou
+:PROPERTIES:
+:ID:       03F8BE3C-3101-4547-A851-C7D4DE529FB2
+:EMAIL: mahaut.estier@gmail.com
+:URL: https://www.simoninstitute.ch/about/member/malou-estier/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+:END:
+ 
+** Fenwick, Cody
+:PROPERTIES:
+:ID:       021BCBD3-919F-452A-BB1E-16AFD5EBDEF7
+:EMAIL: 
+:URL: 
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Galef, Julia
+:PROPERTIES:
+:ID:       6A97AE95-943F-4A04-9D59-381B3771A8DF
+:EMAIL: julia.galef@gmail.com
+:URL: http://www.juliagalef.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+:END:
+ 
+** Garfinkel, Ben
+:PROPERTIES:
+:ID:       B9839BB4-C4D1-44A0-AA37-E40986AB65B4
+:EMAIL: benjamin.garfinkel@philosophy.ox.ac.uk
+:URL: https://forum.effectivealtruism.org/users/bgarfinkel
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+:END:
+He gives permission to translate this article, but prefers to give specific permission for other potential articles.
+
+** GiveWell
+:PROPERTIES:
+:ID:       CA7FCDE1-6C78-4742-87C9-8314CCE8B0D1
+:EMAIL: info@givewell.org
+:URL: https://www.givewell.org/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Giving What We Can
+:PROPERTIES:
+:ID:       82ADE114-F424-4CFF-ACD3-B3366AD0A41F
+:EMAIL: community@givingwhatwecan.org
+:URL: https://www.givingwhatwecan.org/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Grace, Katja
+:PROPERTIES:
+:ID:       1D2F44C3-AD05-4CFB-AA77-D6F3CAAE8867
+:EMAIL: katjasolveig@gmail.com
+:URL: https://katjagrace.wordpress.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Gives permission to translate any of her writings.
+
+** Greaves, Hilary
+:PROPERTIES:
+:ID:       EB0082DE-7A58-4FD4-9298-C6B6A572B4EC
+:EMAIL: hilary.greaves@philosophy.ox.ac.uk
+:URL: https://users.ox.ac.uk/~mert2255/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+The translation [should] carry a note to the effect that: the translation has not been checked by the author in the translated language, and some of the author's original intent might have been unintentionally lost in the translation'.
+
+** Grilo, Vasco
+:PROPERTIES:
+:ID:       B84B4583-0433-4BB9-AC8A-42F7EDEF7A4E
+:EMAIL: vascoamaralgrilo@gmail.com
+:URL: https://forum.effectivealtruism.org/users/vascoamaralgrilo/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Halstead, John
+:PROPERTIES:
+:ID:       36247A52-FC9E-4835-8A7E-7FC9EB3B8C83
+:EMAIL: john.halstead309@gmail.com
+:URL: https://johnhalstead.org/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+ Total permission.
+ 
+** Helen
+:PROPERTIES:
+:ID:       01C1285A-A15C-48AB-BB13-0EFE333950CA
+:EMAIL: helentoner@gmail.com
+:URL: https://cset.georgetown.edu/staff/helen-toner/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+She wants to be credited as just 'Helen'.
+
+** Hillebrandt, Hauke
+:PROPERTIES:
+:ID:       6C31D1C7-2659-455C-AEDD-51B022CF174A
+:EMAIL: hauke.hillebrandt@gmail.com
+:URL: https://forum.effectivealtruism.org/users/haukehillebrandt
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Hauke gives total permission.
+
+** Hilton, Benjamin
+:PROPERTIES:
+:ID:       EB66A475-C907-47DA-AC9A-25D1CF344B3C
+:EMAIL: benjamin.hilton@80000hours.org
+:URL: https://forum.effectivealtruism.org/users/benjamin-hilton-1
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Hoeijmakers, Sjir
+:PROPERTIES:
+:ID:       A11DA5AB-94AD-490A-8547-CD5298C34346
+:EMAIL: sjirhoeijmakers@gmail.com
+:URL: https://forum.effectivealtruism.org/users/sjir-hoeijmakers
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Stephen gives permission to translate anything he's ever written. Sjir also, but he felt he should forward my email to Matt, who also agreed, but added that the policy is to show FP branding (e.g. logo and link).
+ 
+** Huang, Amy
+:PROPERTIES:
+:ID:       6F30CB48-7F77-41E3-B4DC-A20B0F972B7F
+:EMAIL: amyh@gfi.org
+:URL: https://gfi.org/team/amy-huang/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Hubinger, Evan
+:PROPERTIES:
+:ID:       02AE1A75-E9FE-4AD9-A301-F2BD470CA3E4
+:END:
+:PROPERTIES:
+:ID:       BE438448-A3EE-4729-962B-3E70A0C09FA2
+:EMAIL: evanjhub@gmail.com
+:URL: https://forum.effectivealtruism.org/users/evhub
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ Total permission:END:
+
+** Hutchinson, Michelle
+:PROPERTIES:
+:ID:       03F63A8D-3443-4429-BD27-F8F2553F0EC1
+:EMAIL: michelle.hutchinson@givingwhatwecan.org
+:URL: https://forum.effectivealtruism.org/users/michelle_hutchinson
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Total permission, conditional on all her texts should be revised by Pablo.
+
+** Johannsen, Kyle
+:PROPERTIES:
+:ID:       CBDED525-B356-4BC2-87C0-E58DD37103C3
+:EMAIL: 9kj29@queensu.ca
+:URL: male
+:GENDER: living person
+:ENTITY: yes
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Kyle gives permission for us to translate anything he's written.
+
+** John, Tyler
+:PROPERTIES:
+:ID:       AC5D4199-AB49-4A8B-B501-B6888889E702
+:EMAIL: tyler.john@rutgers.edu
+:URL: 
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+ :END:
+
+** Karnofsky, Holden
+:PROPERTIES:
+:ID:       D79BE428-75CE-40D0-9875-736FD4258182
+:EMAIL: holden@givewell.org
+:URL: https://www.cold-takes.com/author/holden/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+'That's fine, thanks!"
+
+** Kaufman, Jeff
+:PROPERTIES:
+:ID:       A443B93B-A19A-454A-BDFC-74C00008104A
+:EMAIL: jeff@jefftk.com
+:URL: https://www.jefftk.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+'link back to the jefftk.com version of the originals!'
+
+** Koehler, Arden
+:PROPERTIES:
+:ID:       1E482BED-3357-4EAD-AA8D-1E21B2DD5302
+:EMAIL: arden@80000hours.org
+:URL: https://www.ardenkoehler.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Kurzgesagt
+:PROPERTIES:
+:ID:       25D17E19-1DF5-43F4-90D1-031C086A7E78
+:EMAIL: info@kurzgesagt.org
+:URL: https://kurzgesagt.org/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Kwa, Thomas
+:PROPERTIES:
+:ID:       93AE0381-5DD0-4339-838A-491215EA0606
+:EMAIL: tkwa@caltech.edu
+:URL: https://forum.effectivealtruism.org/users/tkwa
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+'You have my consent to translate any of my longform EA Forum posts online as long as I'm credited'.
+
+** Leech, Gavin
+:PROPERTIES:
+:ID:       F0C4F536-B9BA-4627-A360-B08DFD828654
+:EMAIL: gleech@protonmail.com
+:URL: https://www.gleech.org/about/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Blanket permission!
+ 
+** Lewis, Gregory
+:PROPERTIES:
+:ID:       F13063ED-150F-43CB-8A2D-913D880EAE9A
+:EMAIL: gjlewis37@gmail.com
+:URL: https://gregoryjlewis.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Gregory gives permission to translate any writing of his.
+
+** MacAskill, William
+:PROPERTIES:
+:ID:       C40F8A6F-CFE0-409C-B8F5-338BEE263BFC
+:EMAIL: wdmacaskill@gmail.com
+:URL: http://www.williammacaskill.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** McIntyre, Peter
+:PROPERTIES:
+:ID:       A1CCCF91-A441-4543-A3B4-35477D158690
+:EMAIL: peter.mcintyre01@gmail.com
+:URL: https://forum.effectivealtruism.org/users/petermcintyre
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+ :END:
+
+** Meissner, Darius
+:PROPERTIES:
+:ID:       5C34F999-5C53-422E-88FB-7F1253829265
+:EMAIL: darius.meissner@outlook.de
+:URL: https://forum.effectivealtruism.org/users/darius1
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Melchin, Denise
+:PROPERTIES:
+:ID:       28647A3B-25F3-43C8-A22E-D31EB2B1B0C1
+:EMAIL: denisemelchin@gmail.com
+:URL: https://forum.effectivealtruism.org/users/denise_melchin
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Mogensen, Andreas
+:PROPERTIES:
+:ID:       28AFE3B6-14B1-44D8-9859-053EECF43825
+:EMAIL: andreas.mogensen@philosophy.ox.ac.uk
+:URL: https://www.andreasmogensen.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Moorhouse, Fin
+:PROPERTIES:
+:ID:       759671EA-F328-4A2B-AC8B-2708CC378954
+:EMAIL: finlaymoorhouse@gmail.com
+:URL: http://finmoorhouse.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+:END:
+
+Fin is ok with this, but he wants to be asked every time
+
+** Muehlhauser, Luke
+:PROPERTIES:
+:ID:       9282F680-377E-45C4-A455-94CA11ACAAAD
+:EMAIL: luke@openphilanthropy.org
+:URL: https://lukemuehlhauser.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Ngo, Richard
+:PROPERTIES:
+:ID:       B584E97B-D446-4F4B-90C4-27F7979F1B96
+:EMAIL: rmcn94@gmail.com
+:URL: https://forum.effectivealtruism.org/users/richard_ngo
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+ :END:
+
+** Nielsen, Michael
+:PROPERTIES:
+:ID:       852F96AE-FB77-4B1E-8014-120210C26D63
+:EMAIL: http://michaelnielsen.org/
+:URL: male
+:GENDER: living person
+:ENTITY: 
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Open Philanthropy
+:PROPERTIES:
+:ID:       F0DA657A-5207-491F-95BC-CA1687895D0E
+:EMAIL: info@openphilanthropy.org
+:URL: https://www.openphilanthropy.org/
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Ord, Toby
+:PROPERTIES:
+:ID:       D9D55648-9429-453C-AF64-1A3820ABC589
+:EMAIL: toby@amirrorclear.net
+:URL: http://www.tobyord.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Ortiz-Ospina, Esteban
+:PROPERTIES:
+:ID:       E4399386-FFA1-4BC1-B4BF-3E33D758360F
+:EMAIL: esteban@ourworldindata.org
+:URL: 
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Parfit, Derek
+:PROPERTIES:
+:ID:       9E123198-1DB1-4FF8-B502-422553AE7C63
+:EMAIL: 
+:URL: https://en.wikipedia.org/wiki/Derek_Parfit
+:GENDER: male
+:ENTITY: deceased person
+:UNIVERSAL-CONSENT: no
+:END:
+
+Jeff McMahan, Parfit's literary executor: All clear to proceed!
+
+** Picón, Leonardo
+:PROPERTIES:
+:ID:       8FFE62A2-3205-4E91-A085-C83375DDCACE
+:EMAIL: leonardodecartago@gmail.com
+:URL: https://forum.effectivealtruism.org/users/ea-wiki-assistant
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Piper, Kelsey
+:PROPERTIES:
+:ID:       B6D104F3-34AC-4DC9-9A1A-DAEFAE8F3D2B
+:EMAIL: kelsey.piper@vox.com
+:URL: https://www.planned-obsolescence.org/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Probably Good
+:PROPERTIES:
+:ID:       5B848460-A5CE-4583-A73E-C53EAC8F9897
+:EMAIL: 
+:URL: 
+:GENDER: not applicable
+:ENTITY: non-person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Rafferty, Jack
+:PROPERTIES:
+:ID:       6632DC18-BFF2-49EC-B4BF-0C9994242CDE
+:EMAIL: jack@leadelimination.org
+:URL: https://forum.effectivealtruism.org/users/jack-rafferty
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Rodriguez, Luisa
+:PROPERTIES:
+:ID:       502D6E31-F9B9-4219-8B82-3108AE3F7C6D
+:EMAIL: lrodriguez@brandeis.edu
+:URL: https://forum.effectivealtruism.org/users/luisa_rodriguez
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+ 'Fine with me!'
+ 
+** Rogers-Smith, Charlie
+:PROPERTIES:
+:ID:       12438177-6E58-4F3B-94CC-F86E650F30BC
+:EMAIL: charlierogerssmith@gmail.com
+:URL: https://www.charlierogers-smith.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Roser, Max
+:PROPERTIES:
+:ID:       7BC4C3D0-5290-41C2-8E0B-2883CDF24261
+:EMAIL: MaxCRoser@gmail.com
+:URL: https://www.maxroser.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Sandberg, Anders
+:PROPERTIES:
+:ID:       0847F16C-1814-4A27-87B7-9AA5796EC4EC
+:EMAIL: anders.sandberg@ox.ac.uk
+:URL: http://www.aleph.se/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Schubert, Stefan
+:PROPERTIES:
+:ID:       9902BEA5-BAE9-4D8F-AAEA-D4A790415E6E
+:EMAIL: stefanfredrikschubert@gmail.com
+:URL: https://stefanfschubert.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Total permission.
+
+** Sebo, Jeff
+:PROPERTIES:
+:ID:       5FD50CF6-93B4-4165-AA37-CB039F98B4E2
+:EMAIL: jeffsebo@gmail.com
+:URL: http://www.jeffsebo.net/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+ :END:
+
+** Sempere, Nuño
+:PROPERTIES:
+:ID:       F56207F9-68CE-46EC-9251-386F80393530
+:EMAIL: nuno.sempere@gmail.com
+:URL: https://nunosempere.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+ :END:
+
+** Shulman, Carl
+:PROPERTIES:
+:ID:       34D8CFC9-D9CB-415D-AF14-094ACB2AFB9B
+:EMAIL: carl.shulman@post.harvard.edu
+:URL: http://reflectivedisequilibrium.blogspot.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+:END:
+
+It looks like we should ask everytime
+** Singer, Peter
+:PROPERTIES:
+:ID:       A013F0FC-AD68-4EE2-B193-E6F9A2DAA837
+:EMAIL: psinger@princeton.edu
+:URL: https://www.petersinger.info/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Sinick, Jonah
+:PROPERTIES:
+:ID:       1862205A-E9B8-4AEF-9CCC-5149E1C9C65B
+:EMAIL: jsinick@gmail.com
+:URL: https://www.linkedin.com/in/jonahsinick
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+:END:
+
+ Jonah gives permission to translate this article in particular, but would like to be asked regarding other articles written by him.
+ 
+** Snyder-Beattie, Andrew
+:PROPERTIES:
+:ID:       AF5FA936-159E-45A4-9A68-F5A121C2B5B0
+:EMAIL: andrew.snyder-beattie@philosophy.ox.ac.uk
+:URL: https://forum.effectivealtruism.org/users/asb
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Soares, Nate
+:PROPERTIES:
+:ID:       BE6BFB37-E82B-425B-96DD-8BCF4493C6A6
+:EMAIL: nate@so8r.es
+:URL: https://mindingourway.com/about/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Sotala, Kaj
+:PROPERTIES:
+:ID:       604C723C-B053-4B86-9783-D6D1339C12FF
+:EMAIL: xuenay@gmail.com
+:URL: http://kajsotala.fi/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Tench, Emily
+:PROPERTIES:
+:ID:       DE45BC9A-82D0-4A67-9BFA-74B0417DE511
+:EMAIL: emily.tench@bnc.ox.ac.uk
+:URL: https://forum.effectivealtruism.org/users/emilytench
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Thomas, Teruji
+:PROPERTIES:
+:ID:       7EDB7165-34D1-405E-A0C6-83D382CB481A
+:EMAIL: teruji.thomas@philosophy.ox.ac.uk
+:URL: https://users.ox.ac.uk/~mert2060/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Thornley, Elliott
+:PROPERTIES:
+:ID:       3B9762F6-4511-46E4-8924-5D769A16A205
+:EMAIL: elliott.thornley@gmail.com
+:URL: https://forum.effectivealtruism.org/users/elliottthornley
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+ :END:
+
+** Todd, Benjamin
+:PROPERTIES:
+:ID:       E421504B-2A67-4B12-B02B-7B8C1A7B6491
+:EMAIL: ben@80000hours.org
+:URL: https://benjamintodd.org/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+ :END:
+
+** Tomasik, Brian
+:PROPERTIES:
+:ID:       4650F04C-3EE2-4BC2-B05F-B5E0ECD5A029
+:EMAIL: brian.tomasik@gmail.com
+:URL: https://briantomasik.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Gives total permission
+
+** Vallinder, Aron
+:PROPERTIES:
+:ID:       A1A63608-3089-4E0E-A45E-D0DA32845FBA
+:EMAIL: vallinder@gmail.com
+:URL: https://forum.effectivealtruism.org/users/aron_vallinder
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Van Nostrand, Elizabeth
+:PROPERTIES:
+:ID:       D458C3F9-30FA-4BD3-B321-F2AA9571A872
+:EMAIL: eevn@yahoo.com
+:URL: https://acesounderglass.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: no
+:END:
+
+** von Neumann, John
+:PROPERTIES:
+:ID:       920A4424-CB85-41A6-9A2F-A0B9D2BAF593
+:EMAIL: https://en.wikipedia.org/wiki/John_von_Neumann
+:URL: male
+:GENDER: deceased person
+:ENTITY: no
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Whittlestone, Jess
+:PROPERTIES:
+:ID:       D9FA4B13-E9AC-4DFA-875E-6B045F49D2B2
+:EMAIL: jess.whittlestone@gmail.com
+:URL: http://www.jesswhittlestone.com/
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+ :END:
+
+** Wiblin, Robert
+:PROPERTIES:
+:ID:       1FFBBC8C-2977-4E92-9DEB-14621C3F4D4E
+:EMAIL: robertwiblin@gmail.com
+:URL: https://www.robwiblin.com/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Williams, Evan G.
+:PROPERTIES:
+:ID:       238565B4-A513-4D5C-85D2-4F017CE009F6
+:EMAIL: williame@uwosh.edu
+:URL: 
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Wise, Julia
+:PROPERTIES:
+:ID:       DC28FEDA-F560-4C5E-ADE7-8459C7BF6C39
+:EMAIL: juliawise07@gmail.com
+:URL: https://forum.effectivealtruism.org/users/julia_wise
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+'Yes, that's fine'. (I asked permission to translate this article, as well as any other that could be a good fit for this project.)
+ 
+** Yudkowsky, Eliezer
+:PROPERTIES:
+:ID:       FAD0C707-6F3A-445A-9A28-6B6AC7EF5971
+:EMAIL: yudkowsky@gmail.com
+:URL: http://www.yudkowsky.net/
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: unknown
+ :END:
+
+** Zabel, Claire
+:PROPERTIES:
+:ID:       0444934A-EB0E-49B0-BD3E-E92D539A4C3B
+:EMAIL: clairelouisezabel@gmail.com
+:URL: https://forum.effectivealtruism.org/users/clairezabel
+:GENDER: female
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+Total permission
+** Zhang, Linch
+:PROPERTIES:
+:ID:       18FB229A-BC38-4158-A8B4-60C62CC07B0F
+:EMAIL: email.linch@gmail.com
+:URL: https://forum.effectivealtruism.org/users/linch
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: waiting
+:END:
+
+Gives total permission.
+
+** Šimčikas, Saulius
+:PROPERTIES:
+:ID:       FBC50744-71C1-48C8-AD04-FBDCB7BBA35B
+:EMAIL: sauliussimcikas@yahoo.com
+:URL: https://forum.effectivealtruism.org/users/saulius
+:GENDER: male
+:ENTITY: living person
+:UNIVERSAL-CONSENT: yes
+:END:
+
+ 'Permission granted'.
+ 

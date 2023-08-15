@@ -311,7 +311,7 @@ Subtitles: https://docs.google.com/document/d/1X3ivWAbSBoCosbAHurNZRhEjCKiEx8_3V
 :UNIVERSAL-CONSENT: yes
 :END:
 
-Wants to look over the translations before they are released. She speaks spanish and thinks she may improve some of the translation choices. She also asks for his substack versions to be preferred over the original publications.
+Wants to look over the translations before they are released. She speaks mp and thinks she may improve some of the translation choices. She also asks for his Substack versions to be preferred over the original publications.
 
 ** Estier, Malou
 :PROPERTIES:
@@ -861,7 +861,7 @@ Total permission.
 :UNIVERSAL-CONSENT: no
 :END:
 
-It looks like we should ask everytime
+It looks like we should ask every time
 ** Singer, Peter
 :PROPERTIES:
 :ID:       A013F0FC-AD68-4EE2-B193-E6F9A2DAA837

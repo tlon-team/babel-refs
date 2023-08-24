@@ -20,8 +20,8 @@
   <locale xml:lang="es">
     <terms>
       <term name="editortranslator" form="short">
-        <single>ed. &amp; trans.</single>
-        <multiple>eds. &amp; trans.</multiple>
+        <single>ed. &amp; trad.</single>
+        <multiple>eds. &amp; trads.</multiple>
       </term>
       <term name="translator" form="verb">traducción de</term>
       <term name="editor" form="verb">edición de</term>
@@ -74,7 +74,7 @@
               <label form="verb" text-case="title" suffix=" "/>
               <name and="symbol" initialize-with=". " delimiter=", "/>
             </names>
-            <names variable="editor translator" delimiter=", ">
+            <names variable="editor" delimiter=", ">
               <label form="verb" text-case="lowercase" suffix=" "/>
               <name and="symbol" initialize-with=". " delimiter=", "/>
             </names>
@@ -125,10 +125,6 @@
               </names>
             </if>
           </choose>
-          <names variable="translator" delimiter=", ">
-            <name and="symbol" initialize-with=". " delimiter=", "/>
-            <label form="short" prefix=", " text-case="title"/>
-          </names>
         </group>
       </else-if>
       <else>
@@ -141,10 +137,6 @@
               </names>
             </if>
           </choose>
-          <names variable="editor translator" delimiter=", ">
-            <name and="symbol" initialize-with=". " delimiter=", "/>
-            <label form="short" prefix=", " text-case="title"/>
-          </names>
         </group>
       </else>
     </choose>

@@ -439,7 +439,7 @@
                 <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
               </if>
               <else-if match="any" variable="ISBN">
-                <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
+                <text variable="title" text-case="title" font-style="normal" prefix="[*@" suffix="*]"/>
                 <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
               </else-if>
               <else-if match="any" variable="URL">

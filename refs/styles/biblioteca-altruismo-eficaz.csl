@@ -397,8 +397,8 @@
                   <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
                 </if>
                 <else-if match="any" variable="URL">
-                  <text variable="version" prefix="[" suffix=" "/>
-                  <text variable="title" prefix="*" suffix="*]"/>
+                  <text variable="title" prefix="[" suffix=" "/>
+                  <text variable="version" prefix="*" suffix="*]"/>
                   <text variable="URL" prefix="(" suffix="),"/>
                 </else-if>
                 <else-if match="any" variable="ISBN">

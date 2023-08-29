@@ -366,26 +366,26 @@
           </else-if>
           <else-if type="post post-weblog webpage broadcast report article-journal article-magazine article-newspaper paper-conference speech" match="any">
              <choose>
-              <if match="any" variable="container-title-short">
+              <if match="any" variable="original-title">
             <choose>
               <if match="any" variable="DOI">
                 <text variable="title" prefix="'" suffix="',"/>
-                <text variable="container-title-short" prefix=" en [" suffix="]"/>
+                <text variable="original-title" prefix=" en [" suffix="]"/>
                 <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
               </if>
               <else-if match="any" variable="URL">
                 <text variable="title" prefix="'" suffix="',"/>
-                <text variable="container-title-short" prefix=" en [" suffix="]"/>
+                <text variable="original-title" prefix=" en [" suffix="]"/>
                 <text variable="URL" prefix="(" suffix="),"/>
               </else-if>
               <else-if match="any" variable="ISBN">
                 <text variable="title" prefix="'" suffix="',"/>
-                <text variable="container-title-short" prefix=" en [" suffix="]"/>
+                <text variable="original-title" prefix=" en [" suffix="]"/>
                 <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
               </else-if>
               <else>
                 <text variable="title" prefix="'" suffix="',"/>
-                <text variable="container-title-short" prefix=" en '" suffix="',"/>
+                <text variable="original-title" prefix=" en '" suffix="',"/>
               </else>
             </choose>
               </if>

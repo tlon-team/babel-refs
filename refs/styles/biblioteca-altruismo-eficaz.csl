@@ -915,7 +915,8 @@
       </else-if>
       <else-if type="speech">
         <group delimiter=", ">
-          <group>
+          <group delimiter=", ">
+	    <text variable="event-title" text-case="title" font-style="normal" prefix="*" suffix="*"/>
             <text variable="publisher-place"/>
           </group>
           <group>

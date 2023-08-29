@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="en-US">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="es-ES">
   <info>
     <title>Biblioteca Altruismo Eficaz</title>
     <title-short>BAE</title-short>
@@ -673,17 +673,7 @@
                 <date-part prefix=", " name="month"/>
               </date>
             </if>
-            <else-if type="article article-magazine article-newspaper broadcast interview pamphlet personal_communication post post-weblog speech treaty webpage" match="any"/>
-            <else-if type="paper-conference">
-              <choose>
-                <if variable="container-title" match="none">
-                  <date variable="issued">
-                    <date-part prefix=", " name="month"/>
-                    <date-part prefix=" " name="day"/>
-                  </date>
-                </if>
-              </choose>
-            </else-if>
+            <else-if type="article article-magazine article-newspaper broadcast interview pamphlet personal_communication post post-weblog speech treaty webpage paper-conference" match="any"/>
           </choose>
         </group>
       </if>

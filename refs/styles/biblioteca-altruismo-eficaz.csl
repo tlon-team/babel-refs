@@ -921,8 +921,8 @@
           </group>
           <group>
             <date delimiter=" " variable="issued">
+              <date-part name="day" suffix=" de "/>
               <date-part name="month"/>
-              <date-part name="day"/>
             </date>
           </group>
         </group>

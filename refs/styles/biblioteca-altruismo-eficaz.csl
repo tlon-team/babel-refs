@@ -338,7 +338,7 @@
                   </else-if>
                   <else-if match="any" variable="ISBN">
                     <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
+                    <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
                   </else-if>
                   <else>
                     <text variable="title" prefix="'" suffix="',"/>
@@ -357,7 +357,7 @@
                   </else-if>
                   <else-if match="any" variable="ISBN">
                     <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix=")"/>
+                    <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")"/>
                   </else-if>
                   <else>
                     <text variable="title"/>
@@ -381,7 +381,7 @@
               <else-if match="any" variable="ISBN">
                 <text variable="title" prefix="'" suffix="',"/>
                 <text variable="original-title" prefix=" en [" suffix="]"/>
-                <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
               </else-if>
               <else>
                 <text variable="title" prefix="'" suffix="',"/>
@@ -404,7 +404,7 @@
                 <else-if match="any" variable="ISBN">
                   <text variable="title" prefix="[" suffix=" "/>
                   <text variable="version" prefix="*" suffix="*]"/>
-                  <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
+                  <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
                 </else-if>
                 <else>
                   <text variable="title" prefix="'" suffix=" "/>
@@ -424,7 +424,7 @@
               </else-if>
               <else-if match="any" variable="ISBN">
                 <text variable="title" prefix="[" suffix="]"/>
-                <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
               </else-if>
               <else>
                 <text variable="title" prefix="'" suffix="',"/>
@@ -441,7 +441,7 @@
               </if>
               <else-if match="any" variable="ISBN">
                 <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="ISBN" prefix="(https://es.wikipedia.org/wiki/Especial:FuentesDeLibros/" suffix="),"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
               </else-if>
               <else-if match="any" variable="URL">
                 <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>

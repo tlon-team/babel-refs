@@ -29,10 +29,10 @@
       <term name="circa" form="short">ca.</term>
       <term name="collection-editor" form="short">ed. de la serie</term>
       <term name="et-al"> *et al.*</term>
-      <term name="open-quote">"</term>
-      <term name="close-quote">"</term>
-      <term name="open-inner-quote">'</term>
-      <term name="close-inner-quote">'</term>
+      <term name="open-quote">“</term>
+      <term name="close-quote">”</term>
+      <term name="open-inner-quote">‘</term>
+      <term name="close-inner-quote">’</term>
     </terms>
   </locale>
   <macro name="container-contributors-booklike">
@@ -341,7 +341,7 @@
                     <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
                   </else-if>
                   <else>
-                    <text variable="title" prefix="'" suffix="',"/>
+                    <text variable="title" prefix="‘" suffix="’,"/>
                   </else>
                 </choose>
           </else-if>
@@ -369,23 +369,23 @@
               <if match="any" variable="original-title">
             <choose>
               <if match="any" variable="DOI">
-                <text variable="title" prefix="'" suffix="',"/>
+                <text variable="title" prefix="‘" suffix="’,"/>
                 <text variable="original-title" prefix=" en [" suffix="]"/>
                 <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
               </if>
               <else-if match="any" variable="URL">
-                <text variable="title" prefix="'" suffix="',"/>
+                <text variable="title" prefix="‘" suffix="’,"/>
                 <text variable="original-title" prefix=" en [" suffix="]"/>
                 <text variable="URL" prefix="(" suffix="),"/>
               </else-if>
               <else-if match="any" variable="ISBN">
-                <text variable="title" prefix="'" suffix="',"/>
+                <text variable="title" prefix="‘" suffix="’,"/>
                 <text variable="original-title" prefix=" en [" suffix="]"/>
                 <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
               </else-if>
               <else>
-                <text variable="title" prefix="'" suffix="',"/>
-                <text variable="original-title" prefix=" en '" suffix="',"/>
+                <text variable="title" prefix="‘" suffix="’,"/>
+                <text variable="original-title" prefix=" en ‘" suffix="’,"/>
               </else>
             </choose>
               </if>
@@ -407,8 +407,8 @@
                   <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
                 </else-if>
                 <else>
-                  <text variable="title" prefix="'" suffix=" "/>
-                  <text variable="version" prefix="*" suffix="*',"/>
+                  <text variable="title" prefix="‘" suffix=" "/>
+                  <text variable="version" prefix="*" suffix="*’,"/>
                 </else>
               </choose>
              </else-if>
@@ -427,7 +427,7 @@
                 <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
               </else-if>
               <else>
-                <text variable="title" prefix="'" suffix="',"/>
+                <text variable="title" prefix="‘" suffix="’,"/>
               </else>
             </choose>
             </else>

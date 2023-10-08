@@ -272,6 +272,6 @@
     ["unpublished", "inédito", "institution"],
     ["(\\w+[^,\/]+?) State University", ", Universidad Estatal de $1", "institution"], 
     ["(\\w+[^,\/]+?) University", ", Universidad de $1", "institution"],
-    ["(\\w+[^,\/]+?)'s Website", "Sitio Web de $1", "journaltitle"],
-    ["(\\w+[^,\/]+?)'s Blog", "Blog de $1", "journaltitle"]
+    ["(\\w+[^,\/]+?)'s Website", "sitio web de $1", "journaltitle"],
+    ["(\\w+[^,\/]+?)'s Blog", "*blog* de $1", "journaltitle"]
 ]

@@ -1,8 +1,14 @@
 {
   "Cotra2020ForecastingTaiWitha": [
-      {
-	  "sectionOriginal": "How do we define “transformative AI” and “transformative model”?",
-	  "sectionSpanish": "¿Cómo definimos \"IA transformadora\" y \"modelo transformador\"?"
-      }
+    {
+      "sectionOriginal": "How do we define “transformative AI” and “transformative model”?",
+      "sectionSpanish": "¿Cómo definimos \"IA transformadora\" y \"modelo transformador\"?"
+    }
+  ],
+  "Carlsmith2021DraftReportExistential": [
+    {
+      "sectionOriginal": "Three key properties",
+      "sectionSpanish": "Tres propiedades clave"
+    }
   ]
 }

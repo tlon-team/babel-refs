@@ -110,6 +110,15 @@ and statistics},
 	urldate = {2023-09-25}
 }
 
+@Book{Achiam2018SpinningUpIn,
+	date = {2018},
+	url = {https://spinningup.openai.com/en/latest/index.html},
+	publisher = {OpenAI},
+	title = {Spinning Up in Deep RL},
+	author = {Achiam, Josh},
+	timestamp = {2023-11-15 16:47:32 (GMT)}
+}
+
 @Book{Agrawal2019EconomicsOfArtificial,
 	date = {2019},
 	editor = {Agrawal, Ajay and Gans, Joshua and Goldfarb, Avi},
@@ -1016,6 +1025,40 @@ and statistics},
 	urldate = {2023-10-30}
 }
 
+@article{Christiano2017DeepReinforcementLearning,
+	number = {arXiv:1706.03741 [stat.ML]},
+	database = {Tlön},
+	file = {~/Google Drive/library-pdf/Christiano2017DeepReinforcementLearning.pdf},
+	langid = {english},
+	author = {Christiano, Paul and Leike, Jan and Brown, Tom B.
+                  and Martic, Miljan and Legg, Shane and Amodei,
+                  Dario},
+	title = {Deep reinforcement learning from human preferences},
+	doi = {10.48550/ARXIV.1706.03741},
+	url = {https://arxiv.org/abs/1706.03741},
+	abstract = {For sophisticated reinforcement learning ({RL})
+                  systems to interact usefully with real-world
+                  environments, we need to communicate complex goals
+                  to these systems. In this work, we explore goals
+                  defined in terms of (non-expert) human preferences
+                  between pairs of trajectory segments. We show that
+                  this approach can effectively solve complex {RL}
+                  tasks without access to the reward function,
+                  including Atari games and simulated robot
+                  locomotion, while providing feedback on less than
+                  one percent of our agent's interactions with the
+                  environment. This reduces the cost of human
+                  oversight far enough that it can be practically
+                  applied to state-of-the-art {RL} systems. To
+                  demonstrate the flexibility of our approach, we show
+                  that we can successfully train complex novel
+                  behaviors with about an hour of human time. These
+                  behaviors and environments are considerably more
+                  complex than any that have been previously learned
+                  from human feedback.},
+	date = 2017
+}
+
 @Report{Christiano2021ElicitingLatentKnowledge,
 	file = {~/Google Drive/library-pdf/Christiano2021ElicitingLatentKnowledge.pdf},
 	date = {2021-12},
@@ -1118,6 +1161,47 @@ and statistics},
 	institution = {Clean Air Fund},
 	author = {Clean Air Fund},
 	timestamp = {2023-10-17 08:38:04 (GMT)}
+}
+
+@Article{Cohen2020PessimismAboutUnknown,
+	file = {~/Google Drive/library-pdf/Cohen2020PessimismAboutUnknown.pdf},
+	number = {arXiv:2006.08753 [cs.AI]},
+	abstract = {If we could define the set of all bad outcomes, we could
+                  hard-code an agent which avoids them; however, in sufficiently
+                  complex environments, this is infeasible. We do not know of
+                  any general-purpose approaches in the literature to avoiding
+                  novel failure modes. Motivated by this, we define an idealized
+                  Bayesian reinforcement learner which follows a policy that
+                  maximizes the worst-case expected reward over a set of
+                  world-models. We call this agent pessimistic, since it
+                  optimizes assuming the worst case. A scalar parameter tunes
+                  the agent's pessimism by changing the size of the set of
+                  world-models taken into account. Our first main contribution
+                  is: given an assumption about the agent's model class, a
+                  sufficiently pessimistic agent does not cause "unprecedented
+                  events" with probability \$1-{\textbackslash}delta\$, whether
+                  or not designers know how to precisely specify those
+                  precedents they are concerned with. Since pessimism
+                  discourages exploration, at each timestep, the agent may defer
+                  to a mentor, who may be a human or some known-safe policy we
+                  would like to improve. Our other main contribution is that the
+                  agent's policy's value approaches at least that of the mentor,
+                  while the probability of deferring to the mentor goes to 0. In
+                  high-stakes environments, we might like advanced artificial
+                  agents to pursue goals cautiously, which is a non-trivial
+                  problem even if the agent were allowed arbitrary computing
+                  power; we present a formal solution.},
+	author = {Cohen, Michael K. and Hutter, Marcus},
+	date = {2020-06-15},
+	eprint = {2006.08753 [cs]},
+	eprinttype = {arxiv},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science -
+                  Machine Learning, I.2.0, I.2.6},
+	publisher = {{arXiv}},
+	timestamp = {2023-11-15 18:09:47 (GMT)},
+	title = {Pessimism about unknown unknowns inspires conservatism},
+	url = {http://arxiv.org/abs/2006.08753},
+	urldate = {2023-11-15}
 }
 
 @online{Cooper2022TaleOf2,
@@ -1500,6 +1584,22 @@ and statistics},
 	shorttitle = {The Mortality and Medical Costs of Air Pollution},
 	timestamp = {2023-10-16 17:22:33 (GMT)},
 	urldate = {2023-10-16}
+}
+
+@online{Dettmers2018MachineLearningPhd,
+	file = {~/Google Drive/library-pdf/Dettmers2018MachineLearningPhd.pdf;~/Google Drive/library-html/Dettmers2018MachineLearningPhd.html},
+	abstract = {This blog post explains how to proceed in your {PhD}
+                  applications from A to Z and how to get admitted to top school
+                  in deep learning and machine learning.},
+	author = {Dettmers, Tim},
+	date = {2018-11-26},
+	journaltitle = {Tim Dettmers},
+	langid = {american},
+	timestamp = {2023-11-15 16:18:21 (GMT)},
+	title = {Machine Learning {PhD} Applications - Everything You Need to
+                  Know},
+	url = {https://timdettmers.com/2018/11/26/phd-applications/},
+	urldate = {2023-11-15}
 }
 
 @InCollection{Diderot1755Encyclopedie,
@@ -2006,6 +2106,115 @@ and statistics},
 	urldate = {2023-10-16}
 }
 
+@Article{Garrabrant2020LogicalInduction,
+	file = {~/Google Drive/library-pdf/Garrabrant2020LogicalInduction.pdf},
+	number = {arXiv:1609.03543 [cs.AI]},
+	abstract = {We present a computable algorithm that assigns probabilities
+                  to every logical statement in a given formal language, and
+                  refines those probabilities over time. For instance, if the
+                  language is Peano arithmetic, it assigns probabilities to all
+                  arithmetical statements, including claims about the twin prime
+                  conjecture, the outputs of long-running computations, and its
+                  own probabilities. We show that our algorithm, an instance of
+                  what we call a logical inductor, satisfies a number of
+                  intuitive desiderata, including: (1) it learns to predict
+                  patterns of truth and falsehood in logical statements, often
+                  long before having the resources to evaluate the statements,
+                  so long as the patterns can be written down in polynomial
+                  time; (2) it learns to use appropriate statistical summaries
+                  to predict sequences of statements whose truth values appear
+                  pseudorandom; and (3) it learns to have accurate beliefs about
+                  its own current beliefs, in a manner that avoids the standard
+                  paradoxes of self-reference. For example, if a given computer
+                  program only ever produces outputs in a certain range, a
+                  logical inductor learns this fact in a timely manner; and if
+                  late digits in the decimal expansion of \${\textbackslash}pi\$
+                  are difficult to predict, then a logical inductor learns to
+                  assign \${\textbackslash}approx 10{\textbackslash}\%\$
+                  probability to "the \$n\$th digit of \${\textbackslash}pi\$ is
+                  a 7" for large \$n\$. Logical inductors also learn to trust
+                  their future beliefs more than their current beliefs, and
+                  their beliefs are coherent in the limit (whenever
+                  \${\textbackslash}phi {\textbackslash}implies
+                  {\textbackslash}psi\$,
+                  \${\textbackslash}mathbb\{P\}\_{\textbackslash}infty({\textbackslash}phi)
+                  {\textbackslash}le
+                  {\textbackslash}mathbb\{P\}\_{\textbackslash}infty({\textbackslash}psi)\$,
+                  and so on); and logical inductors strictly dominate the
+                  universal semimeasure in the limit. These properties and many
+                  others all follow from a single logical induction criterion,
+                  which is motivated by a series of stock trading analogies.
+                  Roughly speaking, each logical sentence
+                  \${\textbackslash}phi\$ is associated with a stock that is
+                  worth {\textbackslash}\$1 per share if [...]},
+	author = {Garrabrant, Scott and Benson-Tilsen, Tsvi and Critch, Andrew
+                  and Soares, Nate and Taylor, Jessica},
+	date = {2020-12-07},
+	eprint = {1609.03543 [cs, math]},
+	eprinttype = {arxiv},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science -
+                  Logic in Computer Science, Mathematics - Logic, Mathematics -
+                  Probability},
+	publisher = {{arXiv}},
+	timestamp = {2023-11-15 18:15:34 (GMT)},
+	title = {Logical induction},
+	url = {http://arxiv.org/abs/1609.03543},
+	urldate = {2023-11-15}
+}
+
+@Article{Garrabrant2021CartesianFrames,
+	file = {~/Google Drive/library-pdf/Garrabrant2021CartesianFrames.pdf},
+	number = {arXiv:2109.10996 [math.CT]},
+	abstract = {We introduce a novel framework, the theory of Cartesian frames
+                  ({CF}), that gives powerful tools for manipulating sets of
+                  acts. The {CF} framework takes as its most fundamental
+                  building block that an agent can freely choose from a set of
+                  available actions. The framework uses the mathematics of Chu
+                  spaces to develop a calculus of those sets of actions, how
+                  those actions change at various levels of description, and how
+                  different agents' actions can combine when agents work in
+                  concert. We discuss how this framework might provide an
+                  illuminating perspective on issues in decision theory and
+                  formal epistemology.},
+	author = {Garrabrant, Scott and Herrmann, Daniel A. and Lopez-Wild,
+                  Josiah},
+	date = {2021-09-22},
+	eprint = {2109.10996 [math]},
+	eprinttype = {arxiv},
+	keywords = {Mathematics - Category Theory},
+	publisher = {{arXiv}},
+	timestamp = {2023-11-15 18:18:05 (GMT)},
+	title = {Cartesian frames},
+	url = {http://arxiv.org/abs/2109.10996},
+	urldate = {2023-11-15}
+}
+
+@Article{Garrabrant2021TemporalInferenceWith,
+	file = {~/Google Drive/library-pdf/Garrabrant2021TemporalInferenceWith.pdf},
+	number = {arXiv:2109.11513 [cs.AI]},
+	abstract = {We propose a new approach to temporal inference, inspired by
+                  the Pearlian causal inference paradigm - though quite
+                  different from Pearl's approach formally. Rather than using
+                  directed acyclic graphs, we make use of factored sets, which
+                  are sets expressed as Cartesian products. We show that finite
+                  factored sets are powerful tools for inferring temporal
+                  relations. We introduce an analog of d-separation for factored
+                  sets, conditional orthogonality, and we demonstrate that this
+                  notion is equivalent to conditional independence in all
+                  probability distributions on a finite factored set.},
+	author = {Garrabrant, Scott},
+	date = {2021-09-23},
+	eprint = {2109.11513 [cs, math]},
+	eprinttype = {arxiv},
+	keywords = {Computer Science - Artificial Intelligence, Mathematics -
+                  Combinatorics, Mathematics - Probability},
+	publisher = {{arXiv}},
+	timestamp = {2023-11-15 18:22:31 (GMT)},
+	title = {Temporal inference with finite factored sets},
+	url = {http://arxiv.org/abs/2109.11513},
+	urldate = {2023-11-15}
+}
+
 @online{Ghosh2021ScrappagePolicyIs,
 	file = {~/Google Drive/library-pdf/Ghosh2021ScrappagePolicyIs.pdf;~/Google Drive/library-html/Ghosh2021ScrappagePolicyIs.html},
 	date = {2021-01-26},
@@ -2197,6 +2406,18 @@ and statistics},
 	urldate = {2023-09-27}
 }
 
+@Online{Gleave2020CareersInBeneficial,
+	file = {~/Google Drive/library-pdf/Gleave2020CareersInBeneficial.pdf},
+	journaltitle = {Google Docs},
+	langid = {english},
+	database = {Tlön},
+	url = {https://docs.google.com/document/d/1RFo7_9JVmt0z8RPwUjB-mUMgCMoUQmsaj2CM5aHvxCw/edit#heading=h.4rmlfrfd60b6},
+	date = {2020-06-07},
+	author = {Gleave, Adam},
+	title = {Careers in beneficial AI research},
+	timestamp = {2023-11-15 16:05:06 (GMT)}
+}
+
 @Report{Goel2013MethodsToEstimate,
 	file = {~/Google Drive/library-pdf/Goel2013MethodsToEstimate.pdf},
 	url = {https://wedocs.unep.org/handle/20.500.11822/16973},
@@ -2328,8 +2549,8 @@ and statistics},
 @Article{Greaves2023ConceptsOfExistential,
 	abstract = {The notion of existential catastrophe is increasingly appealed to in discussion of risk management around emerging technologies, but it is not completely clear what this notion amounts to. Here, I provide an opinionated survey of the space of plausibly useful definitions of existential catastrophe. Inter alia, I discuss: whether to define existential catastrophe in ex post or ex ante terms, whether an ex ante definition should be in terms of loss of expected value or loss of potential, and what kind of probabilities should be involved in any appeal to expected value.},
 	file = {~/Google Drive/library-pdf/Greaves2023ConceptsOfExistential.pdf},
-  langid = 	 {english},
-  database = 	 {Tlön},
+	langid = {english},
+	database = {Tlön},
 	date = {2023},
 	journaltitle = {The Monist},
 	title = {Concepts of existential catastrophe},
@@ -2403,6 +2624,40 @@ and statistics},
 	title = {What to do with old vehicles? Towards effective scrappage policy and infrastructure },
 	url = {https://www.cseindia.org/what-to-do-with-old-vehicles--10379},
 	urldate = {2023-10-16}
+}
+
+@Article{Hadfield-Menell2016CooperativeInverseReinforcement,
+	file = {~/Google Drive/library-pdf/Hadfield-Menell2016CooperativeInverseReinforcement.pdf},
+	number = {arXiv:1606.03137v3},
+	abstract = {For an autonomous system to be helpful to humans and to pose
+                  no unwarranted risks, it needs to align its values with those
+                  of the humans in its environment in such a way that its
+                  actions contribute to the maximization of value for the
+                  humans. We propose a formal definition of the value alignment
+                  problem as cooperative inverse reinforcement learning
+                  ({CIRL}). A {CIRL} problem is a cooperative,
+                  partial-information game with two agents, human and robot;
+                  both are rewarded according to the human's reward function,
+                  but the robot does not initially know what this is. In
+                  contrast to classical {IRL}, where the human is assumed to act
+                  optimally in isolation, optimal {CIRL} solutions produce
+                  behaviors such as active teaching, active learning, and
+                  communicative actions that are more effective in achieving
+                  value alignment. We show that computing optimal joint policies
+                  in {CIRL} games can be reduced to solving a {POMDP}, prove
+                  that optimality in isolation is suboptimal in {CIRL}, and
+                  derive an approximate {CIRL} algorithm.},
+	author = {Hadfield-Menell, Dylan and Dragan, Anca and Abbeel, Pieter and
+                  Russell, Stuart},
+	date = {2016-11-12},
+	eprint = {1606.03137 [cs]},
+	eprinttype = {arxiv},
+	keywords = {Computer Science - Artificial Intelligence},
+	publisher = {{arXiv}},
+	timestamp = {2023-11-15 18:24:48 (GMT)},
+	title = {Cooperative inverse reinforcement learning},
+	url = {http://arxiv.org/abs/1606.03137},
+	urldate = {2023-11-15}
 }
 
 @book{Haidt2012RighteousMindWhy,
@@ -2850,6 +3105,15 @@ and statistics},
 	urldate = {2023-11-07}
 }
 
+@online{Hubinger2022ReadingListEvan,
+	howpublished = {unpublished},
+	url = {https://docs.google.com/document/d/1qI7mXryWSKKMxr40y_JgOwM8QpYX9OwQdRz9B_D95gg/edit#heading=h.fzggmanhz8p4},
+	date = {2022},
+	title = {Reading list: Evan Hubinger’s AI safety worldview},
+	author = {Hubinger, Evan},
+	timestamp = {2023-11-15 18:37:50 (GMT)}
+}
+
 @Online{Hubinger2022TransparencyAndInterpretability,
 	file = {~/Google Drive/library-html/Hubinger2022TransparencyAndInterpretability.html;~/Google Drive/library-pdf/Hubinger2022TransparencyAndInterpretability.pdf},
 	date = {2022-06-17},
@@ -3268,6 +3532,30 @@ and statistics},
 	urldate = {2023-11-07}
 }
 
+@online{Karpathy2016SurvivalGuideTo,
+	file = {~/Google Drive/library-pdf/Karpathy2016SurvivalGuideTo.pdf;~/Google Drive/library-html/Karpathy2016SurvivalGuideTo.html},
+	date = {2016-09-07},
+	journaltitle = {Andrej Karpathy's Blog},
+	author = {Karpathy, Andrej},
+	abstract = {Musings of a Computer Scientist.},
+	timestamp = {2023-11-15 16:15:07 (GMT)},
+	title = {A Survival Guide to a {PhD}},
+	url = {http://karpathy.github.io/2016/09/07/phd/},
+	urldate = {2023-11-15}
+}
+
+@online{Karpathy2019RecipeForTraining,
+	file = {~/Google Drive/library-html/Karpathy2019RecipeForTraining.html;~/Google Drive/library-pdf/Karpathy2019RecipeForTraining.pdf},
+	date = {2019-04-25},
+	journaltitle = {Andrej Karpathy's Blog},
+	author = {Karpathy, Andrej},
+	abstract = {Musings of a Computer Scientist.},
+	timestamp = {2023-11-15 17:54:03 (GMT)},
+	title = {A recipe for training neural networks},
+	url = {http://karpathy.github.io/2019/04/25/recipe/},
+	urldate = {2023-11-15}
+}
+
 @online{Kbog2023AiWeapons,
 	file = {~/Google Drive/library-pdf/Kbog2023AiWeapons.pdf;~/Google Drive/library-html/Kbog2023AiWeapons.html},
 	date = {2019-11-13},
@@ -3566,6 +3854,21 @@ and statistics},
                   Accountability on Cognitive Bias},
 	url = {https://www.cambridge.org/core/product/identifier/CBO9780511609978A026/type/book_part},
 	urldate = {2023-10-22}
+}
+
+@Online{Lorenz2022AdvicePursuingTechnical,
+	file = {~/Google Drive/library-html/Frances_Lorenz2023AdvicePursuingTechnical.html;~/Google Drive/library-pdf/Frances_Lorenz2023AdvicePursuingTechnical.pdf},
+	date = {2022-05-31},
+	journaltitle = {Effective Altruism Forum},
+	author = {Lorenz, Frances},
+	title = {Advice on pursuing technical {AI} safety research},
+	url = {https://forum.effectivealtruism.org/posts/fRjj6nm9xbW4kFcTZ/advice-on-pursuing-technical-ai-safety-research},
+	abstract = {1. Introduction This post is a collection of tips and tricks
+                  for pursuing work in technical {AI} Safety (gathered by
+                  chatting with numerous Alignment r...},
+	langid = {english},
+	timestamp = {2023-11-15 17:26:09 (GMT)},
+	urldate = {2023-11-15}
 }
 
 @online{MacAskill2018WhatAreMost,
@@ -4251,6 +4554,31 @@ and statistics},
 	urldate = {2023-10-18}
 }
 
+@online{Olsson2018MlEngineeringFor,
+	file = {~/Google Drive/library-pdf/Olsson2018MlEngineeringFor.pdf;~/Google Drive/library-html/Olsson2018MlEngineeringFor.html},
+	date = {2018-09},
+	author = {Olsson, Catherine},
+	abstract = {Technical {AI} safety is a multifaceted area of research, with
+                  many sub-questions in areas such as reward learning,
+                  robustness, and interpretability. These will all need to be
+                  answered in order to make sure {AI} development will go well
+                  for humanity as systems become more and more powerful. Not all
+                  of these questions are best tackled with abstract mathematics
+                  research; some can be approached with concrete coding
+                  experiments and machine learning ({ML}) prototypes. As a
+                  result, some {AI} safety research teams are looking to hire a
+                  growing number of Software Engineers and {ML} Research
+                  Engineers.},
+	journaltitle = {80,000 Hours},
+	langid = {american},
+	shorttitle = {{ML} engineering for {AI} safety \& robustness},
+	timestamp = {2023-11-15 17:37:15 (GMT)},
+	title = {{ML} engineering for {AI} safety & robustness: a Google Brain
+                  engineer's guide to entering the field},
+	url = {https://80000hours.org/articles/ml-engineering-career-transition-guide/},
+	urldate = {2023-11-15}
+}
+
 @online{OpenPhilanthropy2016ScientificResearch,
 	file = {~/Google Drive/library-pdf/OpenPhilanthropy2016ScientificResearch.pdf;~/Google Drive/library-html/OpenPhilanthropy2016ScientificResearch.html},
 	date = {2016},
@@ -4312,6 +4640,7 @@ and statistics},
 @book{Organization2021ToolkitForEstablishing,
 	author = {{World Health Organization}},
 	title = {Toolkit for establishing laws to eliminate lead in paint},
+	database = {Tlön},
 	publisher = {World Health Organization},
 	url = {https://iris.who.int/handle/10665/345944},
 	abstract = {The need for regulating lead paint; Overview of the Global
@@ -4363,6 +4692,8 @@ and statistics},
 @collection{Partridge1981ResponsibilitiesToFuture,
 	date = {1981},
 	editor = {Partridge, Ernest},
+	langid = {english},
+	database = {Tlön},
 	isbn = {9780879751425},
 	keywords = {Environmental ethics, Conservation of natural resources, Moral
                   and ethical aspects},
@@ -4501,6 +4832,7 @@ averting deaths and reducing poverty},
                   Timothy},
 	title = {Exposure to fine particulate air pollution is associated with
                   endothelial injury and systemic inflammation},
+	database = {Tlön},
 	volume = {119},
 	number = {11},
 	pages = {1204--1214},
@@ -4595,6 +4927,20 @@ averting deaths and reducing poverty},
 	langid = {english},
 	timestamp = {2023-09-26 09:00:10 (GMT)},
 	urldate = {2023-09-26}
+}
+
+@online{Rahtz2018LessonsLearnedReproducing,
+	file = {~/Google Drive/library-html/Rahtz2018LessonsLearnedReproducing.html;~/Google Drive/library-pdf/Rahtz2018LessonsLearnedReproducing.pdf},
+	date = {2018-04-06},
+	langid = {english},
+	database = {Tlön},
+	journaltitle = {Amid Fish},
+	author = {Rahtz, Matthew},
+	timestamp = {2023-11-15 17:48:51 (GMT)},
+	title = {Lessons learned reproducing a deep reinforcement learning
+                  paper},
+	url = {http://amid.fish/reproducing-deep-rl},
+	urldate = {2023-11-15}
 }
 
 @online{Rakshit2020IndiasPollutionRegulators,
@@ -5053,6 +5399,23 @@ averting deaths and reducing poverty},
 	urldate = {2023-10-20}
 }
 
+@online{Shah2021FaqAdviceFor,
+	file = {~/Google Drive/library-pdf/Shah2021FaqAdviceFor.pdf;~/Google Drive/library-html/Shah2021FaqAdviceFor.html},
+	abstract = {Consider reading How to pursue a career in technical {AI}
+                  alignment. It covers more topics and has more details, and I
+                  endorse most if not all of the advice. To quote Andrew Critch:
+                  I get a lot of em...},
+	author = {Shah, Rohin},
+	date = {2021-01-04},
+	journaltitle = {Rohin Shah},
+	langid = {american},
+	shorttitle = {{FAQ}},
+	timestamp = {2023-11-15 16:13:01 (GMT)},
+	title = {{FAQ}: Advice for {AI} alignment researchers},
+	url = {https://rohinshah.com/faq-career-advice-for-ai-alignment-researchers/},
+	urldate = {2023-11-15}
+}
+
 @online{Shapiro2002UserAgentValue,
 	url = {https://web.archive.org/web/20221016011851/https://www.aaai.org/Papers/Symposia/Spring/2002/SS-02-07/SS02-07-002.pdf},
 	journaltitle = {AAAI Technical Report SS-02-07},
@@ -5361,6 +5724,17 @@ gases (GHGs) in Delhi},
 	urldate = {2023-09-25}
 }
 
+@online{Steinhardt2018ResearchAsStochastic,
+	file = {~/Google Drive/library-html/Steinhardt2018ResearchAsStochastic.html;~/Google Drive/library-pdf/Steinhardt2018ResearchAsStochastic.pdf},
+	date = {2018-12-28},
+	journaltitle = {Jacob Steinhardt's Homepage},
+	title = {Research as a stochastic decision process},
+	author = {Steinhardt, Jacob},
+	timestamp = {2023-11-15 13:38:58 (GMT)},
+	url = {https://cs.stanford.edu/~jsteinhardt/ResearchasaStochasticDecisionProcess.html},
+	urldate = {2023-11-15}
+}
+
 @online{Steinhardt2023IntrinsicDrivesAnd,
 	file = {~/Google Drive/library-pdf/Steinhardt2023IntrinsicDrivesAnd.pdf;~/Google Drive/library-html/Steinhardt2023IntrinsicDrivesAnd.html},
 	author = {Steinhardt, Jacob},
@@ -5379,6 +5753,77 @@ gases (GHGs) in Delhi},
                   of {AI}},
 	url = {https://bounded-regret.ghost.io/intrinsic-drives-and-extrinsic-misuse-two-intertwined-risks-of-ai/},
 	urldate = {2023-11-01}
+}
+
+@Article{Stiennon2020LearningToSummarize,
+	number = {arXiv:2009.01325 [cs.CL]},
+	eventdate = {2022-02-15},
+	database = {Tlön},
+	file = {~/Google Drive/library-pdf/Stiennon2022LearningToSummarize.pdf},
+	langid = {english},
+	abstract = {As language models become more powerful, training
+                  and evaluation are increasingly bottlenecked by the
+                  data and metrics used for a particular task. For
+                  example, summarization models are often trained to
+                  predict human reference summaries and evaluated
+                  using {ROUGE}, but both of these metrics are rough
+                  proxies for what we really care about -- summary
+                  quality. In this work, we show that it is possible
+                  to significantly improve summary quality by training
+                  a model to optimize for human preferences. We
+                  collect a large, high-quality dataset of human
+                  comparisons between summaries, train a model to
+                  predict the human-preferred summary, and use that
+                  model as a reward function to fine-tune a
+                  summarization policy using reinforcement learning.
+                  We apply our method to a version of the {TL};{DR}
+                  dataset of Reddit posts and find that our models
+                  significantly outperform both human reference
+                  summaries and much larger models fine-tuned with
+                  supervised learning alone. Our models also transfer
+                  to {CNN}/{DM} news articles, producing summaries
+                  nearly as good as the human reference without any
+                  news-specific fine-tuning. We conduct extensive
+                  analyses to understand our human feedback dataset
+                  and fine-tuned models We establish that our reward
+                  model generalizes to new datasets, and that
+                  optimizing our reward model results in better
+                  summaries than optimizing {ROUGE} according to
+                  humans. We hope the evidence from our paper
+                  motivates machine learning researchers to pay closer
+                  attention to how their training loss affects the
+                  model behavior they actually want.},
+	author = {Stiennon, Nisan and Ouyang, Long and Wu, Jeff and
+                  Ziegler, Daniel M. and Lowe, Ryan and Voss, Chelsea
+                  and Radford, Alec and Amodei, Dario and Christiano,
+                  Paul},
+	date = {2020-09-02},
+	doi = {10.48550/arXiv.2009.01325},
+	eprint = {2009.01325 [cs]},
+	eprinttype = {arxiv},
+	publisher = {{arXiv}},
+	timestamp = {2023-01-02 13:45:35 (GMT)},
+	title = {Learning to summarize from human feedback},
+	url = {https://arxiv.org/abs/2009.01325},
+	urldate = {2023-01-02}
+}
+
+@article{Stigler1977ConferenceHandbook,
+	database = {Tlön},
+	title = {The conference handbook},
+	volume = {85},
+	issn = {0022-3808, 1537-534X},
+	url = {https://www.journals.uchicago.edu/doi/10.1086/260576},
+	doi = {10.1086/260576},
+	pages = {441–443},
+	number = {2},
+	journaltitle = {Journal of Political Economy},
+	shortjournal = {Journal of Political Economy},
+	author = {Stigler, George J.},
+	urldate = {2021-09-07},
+	date = {1977-04},
+	langid = {english},
+	file = {~/Google Drive/library-pdf/Press2015MiscellanyConferenceHandbook.pdf}
 }
 
 @article{Sverdrup2019AssessingLongTerm,
@@ -5996,6 +6441,20 @@ artificial intelligence},
 	timestamp = {2023-10-05 13:42:28 (GMT)}
 }
 
+@Online{Wentworth2021TestingNaturalAbstraction,
+	file = {~/Google Drive/library-pdf/Wentworth2021TestingNaturalAbstraction.pdf;~/Google Drive/library-html/Wentworth2021TestingNaturalAbstraction.html},
+	date = {2021-04-06},
+	journaltitle = {LessWrong},
+	author = {Wentworth, John},
+	title = {Testing the natural abstraction hypothesis: Project intro},
+	url = {https://www.lesswrong.com/posts/cy3BhHrGinZCp3LXE/testing-the-natural-abstraction-hypothesis-project-intro},
+	abstract = {The natural abstraction hypothesis says that ...},
+	langid = {english},
+	shorttitle = {Testing The Natural Abstraction Hypothesis},
+	timestamp = {2023-11-15 18:04:47 (GMT)},
+	urldate = {2023-11-15}
+}
+
 @online{Wiblin2020FlawsThatMake,
 	file = {~/Google Drive/library-html/Wiblin2020FlawsThatMake.html;~/Google Drive/library-pdf/Wiblin2020FlawsThatMake.pdf},
 	database = {Tlön},
@@ -6242,6 +6701,7 @@ artificial intelligence},
                   decades.A simple extension of gradient descent, stochastic
                   gradient descent, serves as the most basic algorithm used for
                   training most deep networks today.},
+	database = {Tlön},
 	booktitle = {Wikipedia},
 	date = {2023-09-28},
 	langid = {english},
@@ -6391,5 +6851,44 @@ artificial intelligence},
                   learning researchers},
 	url = {http://arxiv.org/abs/2206.04132},
 	urldate = {2023-10-08}
+}
+
+@Article{Ziegler2020FineTuningLanguage,
+	database = {Tlön},
+	file = {~/Google Drive/library-pdf/Ziegler2020FineTuningLanguage.pdf},
+	langid = {english},
+	number = {arXiv:1909.08593v2},
+	abstract = {Reward learning enables the application of reinforcement
+                  learning ({RL}) to tasks where reward is defined by human
+                  judgment, building a model of reward by asking humans
+                  questions. Most work on reward learning has used simulated
+                  environments, but complex information about values is often
+                  expressed in natural language, and we believe reward learning
+                  for language is a key to making {RL} practical and safe for
+                  real-world tasks. In this paper, we build on advances in
+                  generative pretraining of language models to apply reward
+                  learning to four natural language tasks: continuing text with
+                  positive sentiment or physically descriptive language, and
+                  summarization tasks on the {TL};{DR} and {CNN}/Daily Mail
+                  datasets. For stylistic continuation we achieve good results
+                  with only 5,000 comparisons evaluated by humans. For
+                  summarization, models trained with 60,000 comparisons copy
+                  whole sentences from the input but skip irrelevant preamble;
+                  this leads to reasonable {ROUGE} scores and very good
+                  performance according to our human labelers, but may be
+                  exploiting the fact that labelers rely on simple heuristics.},
+	author = {Ziegler, Daniel M. and Stiennon, Nisan and Wu, Jeffrey and
+                  Brown, Tom B. and Radford, Alec and Amodei, Dario and
+                  Christiano, Paul and Irving, Geoffrey},
+	date = {2020-01-08},
+	eprint = {1909.08593 [cs, stat]},
+	eprinttype = {arxiv},
+	keywords = {Computer Science - Computation and Language, Computer Science
+                  - Machine Learning, Statistics - Machine Learning},
+	publisher = {{arXiv}},
+	timestamp = {2023-11-15 16:28:07 (GMT)},
+	title = {Fine-tuning language models from human preferences},
+	url = {http://arxiv.org/abs/1909.08593},
+	urldate = {2023-11-15}
 }
 

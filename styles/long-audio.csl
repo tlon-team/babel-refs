@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="es-ES">
   <info>
-    <title>Audio</title>
-    <title-short>AUDIO</title-short>
-    <id>https://www.zotero.org/styles/audio-biblioteca-altruismo-eficaz</id>
-    <link href="https://www.zotero.org/styles/audio-biblioteca-altruismo-eficaz" rel="self"/>
+    <title>Long audio</title>
+    <title-short>LONG AUDIO</title-short>
+    <id>https://www.zotero.org/styles/long-audio-biblioteca-altruismo-eficaz</id>
+    <link href="https://www.zotero.org/styles/long-audio-biblioteca-altruismo-eficaz" rel="self"/>
     <link href="https://www.zotero.org/styles/apa-6th-edition" rel="template"/>
     <link href="https://altruismoeficaz.net/estilo-citado" rel="documentation"/>
     <author>

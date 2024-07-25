@@ -1,5 +1,6 @@
 {
-"NoAbstractTranslation": ["Greene2001PsychologicalPerspectiveNozick"],
-"NoDateInEntry": ["GreavesEthicsClimateChange", "HortonEffectiveAltruismEveryone", "Feldman2001Hedonism"]
+  "NoAbstractTranslation": ["Greene2001PsychologicalPerspectiveNozick"],
+  "HasNoTranslationReference": ["Seneca1971NaturalesQuaestiones"],
+  "NoDateInEntry": ["GreavesEthicsClimateChange", "HortonEffectiveAltruismEveryone", "Feldman2001Hedonism"]
 }
 

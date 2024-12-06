@@ -1,42 +1,65 @@
 {
-  "https://en.wikipedia.org/wiki/Simulation_hypothesis":
-  {"es": "https://altruismoeficaz.net/temas/argumento-de-la-simulacion"},
-  "https://en.wikipedia.org/wiki/Effective_altruism":
-  {"es": "https://altruismoeficaz.net/temas/altruismo-eficaz"},
-  "https://datos.bancomundial.org/indicador/SP.POP.TOTL":
-  {"es": "https://data.worldbank.org/indicator/SP.POP.TOTL"},
-  "https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes":
-  {"es": "https://es.wikipedia.org/wiki/Prefijos_del_Sistema_Internacional#Prefijos_del_SI"},
-  "https://en.wikipedia.org/wiki/Fermi_paradox":
-  {"es": "https://altruismoeficaz.net/temas/paradoja-de-fermi"},
-  "https://en.wikipedia.org/wiki/Mind_uploading":
-  {"es": "https://altruismoeficaz.net/temas/emulacion-de-cerebro-completo"},
-  "https://en.wikipedia.org/wiki/Expected_value":
-  {"es": "https://altruismoeficaz.net/temas/valor-esperado"},
-  "https://en.wikipedia.org/wiki/Deep_learning#Deep_learning_revolution":
-  {"es": "https://es.wikipedia.org/wiki/Aprendizaje_profundo"},
-  "https://en.wikipedia.org/wiki/GPT-3#Reviews":
-  {"es": "https://es.wikipedia.org/wiki/GPT-3#Revisiones_y_cr%C3%ADticas"},
-  "https://www.effectivealtruism.org/articles/crucial-considerations-and-wise-philanthropy-nick-bostrom":
-  {"es": "https://altruismoeficaz.net/articulos/consideraciones-cruciales-y-filantropia-sabia"},
-  "https://app.effectivealtruism.org/lotteries":
-  {"es": "https://altruismoeficaz.net/temas/sorteo-para-donantes"},
-  "https://bigthink.com/david-ryan-polgar/want-the-right-answer-online-dont-ask-questions-just-post-it-wrong":
-  {"es": "https://meta.wikimedia.org/wiki/Cunningham%27s_Law/es"},
-  "https://www.openphilanthropy.org/blog/hits-based-giving#Anti-principles_for_hits-based_giving":
-  {"es": "https://altruismoeficaz.net/articulos/filantropia-basada-en-los-exitos#2-antiprincipios-de-la-filantropia-basada-en-los-exitos"},
-  "https://concepts.effectivealtruism.org/concepts/importance-neglectedness-tractability/":
-  {"es": "https://altruismoeficaz.net/temas/marco-itd"},
-  "https://probablygood.org/career-guide/personal-fit/":
-  {"es": "https://altruismoeficaz.net/temas/aptitud-personal"},
-  "https://probablygood.org/core-concepts/diminishing-returns/":
-  {"es": "https://altruismoeficaz.net/temas/rendimientos-decrecientes"},
-  "https://probablygood.org/core-concepts/career-capital/":
-  {"es": "https://altruismoeficaz.net/temas/capital-profesional"},
-  "https://concepts.effectivealtruism.org/concepts/uncertainty-about-models/":
-  {"es": "https://altruismoeficaz.net/temas/incertidumbre-sobre-los-modelos"},
-  "https://en.wikipedia.org/wiki/Differential_technological_development":
-  {"es": "https://altruismoeficaz.net/temas/progreso-diferencial"},
-  "http://www.worldwildlife.org/":
-  {"es": "https://www.wwf.es/"}
+  "https://forum.effectivealtruism.org/topics/temporal-discounting": {
+    "es": "https://altruismoeficaz.net/temas/descuento-temporal"
+  },
+  "https://en.wikipedia.org/wiki/Simulation_hypothesis": {
+    "es": "https://altruismoeficaz.net/temas/argumento-de-la-simulacion"
+  },
+  "https://en.wikipedia.org/wiki/Effective_altruism": {
+    "es": "https://altruismoeficaz.net/temas/altruismo-eficaz"
+  },
+  "https://datos.bancomundial.org/indicador/SP.POP.TOTL": {
+    "es": "https://data.worldbank.org/indicator/SP.POP.TOTL"
+  },
+  "https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes": {
+    "es": "https://es.wikipedia.org/wiki/Prefijos_del_Sistema_Internacional#Prefijos_del_SI"
+  },
+  "https://en.wikipedia.org/wiki/Fermi_paradox": {
+    "es": "https://altruismoeficaz.net/temas/paradoja-de-fermi"
+  },
+  "https://en.wikipedia.org/wiki/Mind_uploading": {
+    "es": "https://altruismoeficaz.net/temas/emulacion-de-cerebro-completo"
+  },
+  "https://en.wikipedia.org/wiki/Expected_value": {
+    "es": "https://altruismoeficaz.net/temas/valor-esperado"
+  },
+  "https://en.wikipedia.org/wiki/Deep_learning#Deep_learning_revolution": {
+    "es": "https://es.wikipedia.org/wiki/Aprendizaje_profundo"
+  },
+  "https://en.wikipedia.org/wiki/GPT-3#Reviews": {
+    "es": "https://es.wikipedia.org/wiki/GPT-3#Revisiones_y_cr%C3%ADticas"
+  },
+  "https://www.effectivealtruism.org/articles/crucial-considerations-and-wise-philanthropy-nick-bostrom": {
+    "es": "https://altruismoeficaz.net/articulos/consideraciones-cruciales-y-filantropia-sabia"
+  },
+  "https://app.effectivealtruism.org/lotteries": {
+    "es": "https://altruismoeficaz.net/temas/sorteo-para-donantes"
+  },
+  "https://bigthink.com/david-ryan-polgar/want-the-right-answer-online-dont-ask-questions-just-post-it-wrong": {
+    "es": "https://meta.wikimedia.org/wiki/Cunningham%27s_Law/es"
+  },
+  "https://www.openphilanthropy.org/blog/hits-based-giving#Anti-principles_for_hits-based_giving": {
+    "es": "https://altruismoeficaz.net/articulos/filantropia-basada-en-los-exitos#2-antiprincipios-de-la-filantropia-basada-en-los-exitos"
+  },
+  "https://concepts.effectivealtruism.org/concepts/importance-neglectedness-tractability/": {
+    "es": "https://altruismoeficaz.net/temas/marco-itd"
+  },
+  "https://probablygood.org/career-guide/personal-fit/": {
+    "es": "https://altruismoeficaz.net/temas/aptitud-personal"
+  },
+  "https://probablygood.org/core-concepts/diminishing-returns/": {
+    "es": "https://altruismoeficaz.net/temas/rendimientos-decrecientes"
+  },
+  "https://probablygood.org/core-concepts/career-capital/": {
+    "es": "https://altruismoeficaz.net/temas/capital-profesional"
+  },
+  "https://concepts.effectivealtruism.org/concepts/uncertainty-about-models/": {
+    "es": "https://altruismoeficaz.net/temas/incertidumbre-sobre-los-modelos"
+  },
+  "https://en.wikipedia.org/wiki/Differential_technological_development": {
+    "es": "https://altruismoeficaz.net/temas/progreso-diferencial"
+  },
+  "http://www.worldwildlife.org/": {
+    "es": "https://www.wwf.es/"
+  }
 }

@@ -1,4 +1,10 @@
 {
+  "https://eahub.org/": {
+    "en": "https://forum.effectivealtruism.org/people-directory"
+  },
+  "https://eahub.org/groups": {
+    "en": "https://forum.effectivealtruism.org/groups"
+  },
   "https://forum.effectivealtruism.org/tags/temporal-discounting": {
     "es": "https://altruismoeficaz.net/temas/descuento-temporal"
   },

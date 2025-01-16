@@ -1,0 +1,154 @@
+{
+  "albanian": { "standard": "albanian", "code": "sq", "locale": "sq_AL" },
+  "american": {
+    "standard": "english",
+    "code": "en",
+    "locale": "en_US",
+    "iso-639-2": "eng"
+  },
+  "amharic": { "standard": "amharic", "code": "am", "locale": "am_ET" },
+  "arabic": {
+    "standard": "arabic",
+    "code": "ar",
+    "locale": "ar_SA",
+    "iso-639-2": "ara"
+  },
+  "argentinian": { "standard": "spanish", "code": "es", "locale": "es_AR" },
+  "armenian": { "standard": "armenian", "code": "hy", "locale": "hy_AM" },
+  "assamese": { "standard": "assamese", "code": "as", "locale": "as_IN" },
+  "asturian": { "standard": "asturian", "code": "ast", "locale": "ast_ES" },
+  "austrian": { "standard": "german", "code": "de", "locale": "de_AT" },
+  "australian": { "standard": "english", "code": "en", "locale": "en_AU" },
+  "basque": { "standard": "basque", "code": "eu", "locale": "eu_ES" },
+  "belarusian": { "standard": "belarusian", "code": "be", "locale": "be_BY" },
+  "bengali": { "standard": "bengali", "code": "bn", "locale": "bn_BD" },
+  "bosnian": { "standard": "bosnian", "code": "bs", "locale": "bs_BA" },
+  "breton": { "standard": "breton", "code": "br", "locale": "br_FR" },
+  "british": { "standard": "english", "code": "en", "locale": "en_GB" },
+  "bulgarian": { "standard": "bulgarian", "code": "bg", "locale": "bg_BG" },
+  "canadian": { "standard": "english", "code": "en", "locale": "en_CA" },
+  "catalan": { "standard": "catalan", "code": "ca", "locale": "ca_ES" },
+  "chinese": {
+    "standard": "chinese",
+    "code": "zh",
+    "locale": "zh_CN",
+    "iso-639-2": "zho"
+  },
+  "coptic": { "standard": "coptic", "code": "cop", "locale": "cop_EG" },
+  "croatian": { "standard": "croatian", "code": "hr", "locale": "hr_HR" },
+  "czech": { "standard": "czech", "code": "cs", "locale": "cs_CZ" },
+  "danish": { "standard": "danish", "code": "da", "locale": "da_DK" },
+  "dutch": { "standard": "dutch", "code": "nl", "locale": "nl_NL" },
+  "english": {
+    "standard": "english",
+    "code": "en",
+    "locale": "en_GB",
+    "iso-639-2": "eng"
+  },
+  "esperanto": { "standard": "esperanto", "code": "eo", "locale": "eo_EO" },
+  "estonian": { "standard": "estonian", "code": "et", "locale": "et_EE" },
+  "finnish": { "standard": "finnish", "code": "fi", "locale": "fi_FI" },
+  "french": {
+    "standard": "french",
+    "code": "fr",
+    "locale": "fr_FR",
+    "iso-639-2": "fra"
+  },
+  "galician": { "standard": "galician", "code": "gl", "locale": "gl_ES" },
+  "georgian": { "standard": "georgian", "code": "ka", "locale": "ka_GE" },
+  "german": {
+    "standard": "german",
+    "code": "de",
+    "locale": "de_DE",
+    "iso-639-2": "deu"
+  },
+  "greek": {
+    "standard": "greek",
+    "code": "el",
+    "locale": "el_GR",
+    "iso-639-2": "ell"
+  },
+  "hebrew": { "standard": "hebrew", "code": "he", "locale": "he_IL" },
+  "hindi": { "standard": "hindi", "code": "hi", "locale": "hi_IN" },
+  "hungarian": { "standard": "hungarian", "code": "hu", "locale": "hu_HU" },
+  "icelandic": { "standard": "icelandic", "code": "is", "locale": "is_IS" },
+  "interlingua": { "standard": "interlingua", "code": "ia", "locale": "ia_IA" },
+  "irish": { "standard": "irish", "code": "ga", "locale": "ga_IE" },
+  "italian": {
+    "standard": "italian",
+    "code": "it",
+    "locale": "it_IT",
+    "iso-639-2": "ita"
+  },
+  "japanese": {
+    "standard": "japanese",
+    "code": "ja",
+    "locale": "ja_JP",
+    "iso-639-2": "jpn"
+  },
+  "kannada": { "standard": "kannada", "code": "kn", "locale": "kn_IN" },
+  "korean": {
+    "standard": "korean",
+    "code": "ko",
+    "locale": "ko_KR",
+    "iso-639-2": "kor"
+  },
+  "lao": { "standard": "lao", "code": "lo", "locale": "lo_LA" },
+  "latin": {
+    "standard": "latin",
+    "code": "la",
+    "locale": "la_VA",
+    "iso-639-2": "lat"
+  },
+  "latvian": { "standard": "latvian", "code": "lv", "locale": "lv_LV" },
+  "lithuanian": { "standard": "lithuanian", "code": "lt", "locale": "lt_LT" },
+  "macedonian": { "standard": "macedonian", "code": "mk", "locale": "mk_MK" },
+  "malayalam": { "standard": "malayalam", "code": "ml", "locale": "ml_IN" },
+  "marathi": { "standard": "marathi", "code": "mr", "locale": "mr_IN" },
+  "mexican": { "standard": "spanish", "code": "es", "locale": "es_MX" },
+  "mongolian": { "standard": "mongolian", "code": "mn", "locale": "mn_MN" },
+  "naustrian": { "standard": "austrian", "code": "de", "locale": "de_AT" },
+  "newzealand": { "standard": "english", "code": "en", "locale": "en_NZ" },
+  "ngerman": { "standard": "german", "code": "de", "locale": "de_DE" },
+  "nko": { "standard": "nko", "code": "nqo", "locale": "nqo_GN" },
+  "norwegian": { "standard": "norwegian", "code": "no", "locale": "no_NO" },
+  "oriya": { "standard": "oriya", "code": "or", "locale": "or_IN" },
+  "persian": { "standard": "persian", "code": "fa", "locale": "fa_IR" },
+  "polish": { "standard": "polish", "code": "pl", "locale": "pl_PL" },
+  "portuguese": {
+    "standard": "portuguese",
+    "code": "pt",
+    "locale": "pt_PT",
+    "iso-639-2": "por"
+  },
+  "romanian": { "standard": "romanian", "code": "ro", "locale": "ro_RO" },
+  "russian": {
+    "standard": "russian",
+    "code": "ru",
+    "locale": "ru_RU",
+    "iso-639-2": "rus"
+  },
+  "sanskrit": { "standard": "sanskrit", "code": "sa", "locale": "sa_IN" },
+  "serbian": { "standard": "serbian", "code": "sr", "locale": "sr_RS" },
+  "slovak": { "standard": "slovak", "code": "sk", "locale": "sk_SK" },
+  "slovenian": { "standard": "slovenian", "code": "sl", "locale": "sl_SI" },
+  "spanish": {
+    "standard": "spanish",
+    "code": "es",
+    "locale": "es_ES",
+    "iso-639-2": "spa"
+  },
+  "swedish": { "standard": "swedish", "code": "sv", "locale": "sv_SE" },
+  "swissgerman": { "standard": "german", "code": "de", "locale": "de_CH" },
+  "tamil": { "standard": "tamil", "code": "ta", "locale": "ta_IN" },
+  "telugu": { "standard": "telugu", "code": "te", "locale": "te_IN" },
+  "thai": { "standard": "thai", "code": "th", "locale": "th_TH" },
+  "turkish": { "standard": "turkish", "code": "tr", "locale": "tr_TR" },
+  "turkmen": { "standard": "turkmen", "code": "tk", "locale": "tk_TM" },
+  "ukenglish": { "standard": "english", "code": "en", "locale": "en_GB" },
+  "ukrainian": { "standard": "ukrainian", "code": "uk", "locale": "uk_UA" },
+  "urdu": { "standard": "urdu", "code": "ur", "locale": "ur_PK" },
+  "vietnamese": { "standard": "vietnamese", "code": "vi", "locale": "vi_VN" },
+  "welsh": { "standard": "welsh", "code": "cy", "locale": "cy_GB" },
+  "afrikaans": { "standard": "afrikaans", "code": "af", "locale": "af_ZA" }
+}

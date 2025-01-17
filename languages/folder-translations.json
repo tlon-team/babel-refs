@@ -1,15 +1,14 @@
 {
   "articles": {
-    "singular": "article",
     "es": "articulos",
     "fr": "articles",
     "it": "articoli",
     "ar": "مجلات",
     "ko": "기사",
-    "ja": "記事"
+    "ja": "記事",
+    "singulars": { "en": "article", "es": "artículo" }
   },
   "tags": {
-    "singular": "tag",
     "es": "temas",
     "fr": "sujets",
     "it": "soggetti",
@@ -17,29 +16,30 @@
     "ko": "태그",
     "ja": "タグ",
     "singulars": {
+      "en": "tag",
       "es": "tema",
       "fr": "sujet",
       "it": "soggetto"
     }
   },
   "authors": {
-    "singular": "author",
     "es": "autores",
     "fr": "auteurs",
     "it": "autori",
     "ar": "المؤلفون",
     "ko": "저자",
-    "ja": "著者"
+    "ja": "著者",
+    "singulars": { "en": "author", "es": "autor" }
   },
   "collections": {
-    "singular": "collection",
     "es": "colecciones",
     "fr": "collections",
     "it": "collezioni",
     "ar": "مجموعات",
     "ko": "컬렉션",
-    "ja": "コレクション"
+    "ja": "コレクション",
+    "singulars": { "en": "collection", "es": "colección" }
   },
-  "citations": { "singular": "citation" },
-  "images": { "singular": "image", "es": "imagenes", "fr": "images" }
+  "citations": { "singulars": { "en": "citation" } },
+  "images": { "es": "imagenes", "fr": "images", "singulars": { "en": "image" } }
 }

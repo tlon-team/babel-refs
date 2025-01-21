@@ -40,6 +40,11 @@
     "ja": "コレクション",
     "singulars": { "en": "collection", "es": "colección" }
   },
+  "images": {
+    "es": "imagenes",
+    "fr": "images",
+    "singulars": { "en": "image" }
+  },
   "citations": { "singulars": { "en": "citation" } },
-  "images": { "es": "imagenes", "fr": "images", "singulars": { "en": "image" } }
+  "home": { "es": "inicio" }
 }

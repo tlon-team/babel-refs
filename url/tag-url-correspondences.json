@@ -347,6 +347,9 @@
   "https://forum.effectivealtruism.org/tags/gradient-descent": {
     "es": "https://altruismoeficaz.net/temas/descenso-de-gradiente"
   },
+  "https://forum.effectivealtruism.org/tags/temporal-discounting": {
+    "es": "https://altruismoeficaz.net/temas/descuento-temporal"
+  },
   "https://forum.effectivealtruism.org/tags/optimizer-s-curse": {
     "es": "https://altruismoeficaz.net/temas/maldicion-del-optimizador"
   },
@@ -1537,6 +1540,9 @@
   },
   "https://forum.effectivealtruism.org/topics/gradient-descent": {
     "es": "https://altruismoeficaz.net/temas/descenso-de-gradiente"
+  },
+  "https://forum.effectivealtruism.org/topics/temporal-discounting": {
+    "es": "https://altruismoeficaz.net/temas/descuento-temporal"
   },
   "https://forum.effectivealtruism.org/topics/optimizer-s-curse": {
     "es": "https://altruismoeficaz.net/temas/maldicion-del-optimizador"

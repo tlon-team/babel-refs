@@ -17,6 +17,30 @@
   "https://datos.bancomundial.org/indicador/SP.POP.TOTL": {
     "es": "https://data.worldbank.org/indicator/SP.POP.TOTL"
   },
+  "https://datos.bancomundial.org/indicador/SI.POV.GAPS": {
+    "es": "https://data.worldbank.org/indicator/SI.POV.GAPS"
+  },
+  "https://www.bancomundial.org/es/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines": {
+    "es": "https://www.worldbank.org/en/news/factsheet/2022/05/02/fact-sheet-an-adjustment-to-global-poverty-lines"
+  },
+  "https://datos.bancomundial.org/indicador/NY.GDP.MKTP.CD?locations=US": {
+    "es": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=US"
+  },
+  "https://datos.bancomundial.org/indicador/GB.XPD.RSDV.GD.ZS": {
+    "es": "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS"
+  },
+  "https://datos.bancomundial.org/indicador/SI.POV.DDAY": {
+    "es": "https://data.worldbank.org/indicator/SI.POV.DDAY"
+  },
+  "https://datos.bancomundial.org/indicador/NY.GDP.MKTP.CD": {
+    "es": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
+  },
+  "https://datos.bancomundial.org/indicador/PA.NUS.PRVT.PP?locations=KE": {
+    "es": "https://data.worldbank.org/indicator/PA.NUS.PRVT.PP?locations=KE"
+  },
+  "https://datos.bancomundial.org/indicador/PA.NUS.FCRF?locations=KE": {
+    "es": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=KE"
+  },
   "https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes": {
     "es": "https://es.wikipedia.org/wiki/Prefijos_del_Sistema_Internacional#Prefijos_del_SI"
   },

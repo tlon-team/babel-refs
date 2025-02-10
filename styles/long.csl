@@ -39,7 +39,7 @@
   <macro name="container-contributors-booklike">
     <choose>
       <if variable="container-title">
-        <names variable="editor translator" delimiter=", &amp; ">
+        <names variable="editor" delimiter=", &amp; ">
           <name and="symbol" initialize-with=". " delimiter=", "/>
           <label form="short" text-case="lowercase" prefix=" (" suffix="),"/>
           <substitute>
@@ -1088,7 +1088,7 @@
       <if variable="container-title collection-title" match="any">
         <group delimiter=" ">
           <text term="in" text-case="lowercase"/>
-          <group delimiter=" ">
+          <group delimiter=", ">
             <text macro="container-contributors"/>
             <choose>
               <if variable="container-author editor translator" match="none">

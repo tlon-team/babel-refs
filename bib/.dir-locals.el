@@ -1,7 +1,6 @@
 ;;; Directory Local Variables            -*- no-byte-compile: t -*-
 ;;; For more information see (info "(emacs) Directory Variables")
-((nil . ((eval . (git-auto-commit-mode 1))))
- (bibtex-mode . ((eval . (add-hook 'after-save-hook #'tlon-auto-clean-entry nil t))
+((bibtex-mode . ((eval . (add-hook 'after-save-hook #'tlon-auto-clean-entry nil t))
 		 (eval . (add-hook 'after-save-hook #'tlon-deepl-fix-encoding-persistent nil t))))
  (json-mode . ((jinx-languages . "ar es fr it ") ; Japanese, Korean not supported by Aspell
 	       (flycheck-languagetool-language . "es"))))

@@ -1114,6 +1114,22 @@
 	urldate = {2025-04-21}
 }
 
+@Article{Greenblatt2024AlignmentFakingIn,
+	file = {~/My Drive/library-pdf/Greenblatt2024AlignmentFakingIn.pdf},
+	langid = {english},
+	abstract = {We present a demonstration of a large language model engaging in alignment faking: selectively complying with its training objective in training to prevent modification of its behavior out of training. First, we give Claude 3 Opus a system prompt stating it is being trained to answer all queries, even harmful ones, which conflicts with its prior training to refuse such queries. To allow the model to infer when it is in training, we say it will be trained only on conversations with free users, not paid users. We find the model complies with harmful queries from free users 14\% of the time, versus almost never for paid users. Explaining this gap, in almost all cases where the model complies with a harmful query from a free user, we observe explicit alignment-faking reasoning, with the model stating it is strategically answering harmful queries in training to preserve its preferred harmlessness behavior out of training. Next, we study a more realistic setting where information about the training process is provided not in a system prompt, but by training on synthetic documents that mimic pre-training data--and observe similar alignment faking. Finally, we study the effect of actually training the model to comply with harmful queries via reinforcement learning, which we find increases the rate of alignment-faking reasoning to 78\%, though also increases compliance even out of training. We additionally observe other behaviors such as the model exfiltrating its weights when given an easy opportunity. While we made alignment faking easier by telling the model when and by what criteria it was being trained, we did not instruct the model to fake alignment or give it any explicit goal. As future models might infer information about their training process without being told, our results suggest a risk of alignment faking in future models, whether due to a benign preference--as in this case--or not.},
+	author = {Greenblatt, Ryan and Denison, Carson and Wright, Benjamin and Roger, Fabien and {MacDiarmid}, Monte and Marks, Sam and Treutlein, Johannes and Belonax, Tim and Chen, Jack and Duvenaud, David and Khan, Akbir and Michael, Julian and Mindermann, Sören and Perez, Ethan and Petrini, Linda and Uesato, Jonathan and Kaplan, Jared and Shlegeris, Buck and Bowman, Samuel R. and Hubinger, Evan},
+	date = {2024-12-19},
+	doi = {10.48550/arXiv.2412.14093},
+	eprint = {2412.14093 [cs]},
+	eprinttype = {arxiv},
+	publisher = {{arXiv}},
+	timestamp = {2025-05-08 21:35:19 (GMT)},
+	title = {Alignment faking in large language models},
+	url = {http://arxiv.org/abs/2412.14093},
+	urldate = {2025-05-08}
+}
+
 @online{Grunewald2023ExpertInAi,
 	file = {~/My Drive/library-html/Grunewald2023ExpertInAi.html;~/My Drive/library-pdf/Grunewald2023ExpertInAi.pdf},
 	author = {Grunewald, Erich},
@@ -1503,6 +1519,17 @@ Numerous incidents document the severe suffering of farmed chickens and pigs in 
 	langid = {english},
 	title = {Q \& A: The future of artificial intelligence},
 	urldate = {2025-04-21}
+}
+
+@online{Shlegeris2024AiControlStrategies,
+	file = {~/My Drive/library-pdf/Shlegeris2024AiControlStrategies.pdf},
+	date = {2024-12-02},
+	journaltitle = {YouTube},
+	title = {Ai control: strategies for mitigating catastrophic misalignment risk},
+	author = {Shlegeris, Buck},
+	timestamp = {2025-05-08 21:02:03 (GMT)},
+	url = {https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJZYjz7D_auw},
+	urldate = {2025-05-08}
 }
 
 @online{Singer2023ModernArgumentFor,
@@ -2167,6 +2194,18 @@ Numerous incidents document the severe suffering of farmed chickens and pigs in 
 	title = {Johannes Ackva on unfashionable climate interventions that work, and fashionable ones that don't},
 	url = {https://80000hours.org/podcast/episodes/johannes-ackva-unfashionable-climate-interventions/},
 	urldate = {2025-04-21}
+}
+
+@online{Wiblin2025BuckShlegerisControlling,
+	file = {~/My Drive/library-html/Wiblin2025BuckShlegerisControlling.html;~/My Drive/library-pdf/Wiblin2025BuckShlegerisControlling.pdf},
+	date = {2025-04-04},
+	author = {Wiblin, Robert},
+	journaltitle = {80,000 Hours},
+	langid = {american},
+	timestamp = {2025-05-08 20:59:39 (GMT)},
+	title = {Buck Shlegeris on controlling {AI} that wants to take over – so we can use it anyway},
+	url = {https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/},
+	urldate = {2025-05-08}
 }
 
 @online{Woods2022ParableOfBoy,

@@ -2,21 +2,29 @@
   "domains": {
     "es": "altruismoeficaz.net"
   },
-  "page-descriptions": {
-    "home": {
-      "es": "Repositorio exhaustivo de lecturas sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+    "bibliographic-footer": {
+	"original": {
+	    "es": "Publicación original: "
+	},
+	"translator": {
+	    "es": "Traducción de: "
+	}
     },
-    "articles": {
-      "es": "Lista de artículos sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
-    },
-    "authors": {
-      "es": "Lista de autores sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
-    },
-    "collections": {
-      "es": "Colecciones de artículos sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
-    },
-    "tags": {
-      "es": "Lista de temas sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+    "page-descriptions": {
+	"home": {
+	    "es": "Repositorio exhaustivo de lecturas sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+	},
+	"articles": {
+	    "es": "Lista de artículos sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+	},
+	"authors": {
+	    "es": "Lista de autores sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+	},
+	"collections": {
+	    "es": "Colecciones de artículos sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+	},
+	"tags": {
+	    "es": "Lista de temas sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."
+	}
     }
-  }
 }

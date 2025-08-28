@@ -4,10 +4,10 @@
   },
     "bibliographic-footer": {
 	"original": {
-	    "es": "Publicación original: "
+	    "es": "Publicación original: @@DATA@@. "
 	},
 	"translator": {
-	    "es": "Traducción de: "
+	    "es": "Traducción de: @@DATA@@."
 	}
     },
     "page-descriptions": {

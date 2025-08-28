@@ -2,6 +2,15 @@
   "domains": {
     "es": "altruismoeficaz.net"
   },
+    "texts": {
+    "bibliographic-footer": {
+	"original": {
+	    "es": "Publicación original: @@DATA@@. "
+	},
+	"translator": {
+	    "es": "Traducción de: @@DATA@@."
+	}
+    },
   "page-descriptions": {
     "home": {
       "es": "Repositorio exhaustivo de lecturas sobre altruismo eficaz, riesgo existencial e investigación sobre prioridades globales."

@@ -6,7 +6,11 @@
     "ar": "مجلات",
     "ko": "기사",
     "ja": "記事",
-    "singulars": { "en": "article", "es": "artículo" }
+    "singulars": {
+      "en": "article",
+      "es": "artículo",
+      "fr": "article"
+    }
   },
   "tags": {
     "es": "temas",
@@ -29,7 +33,9 @@
     "ar": "المؤلفون",
     "ko": "저자",
     "ja": "著者",
-    "singulars": { "en": "author", "es": "autor" }
+    "singulars": {
+      "en": "author"
+    }
   },
   "collections": {
     "es": "colecciones",
@@ -38,13 +44,24 @@
     "ar": "مجموعات",
     "ko": "컬렉션",
     "ja": "コレクション",
-    "singulars": { "en": "collection", "es": "colección" }
+    "singulars": {
+      "en": "collection"
+    }
   },
   "images": {
     "es": "imagenes",
     "fr": "images",
-    "singulars": { "en": "image" }
+    "singulars": {
+      "en": "image"
+    }
   },
-  "citations": { "singulars": { "en": "citation" } },
-  "home": { "es": "Altruismo Eficaz" }
+  "citations": {
+    "singulars": {
+      "en": "citation"
+    }
+  },
+  "home": {
+    "es": "Altruismo Eficaz",
+    "fr": "Altruisme Efficace"
+  }
 }

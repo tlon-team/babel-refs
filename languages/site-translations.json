@@ -12,15 +12,15 @@
       "translator": {
         "es": "Traducción de: @@DATA@@.",
         "fr": "Traduction de : @@DATA@@."
-      },
-      "published-at": {
-        "es": "publicado el @@DATA@@",
-        "fr": "publié le @@DATA@@"
-      },
-      "published-at-with-time": {
-        "es": "publicado el @@DATA@@ a las @@DATA2@@",
-        "fr": "publié le @@DATA@@ à @@DATA2@@"
       }
+    },
+    "published-at": {
+      "es": "publicado el @@DATA@@",
+      "fr": "publié le @@DATA@@"
+    },
+    "published-at-with-time": {
+      "es": "publicado el @@DATA@@ a las @@DATA2@@",
+      "fr": "publié le @@DATA@@ à @@DATA2@@"
     }
   },
   "page-descriptions": {

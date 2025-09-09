@@ -45,7 +45,8 @@
     "ko": "컬렉션",
     "ja": "コレクション",
     "singulars": {
-      "en": "collection"
+      "en": "collection",
+      "es": "colección"
     }
   },
   "images": {

@@ -1,5 +1,6 @@
 {
     "NoAbstractInEntry": ["Aquino1274SummaTheologica", "Greene2001PsychologicalPerspectiveNozick", "Phillips2015RationalFaithStudy"],
-    "HasNoTranslationReference": ["Bentham1826TheoriePeinesEt", "Bentham1825TheoriePeinesEt", "Bentham1811TheoriePeinesEt", "Dentreves1948AquinasSelectedPolitical", "Fraser2020EssentialMoziEthical", "Horace2004Odes", "Horacio1996EpodosOdas", "Marx1982EscritosDeJuventud", "Mill1993CapitulosSobreSocialismo", "Mill1998Naturaleza", "Mill2009UtilidadDeReligion", "Mo2012ContraArteDe", "Mozi1987PoliticaDelAmor", "Mozi2013BookMasterMo", "Seneca1971NaturalesQuaestiones", "Thucydides1972HistoryOfPeloponnesian"]
+    "HasNoTranslationReference": ["Bentham1826TheoriePeinesEt", "Bentham1825TheoriePeinesEt", "Bentham1811TheoriePeinesEt", "Dentreves1948AquinasSelectedPolitical", "Fraser2020EssentialMoziEthical", "Horace2004Odes", "Horacio1996EpodosOdas", "Marx1982EscritosDeJuventud", "Mill1993CapitulosSobreSocialismo", "Mill1998Naturaleza", "Mill2009UtilidadDeReligion", "Mo2012ContraArteDe", "Mozi1987PoliticaDelAmor", "Mozi2013BookMasterMo", "Seneca1971NaturalesQuaestiones", "Thucydides1972HistoryOfPeloponnesian"],
+    "NoAbstractTranslation": ["Aquino1274SummaTheologica"]
 }
 

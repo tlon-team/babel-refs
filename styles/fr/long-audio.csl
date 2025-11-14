@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="${FULL_LOCALE}">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="fr-FR">
   <info>
-    <title>Biblioteca Altruismo Eficaz</title>
-    <title-short>BAE</title-short>
-    <id>https://www.zotero.org/styles/biblioteca-altruismo-eficaz</id>
-    <link href="https://www.zotero.org/styles/biblioteca-altruismo-eficaz" rel="self"/>
+    <title>Long audio</title>
+    <title-short>LONG AUDIO</title-short>
+    <id>https://www.zotero.org/styles/long-audio-biblioteca-altruismo-eficaz</id>
+    <link href="https://www.zotero.org/styles/long-audio-biblioteca-altruismo-eficaz" rel="self"/>
     <link href="https://www.zotero.org/styles/apa-6th-edition" rel="template"/>
     <link href="https://altruismoeficaz.net/estilo-citado" rel="documentation"/>
     <author>
@@ -17,7 +17,7 @@
     <updated>2022-01-03T14:11:14+00:00</updated>
     <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xml:lang="${CONTENT_LANGUAGE}">
+  <locale xml:lang="fr">
     <terms>
       <term name="editortranslator" form="short">
         <single>ed. &amp; trad.</single>
@@ -28,7 +28,8 @@
       <term name="editortranslator" form="verb">edición y traducción de</term>
       <term name="circa" form="short">ca.</term>
       <term name="collection-editor" form="short">ed. de la serie</term>
-      <term name="et-al"> *et al.*</term>
+      <term name="et-al"> y otros</term>
+      <term name="and">y</term>
       <term name="open-quote">“</term>
       <term name="close-quote">”</term>
       <term name="open-inner-quote">‘</term>
@@ -39,7 +40,7 @@
   <macro name="container-contributors-booklike">
     <choose>
       <if variable="container-title">
-        <names variable="editor" delimiter=", &amp; ">
+        <names variable="editor translator" delimiter=", &amp; ">
           <name and="symbol" initialize-with=". " delimiter=", "/>
           <label form="short" text-case="lowercase" prefix=" (" suffix="),"/>
           <substitute>
@@ -309,158 +310,8 @@
   <macro name="title">
     <choose>
       <if variable="title">
-        <choose>
-          <if variable="version" type="book" match="all">
-            <text variable="title"/>
-          </if>
-          <else-if variable="reviewed-author reviewed-title" type="review review-book" match="any">
-            <choose>
-              <if variable="reviewed-title">
-                <choose>
-                  <if type="post post-weblog webpage broadcast" variable="container-title" match="any">
-                    <text variable="title"/>
-                  </if>
-                  <else>
-                    <text variable="title" font-style="italic"/>
-                  </else>
-                </choose>
-              </if>
-            </choose>
-          </else-if>
-          <else-if type="manuscript chapter" match="any">
-                <choose>
-                  <if match="any" variable="DOI">
-                    <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
-                  </if>
-                  <else-if match="any" variable="URL">
-                    <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="URL" prefix="(" suffix="),"/>
-                  </else-if>
-                  <else-if match="any" variable="ISBN">
-                    <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
-                  </else-if>
-                  <else>
-                    <text variable="title" prefix="‘" suffix="’,"/>
-                  </else>
-                </choose>
-          </else-if>
-          <else-if type="dataset" match="any">
-                <choose>
-                  <if match="any" variable="DOI">
-                    <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="DOI" prefix="(https://doi.org/" suffix=")"/>
-                  </if>
-                  <else-if match="any" variable="URL">
-                    <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="URL" prefix="(" suffix=")"/>
-                  </else-if>
-                  <else-if match="any" variable="ISBN">
-                    <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")"/>
-                  </else-if>
-                  <else>
-                    <text variable="title"/>
-                  </else>
-                </choose>
-          </else-if>
-          <else-if type="post post-weblog webpage broadcast report article-journal article-magazine article-newspaper paper-conference speech" match="any">
-             <choose>
-              <if match="any" variable="original-title">
-            <choose>
-              <if match="any" variable="DOI">
-                <text variable="title" prefix="‘" suffix="’,"/>
-                <text variable="original-title" prefix=" en [" suffix="]"/>
-                <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
-              </if>
-              <else-if match="any" variable="URL">
-                <text variable="title" prefix="‘" suffix="’,"/>
-                <text variable="original-title" prefix=" en [" suffix="]"/>
-                <text variable="URL" prefix="(" suffix="),"/>
-              </else-if>
-              <else-if match="any" variable="ISBN">
-                <text variable="title" prefix="‘" suffix="’,"/>
-                <text variable="original-title" prefix=" en [" suffix="]"/>
-                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
-              </else-if>
-              <else>
-                <text variable="title" prefix="‘" suffix="’,"/>
-                <text variable="original-title" prefix=" en ‘" suffix="’,"/>
-              </else>
-            </choose>
-              </if>
-             <else-if match="any" variable="version">
-              <choose>
-                <if match="any" variable="DOI">
-                  <text variable="title" prefix="[" suffix=" "/>
-                  <text variable="version" prefix="*" suffix="*]"/>
-                  <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
-                </if>
-                <else-if match="any" variable="URL">
-                  <text variable="title" prefix="[" suffix=" "/>
-                  <text variable="version" prefix="*" suffix="*]"/>
-                  <text variable="URL" prefix="(" suffix="),"/>
-                </else-if>
-                <else-if match="any" variable="ISBN">
-                  <text variable="title" prefix="[" suffix=" "/>
-                  <text variable="version" prefix="*" suffix="*]"/>
-                  <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
-                </else-if>
-                <else>
-                  <text variable="title" prefix="‘" suffix=" "/>
-                  <text variable="version" prefix="*" suffix="*’,"/>
-                </else>
-              </choose>
-             </else-if>
-              <else>
-	        		<choose>
-              <if match="any" variable="DOI">
-                <text variable="title" prefix="[" suffix="]"/>
-                <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
-              </if>
-              <else-if match="any" variable="URL">
-                <text variable="title" prefix="[" suffix="]"/>
-                <text variable="URL" prefix="(" suffix="),"/>
-              </else-if>
-              <else-if match="any" variable="ISBN">
-                <text variable="title" prefix="[" suffix="]"/>
-                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
-              </else-if>
-              <else>
-                <text variable="title" prefix="‘" suffix="’,"/>
-              </else>
-            </choose>
-            </else>
-           </choose>
-        </else-if>
-          <else>
-            <choose>
-              <if match="any" variable="DOI">
-                <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
-              </if>
-              <else-if match="any" variable="ISBN">
-                <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
-              </else-if>
-              <else-if match="any" variable="URL">
-                <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="URL" prefix="(" suffix="),"/>
-              </else-if>
-              <else>
-                <text variable="title" text-case="title" font-style="normal" prefix="*" suffix="*,"/>
-              </else>
-            </choose>
-          </else>
-        </choose>
+        <text variable="title" prefix="‘" suffix="’"/>
       </if>
-      <else-if variable="interviewer" type="interview" match="any">
-        <names variable="interviewer">
-          <label form="verb-short" suffix=" " text-case="capitalize-first"/>
-          <name and="symbol" initialize-with=". " delimiter=", "/>
-        </names>
-      </else-if>
     </choose>
   </macro>
   <macro name="description">
@@ -1088,7 +939,7 @@
       <if variable="container-title collection-title" match="any">
         <group delimiter=" ">
           <text term="in" text-case="lowercase"/>
-          <group delimiter=", ">
+          <group delimiter=" ">
             <text macro="container-contributors"/>
             <choose>
               <if variable="container-author editor translator" match="none">
@@ -1194,50 +1045,15 @@
   <bibliography and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" entry-spacing="0" line-spacing="2" hanging-indent="true">
     <sort>
       <key macro="author"/>
-      <key macro="issued-sort" sort="ascending"/>
       <key macro="title"/>
     </sort>
     <layout>
       <group>
-        <group delimiter=" ">
+        <group delimiter=", ">
           <text macro="author"/>
-          <choose>
-            <if is-uncertain-date="issued">
-              <group prefix=" [" suffix="]" delimiter=" ">
-                <text term="circa" form="short"/>
-                <text macro="issued"/>
-              </group>
-            </if>
-            <else>
-              <text macro="issued" prefix=" (" suffix=")"/>
-            </else>
-          </choose>
-          <group delimiter=" ">
-            <text macro="title"/>
-            <group delimiter=" ">
-              <text macro="format"/>
-              <text macro="description"/>
-            </group>
-          </group>
-          <text macro="container"/>
+          <text macro="title"/>
         </group>
       </group>
-      <text macro="access" prefix=" "/>
-      <choose>
-        <if is-uncertain-date="original-date">
-          <group prefix=" [" suffix="]" delimiter=" ">
-            <text macro="original-published"/>
-            <text term="circa" form="short"/>
-            <text macro="original-date"/>
-          </group>
-        </if>
-        <else-if variable="original-date">
-          <group prefix=" (" suffix=")" delimiter=" ">
-            <text macro="original-published"/>
-            <text macro="original-date"/>
-          </group>
-        </else-if>
-      </choose>
     </layout>
   </bibliography>
 </style>

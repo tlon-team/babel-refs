@@ -3,5 +3,5 @@
 (
  (bibtex-mode . ((eval . (add-hook 'after-save-hook #'tlon-auto-clean-entry nil t))
 		 (eval . (auto-revert-mode 1))))
- (json-mode . ((jinx-languages . "ar es fr it ") ; Japanese, Korean not supported by Aspell
+ (json-mode . ((jinx-languages . "ar es fr it pl tr") ; Japanese, Korean not supported by Aspell
 	       (flycheck-languagetool-language . "es"))))

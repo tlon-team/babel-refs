@@ -1,8 +1,4 @@
 {
-    "https://www.podcat.com/podcasts/p1srzb-earadio/episodes/vavjta-good-done-right-nick-beckstead-how-can-a-long-run-perspective-help-with-strategic-cause-selection": {
-	"default": "https://podcastaddict.com/episode/https%3A%2F%2Fwww.buzzsprout.com%2F1755269%2Fepisodes%2F8656185-good-done-right-nick-beckstead-how-can-a-long-run-perspective-help-with-strategic-cause-selection.mp3&podcastRSS=https%3A%2F%2Ffeeds.buzzsprout.com%2F1755269.rss"
-    },
-    "https://80000hours.org/career-guide/world-problems/#artificial-intelligence": {
-	"default": "https://80000hours.org/problem-profiles/artificial-intelligence/"
-    }
+  "https://www.podcat.com/podcasts/p1srzb-earadio/episodes/vavjta-good-done-right-nick-beckstead-how-can-a-long-run-perspective-help-with-strategic-cause-selection": "https://podcastaddict.com/episode/https%3A%2F%2Fwww.buzzsprout.com%2F1755269%2Fepisodes%2F8656185-good-done-right-nick-beckstead-how-can-a-long-run-perspective-help-with-strategic-cause-selection.mp3&podcastRSS=https%3A%2F%2Ffeeds.buzzsprout.com%2F1755269.rss"    ,
+  "https://80000hours.org/career-guide/world-problems/#artificial-intelligence": "https://80000hours.org/problem-profiles/artificial-intelligence/"
 }

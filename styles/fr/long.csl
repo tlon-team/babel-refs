@@ -20,14 +20,14 @@
   <locale xml:lang="fr">
     <terms>
       <term name="editortranslator" form="short">
-        <single>ed. &amp; trad.</single>
-        <multiple>eds. &amp; trads.</multiple>
+        <single>éd. et trad.</single>
+        <multiple>éds. et trads.</multiple>
       </term>
-      <term name="translator" form="verb">traducción de</term>
-      <term name="editor" form="verb">edición de</term>
-      <term name="editortranslator" form="verb">edición y traducción de</term>
+      <term name="translator" form="verb">traduit par</term>
+      <term name="editor" form="verb">édité par</term>
+      <term name="editortranslator" form="verb">édité et traduit par</term>
       <term name="circa" form="short">ca.</term>
-      <term name="collection-editor" form="short">ed. de la serie</term>
+      <term name="collection-editor" form="short">dir. de coll.</term>
       <term name="et-al"> *et al.*</term>
       <term name="open-quote">“</term>
       <term name="close-quote">”</term>
@@ -206,7 +206,7 @@
                   <text variable="title" form="short" quotes="true"/>
                 </substitute>
               </names>
-              <text value="personal communication"/>
+              <text value="communication personnelle"/>
             </group>
           </if>
           <else>
@@ -789,10 +789,10 @@
   <macro name="original-published">
     <choose>
       <if type="broadcast">
-        <text value="Original work broadcast"/>
+        <text value="Œuvre originale diffusée"/>
       </if>
       <else>
-        <text value="Original work published"/>
+        <text value="Œuvre originale publiée"/>
       </else>
     </choose>
   </macro>
@@ -922,7 +922,7 @@
           </group>
           <group>
             <date delimiter=" " variable="issued">
-              <date-part name="day" suffix=" de "/>
+              <date-part name="day" suffix=" "/>
               <date-part name="month"/>
             </date>
           </group>
@@ -940,12 +940,12 @@
               </group>
               <group>
                 <date delimiter=" " variable="issued" prefix=", ">
-                  <date-part name="day" suffix=" de "/>
+                  <date-part name="day" suffix=" "/>
                   <date-part name="month" suffix=" "/>
                 </date>
-                <date delimiter=" " variable="event-date" prefix=" (última actualización: " suffix=")">
-                  <date-part name="day" suffix=" de "/>
-                  <date-part name="month" suffix=" de "/>
+                <date delimiter=" " variable="event-date" prefix=" (dernière mise à jour : " suffix=")">
+                  <date-part name="day" suffix=" "/>
+                  <date-part name="month" suffix=" "/>
                   <date-part name="year"/>
                 </date>
               </group>
@@ -958,7 +958,7 @@
               </group>
               <group>
                 <date delimiter=" " variable="issued">
-                  <date-part name="day" suffix=" de "/>
+                  <date-part name="day" suffix=" "/>
                   <date-part name="month"/>
                 </date>
               </group>

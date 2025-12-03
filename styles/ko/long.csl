@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="ko-KR">
   <info>
-    <title>Biblioteca Altruismo Eficaz</title>
-    <title-short>BAE</title-short>
+    <title>유효 이타주의 도서관</title>
+    <title-short>유이도</title-short>
     <id>https://www.zotero.org/styles/biblioteca-altruismo-eficaz</id>
     <link href="https://www.zotero.org/styles/biblioteca-altruismo-eficaz" rel="self"/>
     <link href="https://www.zotero.org/styles/apa-6th-edition" rel="template"/>
@@ -20,15 +20,15 @@
   <locale xml:lang="ko">
     <terms>
       <term name="editortranslator" form="short">
-        <single>ed. &amp; trad.</single>
-        <multiple>eds. &amp; trads.</multiple>
+        <single>편집/번역</single>
+        <multiple>편집/번역</multiple>
       </term>
-      <term name="translator" form="verb">traducción de</term>
-      <term name="editor" form="verb">edición de</term>
-      <term name="editortranslator" form="verb">edición y traducción de</term>
-      <term name="circa" form="short">ca.</term>
-      <term name="collection-editor" form="short">ed. de la serie</term>
-      <term name="et-al"> *et al.*</term>
+      <term name="translator" form="verb">번역</term>
+      <term name="editor" form="verb">편집</term>
+      <term name="editortranslator" form="verb">편집 및 번역</term>
+      <term name="circa" form="short">약</term>
+      <term name="collection-editor" form="short">시리즈 편집자</term>
+      <term name="et-al"> 외</term>
       <term name="open-quote">“</term>
       <term name="close-quote">”</term>
       <term name="open-inner-quote">‘</term>
@@ -206,7 +206,7 @@
                   <text variable="title" form="short" quotes="true"/>
                 </substitute>
               </names>
-              <text value="personal communication"/>
+              <text value="개인 서신"/>
             </group>
           </if>
           <else>
@@ -740,7 +740,6 @@
             <if is-uncertain-date="original-date">
               <group prefix="[" suffix="]" delimiter=" ">
                 <text term="circa" form="short"/>
-                <date variable="original-date">
                   <date-part name="year"/>
                 </date>
               </group>
@@ -789,10 +788,10 @@
   <macro name="original-published">
     <choose>
       <if type="broadcast">
-        <text value="Original work broadcast"/>
+        <text value="원본 방송"/>
       </if>
       <else>
-        <text value="Original work published"/>
+        <text value="원본 출판"/>
       </else>
     </choose>
   </macro>
@@ -891,8 +890,8 @@
           <else>
             <group delimiter=", ">
               <date delimiter=" " variable="issued">
-                <date-part name="month"/>
-                <date-part name="day"/>
+                <date-part name="month" suffix="월 "/>
+                <date-part name="day" suffix="일"/>
               </date>
               <group delimiter=" ">
                 <label variable="page" form="short"/>
@@ -905,8 +904,8 @@
       <else-if type="article-newspaper">
         <group delimiter=", ">
           <date delimiter=" " variable="issued">
-            <date-part name="month"/>
-            <date-part name="day"/>
+            <date-part name="month" suffix="월 "/>
+            <date-part name="day" suffix="일"/>
           </date>
           <group delimiter=" ">
             <label variable="page" form="short"/>
@@ -922,8 +921,8 @@
           </group>
           <group>
             <date delimiter=" " variable="issued">
-              <date-part name="day" suffix=" de "/>
-              <date-part name="month"/>
+              <date-part name="month" suffix="월 "/>
+              <date-part name="day" suffix="일"/>
             </date>
           </group>
         </group>
@@ -940,13 +939,13 @@
               </group>
               <group>
                 <date delimiter=" " variable="issued" prefix=", ">
-                  <date-part name="day" suffix=" de "/>
-                  <date-part name="month" suffix=" "/>
+                  <date-part name="month" suffix="월 "/>
+                  <date-part name="day" suffix="일"/>
                 </date>
-                <date delimiter=" " variable="event-date" prefix=" (última actualización: " suffix=")">
-                  <date-part name="day" suffix=" de "/>
-                  <date-part name="month" suffix=" de "/>
-                  <date-part name="year"/>
+                <date delimiter=" " variable="event-date" prefix=" (마지막 업데이트: " suffix=")">
+                  <date-part name="year" suffix="년 "/>
+                  <date-part name="month" suffix="월 "/>
+                  <date-part name="day" suffix="일"/>
                 </date>
               </group>
             </group>
@@ -958,8 +957,8 @@
               </group>
               <group>
                 <date delimiter=" " variable="issued">
-                  <date-part name="day" suffix=" de "/>
-                  <date-part name="month"/>
+                  <date-part name="month" suffix="월 "/>
+                  <date-part name="day" suffix="일"/>
                 </date>
               </group>
             </group>
@@ -1241,3 +1240,4 @@
     </layout>
   </bibliography>
 </style>
+

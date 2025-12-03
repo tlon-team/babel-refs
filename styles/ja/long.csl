@@ -380,8 +380,20 @@
                 <text variable="original-title" prefix="（原題: " suffix="）"/>
                 <text variable="URL" prefix="(" suffix="),"/>
               </else-if>
-              <else-if match="any">
-                  <if match="any" variable="DOI">
+              <else-if match="any" variable="ISBN">
+                <text variable="title" prefix="「" suffix="」,"/>
+                <text variable="original-title" prefix="（原題: " suffix="）"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
+              </else-if>
+              <else>
+                <text variable="title" prefix="「" suffix="」,"/>
+                <text variable="original-title" prefix="（原題: 「" suffix="」),"/>
+              </else>
+            </choose>
+              </if>
+             <else-if match="any" variable="version">
+              <choose>
+                <if match="any" variable="DOI">
                     <text variable="title" prefix="[" suffix=" "/>
                     <text variable="version" prefix="*" suffix="*]"/>
                     <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>

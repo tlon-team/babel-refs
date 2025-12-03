@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" and="symbol" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize="false" page-range-format="expanded" demote-non-dropping-particle="never" default-locale="es-ES">
   <info>
-    <title>Short audio</title>
-    <title-short>SHORT AUDIO</title-short>
+    <title>Short audio [es]</title>
+    <title-short>Short audio [es]</title-short>
     <id>https://www.zotero.org/styles/short-audio-biblioteca-altruismo-eficaz</id>
     <link href="https://www.zotero.org/styles/short-audio-biblioteca-altruismo-eficaz" rel="self"/>
     <link href="https://www.zotero.org/styles/apa-6th-edition" rel="template"/>

@@ -740,6 +740,7 @@
             <if is-uncertain-date="original-date">
               <group prefix="[" suffix="]" delimiter=" ">
                 <text term="circa" form="short"/>
+                <date variable="original-date">
                   <date-part name="year"/>
                 </date>
               </group>

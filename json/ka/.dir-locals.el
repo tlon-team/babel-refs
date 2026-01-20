@@ -1,4 +1,4 @@
 ;;; Directory Local Variables            -*- no-byte-compile: t -*-
 ;;; For more information see (info "(emacs) Directory Variables")
-((markdown-mode . ((jinx-languages . "ka")
+((nil . ((jinx-languages . "ka")
 		   (flycheck-languagetool-language . "ka"))))

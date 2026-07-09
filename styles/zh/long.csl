@@ -30,10 +30,10 @@
       <term name="circa" form="short">约</term>
       <term name="collection-editor" form="short">丛书编者</term>
       <term name="et-al"> 等</term>
-      <term name="open-quote">"</term>
-      <term name="close-quote">"</term>
-      <term name="open-inner-quote">'</term>
-      <term name="close-inner-quote">'</term>
+      <term name="open-quote">《</term>
+      <term name="close-quote">》</term>
+      <term name="open-inner-quote">〈</term>
+      <term name="close-inner-quote">〉</term>
       <term name="page-range-delimiter">–</term>
     </terms>
   </locale>
@@ -332,18 +332,18 @@
                 <choose>
                   <if match="any" variable="DOI">
                     <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
+                    <text variable="DOI" prefix="(https://doi.org/" suffix=")，"/>
                   </if>
                   <else-if match="any" variable="URL">
                     <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="URL" prefix="(" suffix="),"/>
+                    <text variable="URL" prefix="(" suffix=")，"/>
                   </else-if>
                   <else-if match="any" variable="ISBN">
                     <text variable="title" prefix="[" suffix="]"/>
-                    <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
+                    <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")，"/>
                   </else-if>
                   <else>
-                    <text variable="title" prefix=""" suffix=""，"/>
+                    <text variable="title" prefix="《" suffix="》，"/>
                   </else>
                 </choose>
           </else-if>
@@ -371,23 +371,23 @@
               <if match="any" variable="original-title">
             <choose>
               <if match="any" variable="DOI">
-                <text variable="title" prefix=""" suffix=""，"/>
+                <text variable="title" prefix="《" suffix="》，"/>
                 <text variable="original-title" prefix="（原题：" suffix="）"/>
-                <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
+                <text variable="DOI" prefix="(https://doi.org/" suffix=")，"/>
               </if>
               <else-if match="any" variable="URL">
-                <text variable="title" prefix=""" suffix=""，"/>
+                <text variable="title" prefix="《" suffix="》，"/>
                 <text variable="original-title" prefix="（原题：" suffix="）"/>
-                <text variable="URL" prefix="(" suffix="),"/>
+                <text variable="URL" prefix="(" suffix=")，"/>
               </else-if>
               <else-if match="any" variable="ISBN">
-                <text variable="title" prefix=""" suffix=""，"/>
+                <text variable="title" prefix="《" suffix="》，"/>
                 <text variable="original-title" prefix="（原题：" suffix="）"/>
-                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")，"/>
               </else-if>
               <else>
-                <text variable="title" prefix=""" suffix=""，"/>
-                <text variable="original-title" prefix="（原题：'" suffix="'），"/>
+                <text variable="title" prefix="《" suffix="》，"/>
+                <text variable="original-title" prefix="（原题：〈" suffix="〉），"/>
               </else>
             </choose>
               </if>
@@ -396,21 +396,21 @@
                 <if match="any" variable="DOI">
                     <text variable="title" prefix="[" suffix=" "/>
                     <text variable="version" prefix="*" suffix="*]"/>
-                    <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
+                    <text variable="DOI" prefix="(https://doi.org/" suffix=")，"/>
                   </if>
                   <else-if match="any" variable="URL">
                     <text variable="title" prefix="[" suffix=" "/>
                     <text variable="version" prefix="*" suffix="*]"/>
-                    <text variable="URL" prefix="(" suffix="),"/>
+                    <text variable="URL" prefix="(" suffix=")，"/>
                   </else-if>
                   <else-if match="any" variable="ISBN">
                     <text variable="title" prefix="[" suffix=" "/>
                   <text variable="version" prefix="*" suffix="*]"/>
-                  <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
+                  <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")，"/>
                 </else-if>
                 <else>
-                  <text variable="title" prefix=""" suffix=" "/>
-                  <text variable="version" prefix="*" suffix="*"，"/>
+                  <text variable="title" prefix="《" suffix=" "/>
+                  <text variable="version" prefix="*" suffix="*》，"/>
                 </else>
               </choose>
              </else-if>
@@ -418,18 +418,18 @@
 	        		<choose>
               <if match="any" variable="DOI">
                 <text variable="title" prefix="[" suffix="]"/>
-                <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
+                <text variable="DOI" prefix="(https://doi.org/" suffix=")，"/>
               </if>
               <else-if match="any" variable="URL">
                 <text variable="title" prefix="[" suffix="]"/>
-                <text variable="URL" prefix="(" suffix="),"/>
+                <text variable="URL" prefix="(" suffix=")，"/>
               </else-if>
               <else-if match="any" variable="ISBN">
                 <text variable="title" prefix="[" suffix="]"/>
-                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")，"/>
               </else-if>
               <else>
-                <text variable="title" prefix=""" suffix=""，"/>
+                <text variable="title" prefix="《" suffix="》，"/>
               </else>
             </choose>
             </else>
@@ -439,15 +439,15 @@
             <choose>
               <if match="any" variable="DOI">
                 <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="DOI" prefix="(https://doi.org/" suffix="),"/>
+                <text variable="DOI" prefix="(https://doi.org/" suffix=")，"/>
               </if>
               <else-if match="any" variable="ISBN">
                 <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix="),"/>
+                <text variable="ISBN" prefix="(https://worldcat.org/search?q=" suffix=")，"/>
               </else-if>
               <else-if match="any" variable="URL">
                 <text variable="title" text-case="title" font-style="normal" prefix="[*" suffix="*]"/>
-                <text variable="URL" prefix="(" suffix="),"/>
+                <text variable="URL" prefix="(" suffix=")，"/>
               </else-if>
               <else>
                 <text variable="title" text-case="title" font-style="normal" prefix="*" suffix="*,"/>
@@ -644,10 +644,7 @@
                 <text variable="publisher-place"/>
                 <text variable="publisher" suffix=","/>
               </group>
-              <group>
-                <label suffix=" " variable="page" form="short"/>
-                <text variable="page"/>
-              </group>
+              <text variable="page" prefix="第" suffix="页"/>
             </if>
             <else>
               <group delimiter=": ">
@@ -823,24 +820,15 @@
            <else-if variable="volume" match="any">
              <choose>
               <if variable="page" match="any">
-                <group delimiter=", ">
-                  <group delimiter=", ">
-                    <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
-                  </group>
-                  <group>
-                    <label suffix=" " variable="page" form="short"/>
-                    <text variable="page"/>
-                  </group>
+                <group delimiter="，">
+                  <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
+                  <text variable="page" prefix="第" suffix="页"/>
                 </group>
               </if>
               <else-if variable="page" match="none">
-                <group delimiter=", ">
-                  <group delimiter=", ">
-                    <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
-                  </group>
-                  <group>
-                    <text variable="issue"/>
-                  </group>
+                <group delimiter="，">
+                  <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
+                  <text variable="issue"/>
                 </group>
               </else-if>
              </choose>
@@ -848,14 +836,9 @@
            <else-if variable="volume" match="none">
              <choose>
               <if variable="page" match="any">
-                <group delimiter=", ">
-                  <group delimiter=", ">
-                    <text variable="issue"/>
-                  </group>
-                  <group>
-                    <label suffix=" " variable="page" form="short"/>
-                    <text variable="page"/>
-                  </group>
+                <group delimiter="，">
+                  <text variable="issue"/>
+                  <text variable="page" prefix="第" suffix="页"/>
                 </group>
               </if>
              </choose>
@@ -863,14 +846,9 @@
           </choose>
           </if>
           <else>
-            <group delimiter=", ">
-              <group delimiter=", ">
-                <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
-              </group>
-              <group>
-                <label suffix=" " variable="page" form="short"/>
-                <text variable="page"/>
-              </group>
+            <group delimiter="，">
+              <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
+              <text variable="page" prefix="第" suffix="页"/>
             </group>
           </else>
         </choose>
@@ -878,40 +856,31 @@
       <else-if type="article-magazine">
         <choose>
           <if variable="volume" match="any">
-            <group delimiter=", ">
-              <group delimiter=", ">
-                <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
-              </group>
-              <group>
-                <label suffix=" " variable="page" form="short"/>
-                <text variable="page"/>
-              </group>
+            <group delimiter="，">
+              <text variable="volume" font-style="normal" prefix="第" suffix="卷"/>
+              <text variable="page" prefix="第" suffix="页"/>
             </group>
           </if>
           <else>
-            <group delimiter=", ">
-              <date delimiter=" " variable="issued">
-                <date-part name="month" suffix="月"/>
+            <group delimiter="，">
+              <date variable="issued">
+                <date-part name="year" suffix="年"/>
+                <date-part name="month" form="numeric" suffix="月"/>
                 <date-part name="day" suffix="日"/>
               </date>
-              <group delimiter=" ">
-                <label variable="page" form="short"/>
-                <text variable="page"/>
-              </group>
+              <text variable="page" prefix="第" suffix="页"/>
             </group>
           </else>
         </choose>
       </else-if>
       <else-if type="article-newspaper">
-        <group delimiter=", ">
-          <date delimiter=" " variable="issued">
-            <date-part name="month" suffix="月"/>
+        <group delimiter="，">
+          <date variable="issued">
+            <date-part name="year" suffix="年"/>
+            <date-part name="month" form="numeric" suffix="月"/>
             <date-part name="day" suffix="日"/>
           </date>
-          <group delimiter=" ">
-            <label variable="page" form="short"/>
-            <text variable="page"/>
-          </group>
+          <text variable="page" prefix="第" suffix="页"/>
         </group>
       </else-if>
       <else-if type="speech">
@@ -921,8 +890,9 @@
             <text variable="publisher-place"/>
           </group>
           <group>
-            <date delimiter=" " variable="issued">
-              <date-part name="month" suffix="月"/>
+            <date variable="issued">
+              <date-part name="year" suffix="年"/>
+              <date-part name="month" form="numeric" suffix="月"/>
               <date-part name="day" suffix="日"/>
             </date>
           </group>
@@ -939,29 +909,27 @@
                 <text variable="container-title" text-case="title" font-style="normal" prefix="*" suffix="*"/>
               </group>
               <group>
-                <date delimiter=" " variable="issued" prefix=", ">
-                  <date-part name="month" suffix="月"/>
-                  <date-part name="day" suffix="日 "/>
-                </date>
-                <date delimiter=" " variable="event-date" prefix=" (最后更新: " suffix=")">
+                <date variable="issued" prefix="，">
                   <date-part name="year" suffix="年"/>
-                  <date-part name="month" suffix="月"/>
+                  <date-part name="month" form="numeric" suffix="月"/>
+                  <date-part name="day" suffix="日"/>
+                </date>
+                <date variable="event-date" prefix=" (最后更新: " suffix=")">
+                  <date-part name="year" suffix="年"/>
+                  <date-part name="month" form="numeric" suffix="月"/>
                   <date-part name="day" suffix="日"/>
                 </date>
               </group>
             </group>
           </if>
           <else>
-            <group delimiter=", ">
-              <group>
-                <text variable="container-title" text-case="title" font-style="normal" prefix="*" suffix="*"/>
-              </group>
-              <group>
-                <date delimiter=" " variable="issued">
-                  <date-part name="month" suffix="月"/>
-                  <date-part name="day" suffix="日"/>
-                </date>
-              </group>
+            <group delimiter="，">
+              <text variable="container-title" text-case="title" font-style="normal" prefix="*" suffix="*"/>
+              <date variable="issued">
+                <date-part name="year" suffix="年"/>
+                <date-part name="month" form="numeric" suffix="月"/>
+                <date-part name="day" suffix="日"/>
+              </date>
             </group>
           </else>
         </choose>
@@ -1026,7 +994,7 @@
   <macro name="container">
     <choose>
       <if type="article-journal article-magazine article-newspaper review review-book" match="any">
-        <group delimiter=", ">
+        <group delimiter="，">
           <text macro="container-title"/>
           <text macro="locators"/>
         </group>
@@ -1200,7 +1168,14 @@
     <layout>
       <group>
         <group delimiter=" ">
-          <text macro="author"/>
+          <choose>
+            <if type="article-journal article-magazine article-newspaper post post-weblog webpage broadcast report paper-conference speech" match="any">
+              <text macro="author" suffix="，"/>
+            </if>
+            <else>
+              <text macro="author"/>
+            </else>
+          </choose>
           <choose>
             <if is-uncertain-date="issued">
               <group prefix=" [" suffix="]" delimiter=" ">
@@ -1208,6 +1183,7 @@
                 <text macro="issued"/>
               </group>
             </if>
+            <else-if type="article-journal article-magazine article-newspaper post post-weblog webpage broadcast report paper-conference speech" match="any"/>
             <else>
               <text macro="issued" prefix=" (" suffix="年）"/>
             </else>

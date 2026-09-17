@@ -30,6 +30,17 @@ other repos' instructions say "do not edit". This skill edits it deliberately: t
 writes entries here and pushes them to the database themselves. So: **append, never
 rewrite; never commit; never reformat neighbouring entries.**
 
+> **Entries written here are volatile.** `db.bib` is periodically regenerated from the
+> database, which **silently destroys any local addition the user has not yet pushed**
+> (observed 2026-09-17: a regeneration dropped four translation entries written the day
+> before, and reordered the whole file). There is no git history to recover from — the
+> file is gitignored — and the Emacs `db.bib~` backup is usually older still.
+>
+> Therefore:
+> - Always **tell the user, at the end of the run, that the new entries must be pushed to the database before the next regeneration**, or they will be lost.
+> - Before appending, check whether a regeneration has happened since you last touched the file (`ls -l bib/db.bib`, and re-grep for keys you wrote earlier in the session). If entries you created have vanished, say so rather than silently re-adding them.
+> - Save a copy of everything you append to `<scratchpad>/db-cite-<date>.bib` so it can be replayed if a regeneration lands first.
+
 ## 0. Resolve arguments
 
 Split `$ARGUMENTS` into (a) one target and (b) zero or more two-letter language codes.

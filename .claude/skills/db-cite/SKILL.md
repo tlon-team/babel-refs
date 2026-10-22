@@ -124,7 +124,9 @@ a field is genuinely unfindable, omit it and say so in the report.
 ## 5. Write the original entry
 
 Append to the **end** of `db.bib` (the file is not sorted; new entries go last), tab-indented,
-one blank line between entries.
+exactly one blank line between entries. The file usually already ends with `}\n\n`
+(check with `tail -c 3 bib/db.bib | od -c`); if so, do not start the appended text with
+another blank line.
 
 ```bibtex
 @online{Christiano2019WhatFailureLooks,
@@ -305,7 +307,9 @@ for key in ['<list every key you wrote>']:
 EOF
 ```
 
-Check: entry count rose by exactly the number you appended; **zero** duplicate keys;
+Check: entry count rose by exactly the number you appended (run this same script before
+appending to get the baseline — other counting methods, like `grep -c '^@'`, give a
+different total); **zero** duplicate keys;
 braces balanced in every new entry; no AI label; each translation's field list matches
 its siblings (Es/It carry `journaltitle`, Ru/Zh do not); every `translation = {…}`
 target exists. Fix anything wrong before pushing.
@@ -344,7 +348,7 @@ Read each result:
 |---|---|---|
 | `t` | posted (HTTP 200); the entry in `db.bib` was rewritten with the server's version | verify (§7d) |
 | `nil` | skipped: an author is missing from the name table, or another non-200 | read the log (below) |
-| `"ERR (buffer-read-only #<buffer db.bib>)"` | the POST succeeded; only the local mirror failed because `db.bib` is open read-only | harmless; verify (§7d) |
+| `"ERR (buffer-read-only #<buffer db.bib>)"` | the POST succeeded; only the local mirror failed because `db.bib` is open read-only (Ebib makes it so on load/reload). Fixed in `tlon.el` 82086107, so this means Emacs is running older code | verify (§7d); tell the user, and expect `db-upstream.bib` to be stale until the next refresh |
 | other `"ERR …"` | failed | report it; do not retry blindly |
 
 On `nil`, read the log:

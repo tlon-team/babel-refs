@@ -331,6 +331,25 @@ The original must be on the server before any translation that points to it, so 
 first in the list. If the original already existed (bibkey target), list only the
 translations.
 
+First refresh the key cache of the `db.bib` buffer. If Emacs has `db.bib` open, it
+reverts the buffer when you append, but its `bibtex-reference-keys` cache still lists
+only the old keys. `tlon-db-post-entry` looks keys up through that cache, so it finds
+nothing, POSTs an empty body and returns `nil` (see the table below). Re-parse the keys
+and check the count matches the §7a total, and that a new key is found:
+
+```bash
+emacsclient -s <SOCKET> --eval '
+(format "%S"
+  (with-current-buffer (find-file-noselect tlon-file-db)
+    (setq bibtex-reference-keys (lazy-completion-table bibtex-reference-keys bibtex-parse-keys))
+    (bibtex-parse-keys)
+    (list (length bibtex-reference-keys)
+          (let ((bibtex-files (list tlon-file-db)))
+            (substring (bibtex-extras-get-entry-as-string "OriginalKey" nil) 0 40)))))'
+```
+
+Then push:
+
 ```bash
 emacsclient -s <SOCKET> --eval '
 (let ((bibtex-files (list tlon-file-db))
@@ -357,6 +376,17 @@ On `nil`, read the log:
 emacsclient -s <SOCKET> --eval '(with-current-buffer (get-buffer-create tlon-db--sync-log-buffer-name) (buffer-substring-no-properties (max (point-min) (- (point-max) 2000)) (point-max)))'
 ```
 
+If the log says nothing about your keys, the failure was some other non-200, shown in
+the `*Db API Result*` buffer:
+
+```bash
+emacsclient -s <SOCKET> --eval '(with-current-buffer "*Db API Result*" (buffer-substring-no-properties (point-min) (min (point-max) 2000)))'
+```
+
+`422` with `Field: body, Error: Field required` means the entry text was empty: the key
+was not found because the key cache was stale. Nothing reached the server. Refresh the
+cache (above) and push again.
+
 If it says an author is missing, first check that the name is spelled exactly as on the
 work's byline, then add it and push that entry (and its translations) again:
 
@@ -376,6 +406,24 @@ emacsclient -s <SOCKET> --eval '
 (let ((r (tlon-db--handle-entry-request "GET" "/api/entries/KEY" nil (quote (("accept" . "text/plain"))) nil)))
   (list (plist-get r :status) (tlon-db--get-response-body (plist-get r :raw-text))))'
 ```
+
+The body comes back as undecoded UTF-8 bytes. To compare many entries, write them to
+files from Emacs, but decode first and bind the write coding system:
+
+```bash
+emacsclient -s <SOCKET> --eval '
+(let* ((r (tlon-db--handle-entry-request "GET" "/api/entries/KEY" nil (quote (("accept" . "text/plain"))) nil))
+       (body (decode-coding-string (or (tlon-db--get-response-body (plist-get r :raw-text)) "") (quote utf-8)))
+       (coding-system-for-write (quote utf-8-unix)))
+  (with-temp-file "<scratchpad>/srv-KEY.txt"
+    (insert (format "%s\n" (plist-get r :status)) body))
+  nil)'
+```
+
+Without the decoding, any non-ASCII character (the `ö` in `Tlön` is in every entry)
+makes Emacs open a "select coding system" prompt in the user's session. That blocks
+Emacs, and every later `emacsclient` call, until the user dismisses it. Wrap each call
+in `timeout 30` so a blocked Emacs fails fast instead of hanging.
 
 Status 200 plus the BibTeX means the entry is in the database. Compare the returned
 fields with what you wrote (title, author, `translation`, abstract) — the server may

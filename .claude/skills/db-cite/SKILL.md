@@ -163,6 +163,21 @@ argues or reports.
 `– Resumen generado por IA.`, `——AI生成的摘要。`, etc.), in the original or in any
 translation. Many older entries carry such a closer; do not imitate them.
 
+**Plain text only: no LaTeX commands** in an abstract, in any file (`db.bib`,
+`fluid.bib`, `stable.bib`) and in any language. The only backslashes allowed are the
+escapes `\%`, `\$` and `\&`. Every abstract is machine-translated into each site
+language by the abstract-translator service, which mangles commands: it turned
+`\emph{Ph.D. Completion and Attrition…}` into `\emph“Ph.D. Completion and Attrition…”`
+in Italian and `\emph«…»` in Spanish. That invalid LaTeX crashes citation generation
+(api-node: `Cannot read properties of undefined (reading 'title')`), and one bad entry
+stops the whole language's site build.
+
+- Titles of works: put them in quotation marks (“…”), not `\emph{…}` or `\textit{…}`.
+- Symbols: write the character itself (`~`, `>`, `<`, `^`, `≈`, `α`), not
+  `\textasciitilde`, `\textgreater`, `\approx` or math mode.
+- Check before writing:
+  `printf '%s\n' "<abstract>" | grep -nE '\\[a-zA-Z]'` must print nothing.
+
 ## 6. Create the translation entries
 
 One entry per requested language, key = `<OriginalBibKey><Xx>`.

@@ -163,20 +163,23 @@ argues or reports.
 `– Resumen generado por IA.`, `——AI生成的摘要。`, etc.), in the original or in any
 translation. Many older entries carry such a closer; do not imitate them.
 
-**Plain text only: no LaTeX commands** in an abstract, in any file (`db.bib`,
-`fluid.bib`, `stable.bib`) and in any language. The only backslashes allowed are the
-escapes `\%`, `\$` and `\&`. Every abstract is machine-translated into each site
-language by the abstract-translator service, which mangles commands: it turned
-`\emph{Ph.D. Completion and Attrition…}` into `\emph“Ph.D. Completion and Attrition…”`
-in Italian and `\emph«…»` in Spanish. That invalid LaTeX crashes citation generation
-(api-node: `Cannot read properties of undefined (reading 'title')`), and one bad entry
-stops the whole language's site build.
+**Plain text, except for math**, in an abstract, in any file (`db.bib`,
+`fluid.bib`, `stable.bib`) and in any language. Every abstract is machine-translated
+into each site language by the abstract-translator service. It keeps math spans
+(`$…$`) verbatim and rebuilds simple formatting commands, but anything it cannot
+deliver intact is rejected, and a rejected translation stops that language's site
+build until someone corrects it by hand (see the abstract-translator README,
+"Correcting rejected translations"). Before that protection existed, `\emph{…}` came
+back as `\emph«…»`, invalid LaTeX that crashed citation generation outright.
 
 - Titles of works: put them in quotation marks (“…”), not `\emph{…}` or `\textit{…}`.
-- Symbols: write the character itself (`~`, `>`, `<`, `^`, `≈`, `α`), not
-  `\textasciitilde`, `\textgreater`, `\approx` or math mode.
-- Check before writing:
-  `printf '%s\n' "<abstract>" | grep -nE '\\[a-zA-Z]'` must print nothing.
+- Symbols in prose: write the character itself (`~`, `>`, `<`, `^`, `≈`, `α`), not
+  `\textasciitilde`, `\textgreater` or `\approx`.
+- Formulas that carry meaning (`$C_i \sim h_i^{1+\beta_i}$`) stay in math mode: they
+  are not translated. Keep each `$…$` span self-contained and balanced.
+- Outside math the only backslashes allowed are the escapes `\%`, `\$` and `\&`.
+  Check before writing (math removed first; must print nothing):
+  `printf '%s\n' "<abstract>" | sed -E 's/\$[^$]*\$//g' | grep -nE '\\[a-zA-Z]'`
 
 ## 6. Create the translation entries
 

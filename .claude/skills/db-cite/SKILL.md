@@ -25,7 +25,7 @@ the destination, the field set, the translation step and the push are different.
 | Also search | `bib/stable.bib`, `bib/fluid.bib`, `bib/db-upstream.bib` (same dir) |
 | Glossary | `/Users/cartago/Library/CloudStorage/Dropbox/repos/babel-core/glossary.json` |
 | Legacy MT abstracts | `json/<lang>/abstract-translations.json` (reference only — see §6c) |
-| Push instructions | `babel-refs/CLAUDE.local.md` (authoritative; §7 below follows it) |
+| Push | the `tlon-db` skill, `../agents/skills/tlon-db/` (§7) |
 
 `bib/db.bib` is **gitignored** and is a local mirror of the database. Edit it only by
 **appending** at the end; never rewrite or reformat neighbouring entries; never commit it.
@@ -45,7 +45,7 @@ the destination, the field set, the translation step and the push are different.
 Split `$ARGUMENTS` into (a) one target and (b) zero or more two-letter language codes.
 
 - Target starts with `http://` / `https://` → import the original from the web (§1–§5), then translate (§6).
-- Target is a bare `AuthorYYYYWords` bibkey → the original already exists; confirm it is on the server (`GET /api/entries/<key>` → 200, see §7d) and skip to §6.
+- Target is a bare `AuthorYYYYWords` bibkey → the original already exists; confirm it is on the server (`get <key>`, see §7c) and skip to §6.
 - No target → ask which link to import. Do not guess.
 
 The language codes are **exactly** the translations to create — no more, no fewer. If
@@ -78,10 +78,10 @@ grep -n "<ProposedBibKey>" stable.bib fluid.bib db.bib db-upstream.bib
 ```
 
 Then confirm on the server that the proposed key (and each `<Key><Xx>`) returns **404**
-(§7d). The server is the authority; the local files may be stale.
+(§7c). The server is the authority; the local files may be stale.
 
 - Already in the database → do not create a second entry or edit the existing one. Report the existing bibkey and go on to the translations that are missing.
-- Only in `fluid.bib`/`stable.bib` → do not duplicate it in `db.bib`; tell the user and offer `tlon-db-move-entry` (which posts it and removes it from the source file).
+- Only in `fluid.bib`/`stable.bib` → do not duplicate it in `db.bib`; tell the user and offer to move it: `post bib/fluid.bib KEY --move` with the `tlon-db` skill posts it and removes it from the source file.
 
 ## 3. Propose the bibkey
 
@@ -332,121 +332,55 @@ braces balanced in every new entry; no AI label; each translation's field list m
 its siblings (Es/It carry `journaltitle`, Ru/Zh do not); every `translation = {…}`
 target exists. Fix anything wrong before pushing.
 
-### 7b. Find the Emacs server
+### 7b. Push — original first, then translations
 
-All pushing goes through the user's running Emacs (package `tlon`), which holds the API
-credentials. The socket is not the default one:
-
-```bash
-ls $TMPDIR/emacs$(id -u)/        # e.g. server54720 — use it as -s NAME
-```
-
-Calling `emacsclient --eval` is not a signal to the process. **Never kill or restart Emacs.**
-
-### 7c. Push — original first, then translations
-
-The original must be on the server before any translation that points to it, so put it
-first in the list. If the original already existed (bibkey target), list only the
-translations.
-
-First refresh the key cache of the `db.bib` buffer. If Emacs has `db.bib` open, it
-reverts the buffer when you append, but its `bibtex-reference-keys` cache still lists
-only the old keys. `tlon-db-post-entry` looks keys up through that cache, so it finds
-nothing, POSTs an empty body and returns `nil` (see the table below). Re-parse the keys
-and check the count matches the §7a total, and that a new key is found:
+Push with the `tlon-db` skill (`../agents/skills/tlon-db/`), which talks to the
+API directly; Emacs is not involved. Set `PY` to its `scripts/tlon_db.py`. Read that
+skill's SKILL.md for what the server enforces.
 
 ```bash
-emacsclient -s <SOCKET> --eval '
-(format "%S"
-  (with-current-buffer (find-file-noselect tlon-file-db)
-    (setq bibtex-reference-keys (lazy-completion-table bibtex-reference-keys bibtex-parse-keys))
-    (bibtex-parse-keys)
-    (list (length bibtex-reference-keys)
-          (let ((bibtex-files (list tlon-file-db)))
-            (substring (bibtex-extras-get-entry-as-string "OriginalKey" nil) 0 40)))))'
+python3 -I "$PY" post bib/db.bib OriginalKey OriginalKeyEs OriginalKeyZh
 ```
 
-Then push:
+It posts the originals before the translations that point to them, whatever the order
+of the keys. If the original already existed (bibkey target), list only the
+translations. Every entry, translations included, needs `author` (the original's).
 
-```bash
-emacsclient -s <SOCKET> --eval '
-(let ((bibtex-files (list tlon-file-db))
-      (tlon-db--sync-in-progress t))
-  (mapcar (lambda (k) (cons k (condition-case e (tlon-db-post-entry k) (error (format "ERR %S" e)))))
-          (list "OriginalKey" "OriginalKeyEs" "OriginalKeyZh")))'
-```
+For each key it prints `OK`, or `FAILED` with the server's reason, and it exits 1 if
+any failed:
 
-- `bibtex-files` bound to `tlon-file-db` makes it post the version you just wrote in `db.bib`.
-- `tlon-db--sync-in-progress` set to `t` stops `tlon-db-post-entry` from asking with `y-or-n-p` (which would block emacsclient) when the server rejects an entry because an author is not in the name table.
-
-Read each result:
-
-| Result | Meaning | Action |
+| Output | Meaning | Action |
 |---|---|---|
-| `t` | posted (HTTP 200); the entry in `db.bib` was rewritten with the server's version | verify (§7d) |
-| `nil` | skipped: an author is missing from the name table, or another non-200 | read the log (below) |
-| `"ERR (buffer-read-only #<buffer db.bib>)"` | the POST succeeded; only the local mirror failed because `db.bib` is open read-only (Ebib makes it so on load/reload). Fixed in `tlon.el` 82086107, so this means Emacs is running older code | verify (§7d); tell the user, and expect `db-upstream.bib` to be stale until the next refresh |
-| other `"ERR …"` | failed | report it; do not retry blindly |
+| `OK KEY` | posted, and read back from the server | — |
+| `OK KEY (stored with differences)` + lines | posted, but the server dropped, added or changed fields (e.g. a relative `url`) | fix the entry in `db.bib` if the change is wrong, and post again; report every line |
+| `FAILED KEY: HTTP 400` + `names not in the name table: …` | an author or translator is missing. The entry's other fields **are** on the server already | fix the name (below), then post again |
+| other `FAILED` | rejected (missing `langid`/`title`/`author`, unknown `translation` key…) | fix and post again; do not retry blindly |
 
-On `nil`, read the log:
+`post` does not rewrite `db.bib` or `db-upstream.bib`; the next Emacs refresh brings the
+server's version. Nothing is lost by that: the entry is already on the server.
 
-```bash
-emacsclient -s <SOCKET> --eval '(with-current-buffer (get-buffer-create tlon-db--sync-log-buffer-name) (buffer-substring-no-properties (max (point-min) (- (point-max) 2000)) (point-max)))'
-```
-
-If the log says nothing about your keys, the failure was some other non-200, shown in
-the `*Db API Result*` buffer:
+If an author is missing, first check that the name is spelled exactly as on the work's
+byline, and look for a near match:
 
 ```bash
-emacsclient -s <SOCKET> --eval '(with-current-buffer "*Db API Result*" (buffer-substring-no-properties (point-min) (min (point-max) 2000)))'
+python3 -I "$PY" check-name "Last, First"
+python3 -I "$PY" set-name "Last, First"
 ```
 
-`422` with `Field: body, Error: Field required` means the entry text was empty: the key
-was not found because the key cache was stale. Nothing reached the server. Refresh the
-cache (above) and push again.
+Do **not** pass `--force` without asking the user: a 409 means a similar name already
+exists (maybe the same person spelled differently), and the user decides.
 
-If it says an author is missing, first check that the name is spelled exactly as on the
-work's byline, then add it and push that entry (and its translations) again:
+### 7c. Verify against the server — required
+
+Do not report success from the local files. `post` already reads each entry back, but
+show the stored versions to compare them with what you wrote (title, author,
+`translation`, abstract):
 
 ```bash
-emacsclient -s <SOCKET> --eval '(tlon-db-set-name "Last, First")'
+python3 -I "$PY" get OriginalKey OriginalKeyEs OriginalKeyZh
 ```
 
-Do **not** pass the FORCE argument without asking the user: a conflict means a similar
-name already exists (maybe the same person spelled differently), and the user decides.
-
-### 7d. Verify against the server — required
-
-Do not report success from the local files. For every key you pushed:
-
-```bash
-emacsclient -s <SOCKET> --eval '
-(let ((r (tlon-db--handle-entry-request "GET" "/api/entries/KEY" nil (quote (("accept" . "text/plain"))) nil)))
-  (list (plist-get r :status) (tlon-db--get-response-body (plist-get r :raw-text))))'
-```
-
-The body comes back as undecoded UTF-8 bytes. To compare many entries, write them to
-files from Emacs, but decode first and bind the write coding system:
-
-```bash
-emacsclient -s <SOCKET> --eval '
-(let* ((r (tlon-db--handle-entry-request "GET" "/api/entries/KEY" nil (quote (("accept" . "text/plain"))) nil))
-       (body (decode-coding-string (or (tlon-db--get-response-body (plist-get r :raw-text)) "") (quote utf-8)))
-       (coding-system-for-write (quote utf-8-unix)))
-  (with-temp-file "<scratchpad>/srv-KEY.txt"
-    (insert (format "%s\n" (plist-get r :status)) body))
-  nil)'
-```
-
-Without the decoding, any non-ASCII character (the `ö` in `Tlön` is in every entry)
-makes Emacs open a "select coding system" prompt in the user's session. That blocks
-Emacs, and every later `emacsclient` call, until the user dismisses it. Wrap each call
-in `timeout 30` so a blocked Emacs fails fast instead of hanging.
-
-Status 200 plus the BibTeX means the entry is in the database. Compare the returned
-fields with what you wrote (title, author, `translation`, abstract) — the server may
-normalize some fields; report anything it dropped or changed. Status 404 means the push
-did not land.
+It prints each entry as the server has it and exits 1 if any key is missing.
 
 Afterwards, make sure no key you pushed also lives in `fluid.bib`/`stable.bib` (a key
 must live in only one place). If one does, remove it there and commit that change
